@@ -1,0 +1,868 @@
+# Copyright (c) 2016 by Maximilian Korber
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+system Nocte
+	pos -467 172
+	government Republic
+	habitable 135
+	link Vega
+	asteroids "small rock" 121 1.9558
+	asteroids "medium rock" 14 1.9096
+	asteroids "large rock" 28 1.4784
+	asteroids "small metal" 8 1.8326
+	asteroids "medium metal" 77 2.2946
+	asteroids "large metal" 19 1.7094
+	trade Clothing 311
+	trade Electronics 713
+	trade Equipment 514
+	trade Food 385
+	trade "Heavy Metals" 917
+	trade Industrial 619
+	trade "Luxury Goods" 1020
+	trade Medical 566
+	trade Metal 285
+	trade Plastic 363
+	fleet "Small Northern Merchants" 1500
+	fleet "Large Northern Merchants" 5000
+	fleet "Small Republic" 3000
+	fleet "Large Republic" 7000
+	fleet "Small Northern Pirates" 2500
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/desert8
+		distance 278.25
+		period 159.789
+		object
+			sprite planet/ice7
+			distance 163
+			period 23.7466
+	object
+		sprite planet/gas17
+		distance 973.25
+		period 1045.27
+		object
+			sprite planet/dust2
+			distance 219
+			period 13.075
+		object
+			sprite planet/europa
+			distance 363
+			period 27.9019
+	object
+		sprite planet/gas2
+		distance 1709.01
+		period 2432.26
+		object
+			sprite planet/tethys
+			distance 189
+			period 11.5481
+	object Rupture
+		sprite planet/wormhole
+		distance 2260.97
+		period 3701.14
+
+galaxy "World Forge"
+	pos -10000 -10000
+	sprite ui/orion_nebula
+
+system Origin
+	pos -10057 -10051.4
+	government Uninhabited
+	habitable 320
+	link Human
+	link Quarg
+	link Pug
+	link Wanderer
+	link Hai
+	asteroids "medium rock" 1 2.576
+	asteroids "large rock" 1 2.3744
+	asteroids "small metal" 1 2.5536
+	asteroids "medium metal" 1 1.9936
+	asteroids "large metal" 3 2.8224
+	object
+		sprite star/m0
+		period 10
+	object Forge
+		sprite planet/venus
+		distance 351.61
+		period 147.427
+		object
+			sprite planet/lava0
+			distance 168
+			period 24.8475
+	object Rupture
+		sprite planet/wormhole
+		distance 722.45
+		period 434.207
+	object
+		sprite planet/callisto
+		distance 1147.49
+		period 869.177
+	object
+		sprite planet/gas13
+		distance 2305.74
+		period 2475.71
+		object
+			sprite planet/io
+			distance 292
+			period 14.0859
+		object
+			sprite planet/dust7
+			distance 411
+			period 23.5219
+		object
+			sprite planet/dust0
+			distance 524
+			period 33.8616
+		object
+			sprite planet/rock0
+			distance 644
+			period 46.1359
+	
+system Drak
+	pos -9806.47 -9680.82
+	habitable 945
+	link Quarg
+	link Korath
+	link Pug
+	asteroids "large metal" 1 2.8548
+	object
+		sprite star/g5
+		distance 37.2487
+		period 15.0118
+		offset 180
+	object
+		sprite star/m0
+		distance 72.7513
+		period 15.0118
+	object Drak
+		sprite planet/desert4
+		distance 196.911
+		period 35.9542
+	object
+		sprite planet/gas7
+		distance 658.401
+		period 219.827
+	object
+		sprite planet/gas15
+		distance 1318.21
+		period 622.761
+		object
+			sprite planet/ice0
+			distance 207
+			period 15.6766
+		object
+			sprite planet/rock17
+			distance 306
+			period 28.176
+		object
+			sprite planet/ice8
+			distance 398
+			period 41.7948
+	object
+		sprite planet/gas13
+		distance 2801.25
+		period 1929.18
+		object
+			sprite planet/dust7
+			distance 273
+			period 12.7337
+		object
+			sprite planet/europa
+			distance 411
+			period 23.5219
+		object
+			sprite planet/luna
+			distance 568
+			period 38.2149
+
+system Hai
+	pos -10144.5 -9993.82
+	habitable 1850
+	link Human
+	link Origin
+	link Korath
+	link Wanderer
+	asteroids "small rock" 47 4.0404
+	asteroids "medium rock" 123 4.6956
+	asteroids "large rock" 25 5.1688
+	asteroids "small metal" 1 3.822
+	asteroids "large metal" 1 4.004
+	object
+		sprite star/f5
+		distance 9.41351
+		period 13.6257
+		offset 180
+	object
+		sprite star/m8
+		distance 119.586
+		period 13.6257
+	object
+		sprite planet/gas16
+		distance 767.836
+		period 197.869
+		object
+			sprite planet/rock3
+			distance 185
+			period 13.2451
+		object Hai
+			sprite planet/rhea
+			distance 307
+			period 28.3142
+		object
+			sprite planet/oberon
+			distance 469
+			period 53.4634
+		object
+			sprite planet/io
+			distance 547
+			period 67.3408
+	object
+		sprite planet/gas1
+		distance 1856.4
+		period 743.841
+		object Hai
+			sprite planet/rock7
+			distance 214
+			period 12.5123
+		object
+			sprite planet/lava0
+			distance 337
+			period 24.7264
+
+system Human
+	pos -10112.5 -9995.82
+	habitable 1080
+	link Quarg
+	link Origin
+	link Hai
+	asteroids "small rock" 30 2.691
+	asteroids "large rock" 50 5.0508
+	asteroids "medium metal" 4 2.8566
+	asteroids "large metal" 1 2.2356
+	object
+		sprite star/g0
+		period 25.38
+	object
+		sprite planet/mercury
+		distance 289.647
+		period 60
+	object
+		sprite planet/venus
+		distance 533.534
+		period 150
+	object Human
+		sprite planet/earth
+		distance 965.669
+		period 365.25
+		object
+			sprite planet/luna
+			distance 201.24
+			period 27.3
+	object
+		sprite planet/mars
+		distance 1471.43
+		period 687
+	object
+		sprite planet/jupiter
+		distance 3000
+		period 2000
+		object
+			sprite planet/io
+			distance 238.221
+			period 10.614
+		object
+			sprite planet/europa
+			distance 379.078
+			period 21.306
+		object
+			sprite planet/ganymede
+			distance 604.739
+			period 42.93
+		object
+			sprite planet/callisto
+			distance 811.717
+			period 66.76
+
+system Korath
+	pos -10374.8 -9560.16
+	habitable 1715
+	link Hai
+	link Wanderer
+	link Drak
+	asteroids "small rock" 9 8.379
+	asteroids "medium rock" 68 5.544
+	asteroids "large rock" 6 9.135
+	asteroids "small metal" 24 4.662
+	asteroids "medium metal" 125 6.867
+	asteroids "large metal" 57 3.969
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/dust2
+		distance 143.29
+		period 16.5673
+	object Korath
+		sprite planet/ganymede
+		distance 335.98
+		period 59.4837
+	object
+		sprite planet/gas5
+		distance 1202.59
+		period 402.814
+		object
+			sprite planet/rock7
+			distance 253
+			period 13.3822
+	object
+		sprite planet/gas9
+		distance 2884.4
+		period 1496.27
+		object
+			sprite planet/miranda
+			distance 218
+			period 12.0691
+		object
+			sprite planet/oberon
+			distance 312
+			period 20.6644
+		object
+			sprite planet/dust5
+			distance 453
+			period 36.1525
+
+
+system Pug
+	pos -9970.51 -10429.7
+	habitable 625
+	link Origin
+	link Drak
+	link Wanderer
+	asteroids "small rock" 24 9.0944
+	asteroids "medium rock" 44 5.9584
+	asteroids "large rock" 78 10.6624
+	asteroids "small metal" 15 4.2336
+	asteroids "medium metal" 33 6.0368
+	asteroids "large metal" 2 7.448
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/mercury
+		distance 184.25
+		period 40.0158
+	object
+		sprite planet/desert8
+		distance 410.25
+		period 132.951
+	object Pug
+		sprite planet/rock3
+		distance 796.25
+		period 359.496
+	object
+		sprite planet/water1
+		distance 1104.69
+		period 587.463
+	object
+		sprite planet/fog0
+		distance 1703.65
+		period 1125.1
+	object
+		sprite planet/gas12
+		distance 2433.29
+		period 1920.48
+		object
+			sprite planet/rock7
+			distance 291
+			period 13.0384
+
+system Quarg
+	pos -10001.5 -9895.82
+	habitable 486.68
+	link Drak
+	link Human
+	link Origin
+	asteroids "small rock" 44 2.1675
+	asteroids "medium rock" 132 1.3515
+	asteroids "large rock" 9 1.275
+	asteroids "small metal" 15 2.3715
+	asteroids "medium metal" 48 2.6775
+	asteroids "large metal" 19 3.315
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ice1
+		distance 254.64
+		period 73.6764
+	object
+		sprite planet/gas11
+		distance 968.88
+		period 546.819
+		object
+			sprite planet/oberon
+			distance 234
+			period 11.806
+		object Quarg
+			sprite planet/miranda
+			distance 371
+			period 23.5689
+		object
+			sprite planet/rock0
+			distance 484
+			period 35.1193
+	object
+		sprite planet/gas13
+		distance 2451.64
+		period 2201.02
+		object
+			sprite planet/lava0
+			distance 279
+			period 13.1558
+		object
+			sprite planet/dust7
+			distance 420
+			period 24.2988
+		object
+			sprite planet/luna
+			distance 571
+			period 38.5181
+
+system Wanderer
+	pos -10412.9 -10078.8
+	habitable 625
+	link Origin
+	link Hai
+	link Korath
+	link Pug
+	asteroids "small rock" 2 10.353
+	asteroids "medium rock" 13 9.831
+	asteroids "large rock" 3 7.395
+	asteroids "large metal" 3 5.916
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/gas6
+		distance 301
+		period 83.5545
+	object
+		sprite planet/gas11
+		distance 1133.04
+		period 610.222
+		object Wanderer
+			sprite planet/luna
+			distance 259
+			period 13.7476
+		object
+			sprite planet/lava0
+			distance 413
+			period 27.6823
+	object
+		sprite planet/gas9
+		distance 2079.88
+		period 1517.67
+		object
+			sprite planet/dust0
+			distance 214
+			period 11.7385
+		object
+			sprite planet/dust3
+			distance 347
+			period 24.2373
+
+planet Forge
+	landscape ""
+	shipyard drak
+	shipyard hai
+	shipyard human
+	shipyard pug
+	shipyard quarg
+	shipyard korath
+	shipyard wanderer
+	outfitter drak
+	outfitter hai
+	outfitter human
+	outfitter pug
+	outfitter quarg
+	outfitter korath
+	outfitter wanderer
+	outfitter jumpdrive
+	
+planet Drak
+	landscape ""
+	outfitter drak
+	shipyard drak
+
+planet Hai
+	landscape ""
+	outfitter hai
+	shipyard hai
+
+planet Human
+	landscape ""
+	outfitter human
+	shipyard human
+
+planet Korath
+	landscape ""
+	outfitter korath
+	shipyard korath
+	
+planet Pug
+	landscape ""
+	outfitter pug
+	shipyard pug
+	
+planet Quarg
+	landscape ""
+	outfitter quarg
+	shipyard quarg
+	
+planet Wanderer
+	landscape ""
+	outfitter wanderer
+	shipyard wanderer
+
+start
+	date 16 11 3013
+	system Origin
+	planet Forge
+	account
+		credits 999999999
+		score 200
+	set "license: Pilot's"
+	set "license: Navy"
+	set "license: Cruiser"
+	set "license: Carrier"
+	set "license: Wanderer"
+	set "license: Wanderer Military"
+
+conversation intro
+	scene scene/lobby
+	`The bank's architecture is what you would have called "futuristic" back when you dreamed that the future would be less squalid than the present: story above story of curves and spires and balconies, all in gleaming metal. A doorman stands by each of the heavy glass doors. You are wearing your very best clothes, but you feel shabby next to them.`
+	"	The fancy little banker in his very fancy suit is clearly trying not to show how scared he is of your laser pistol, but he can't help letting out a small whimper as he watches you shovel piles of credit chips into your sack."
+	`	A few minutes later you are on your way to meet a buddy of yours to get a face transplant and a fake ID. As he carefully injects you with local anaesthetic, he asks, "Now, what name did you say you wanted on that ID?"`
+	name
+	"	You give him a few hundred thousand credits extra and tell him to make you some fake Navy ship licenses too, while he's at it. Then you sit back and try to relax as he surgically rearranges your face."
+	"	It takes a few weeks or so for you to heal enough to venture out in public, but by then the furor over the robbery has begun to die down. And thanks to your extensive black market connections, every ship and outfit in human space is available to you here, including some that have not even been invented yet. Time to get off this planet..."
+
+outfitter drak
+	"Drak Distancer"
+	"Drak Draining Field"
+	"Drak Anti-Missile Field"
+	"Drak Turret"
+	"Drak Antimatter Cannon"
+	"Drak Antimatter Fragment"
+
+outfitter hai
+	"Ion Cannon"
+	"Pulse Cannon"
+	"Pulse Turret"
+	"Hai Tracker"
+	"Hai Tracker Pod"
+
+outfitter human
+	"Energy Blaster"
+	"X1700 Ion Thruster"
+	"X1200 Ion Steering"
+	"X2700 Ion Thruster"
+	"X2200 Ion Steering"
+	"X3700 Ion Thruster"
+	"X3200 Ion Steering"
+	"A120 Atomic Thruster"
+	"A125 Atomic Steering"
+	"A250 Atomic Thruster"
+	"A255 Atomic Steering"
+	"A370 Atomic Thruster"
+	"A375 Atomic Steering"
+	"A520 Atomic Thruster"
+	"A525 Atomic Steering"
+	"A860 Atomic Thruster"
+	"A865 Atomic Steering"
+	"Chipmunk Plasma Thruster"
+	"Chipmunk Plasma Steering"
+	"Greyhound Plasma Thruster"
+	"Greyhound Plasma Steering"
+	"Impala Plasma Thruster"
+	"Impala Plasma Steering"
+	"Orca Plasma Thruster"
+	"Orca Plasma Steering"
+	"Tyrant Plasma Thruster"
+	"Tyrant Plasma Steering"
+	"AR120 Reverse Thruster"
+	"LP036a Battery Pack"
+	"LP072a Battery Pack"
+	"LP144a Battery Pack"
+	"LP288a Battery Pack"
+	"LP576a Battery Pack"
+	"KP-6 Photovoltaic Panel"
+	"KP-6 Photovoltaic Array"
+	"nGVF-AA Fuel Cell"
+	"nGVF-BB Fuel Cell"
+	"nGVF-CC Fuel Cell"
+	"nGVF-DD Fuel Cell"
+	"nGVF-EE Fuel Cell"
+	"NT-200 Nucleovoltaic"
+	"RT-I Radiothermal"
+	"S3 Thermionic"
+	"Fusion Reactor"
+	"Armageddon Core"
+	"Stack Core"
+	"Dwarf Core"
+	"Breeder Reactor"
+	"Cooling Ducts"
+	"Water Coolant System"
+	"Liquid Nitrogen Cooler"
+	"Liquid Helium Cooler"
+	"D14-RN Shield Generator"
+	"D23-QP Shield Generator"
+	"D41-HY Shield Generator"
+	"D67-TM Shield Generator"
+	"D94-YV Shield Generator"
+	"Anti-Missile Turret"
+	"Heavy Anti-Missile Turret"
+	Hyperdrive
+	"Scram Drive"
+	"Meteor Missile"
+	Torpedo
+	"Sidewinder Missile"
+	Javelin
+	"Heavy Rocket"
+	"Cargo Scanner"
+	"Small Radar Jammer"
+	"Large Radar Jammer"
+	"Blaster Turret"
+	"Meteor Missile Launcher"
+	"Javelin Pod"
+	"Heavy Rocket Launcher"
+	"Torpedo Launcher"
+	"Beam Laser"
+	"Mass Expansion"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Fuel Pod"
+	Afterburner
+	"Outfit Scanner"
+	Supercapacitor
+	"Pilot's License"
+	"Security Station"
+	"Laser Rifle"
+	"NDR-114 Android"
+	Ramscoop
+	"Laser Turret"
+	"Heavy Laser"
+	"Particle Cannon"
+	"Proton Gun"
+	"Modified Blaster"
+	"Modified Blaster Turret"
+	"Quad Blaster Turret"
+	"Plasma Cannon"
+	"Fragmentation Grenades"
+	"Nerve Gas"
+	"Interference Plating"
+	"Nuclear Missile"
+	"Catalytic Ramscoop"
+	"Plasma Turret"
+	"Typhoon Launcher"
+	"Typhoon Torpedo"
+	"Ionic Afterburner"
+	Flamethrower
+	"S-270 Regenerator"
+	"S-970 Regenerator"
+	"Cloaking Device"
+	"Electron Beam"
+	"Electron Turret"
+
+outfitter pug
+	"Pug Zapper"
+	"Pug Zapper Turret"
+	"Pug Seeker"
+	"Pug Anti-Missile"
+	"Pug Akfar Thruster"
+	"Pug Akfar Steering"
+	"Pug Cormet Thruster"
+	"Pug Cormet Steering"
+	"Pug Lohmar Thruster"
+	"Pug Lohmar Steering"
+	"Pug Biodefenses"
+
+outfitter korath
+	"Generator (Candle Class)"
+	"Generator (Furnace Class)"
+	"Generator (Inferno Class)"
+	"Small Heat Shunt"
+	"Large Heat Shunt"
+	"Thruster (Asteroid Class)"
+	"Thruster (Comet Class)"
+	"Thruster (Lunar Class)"
+	"Thruster (Planetary Class)"
+	"Thruster (Stellar Class)"
+	"Steering (Asteroid Class)"
+	"Steering (Comet Class)"
+	"Steering (Lunar Class)"
+	"Steering (Planetary Class)"
+	"Steering (Stellar Class)"
+	"Korath Repeater"
+	"Korath Repeater Turret"
+	"Systems Core (Small)"
+	"Systems Core (Medium)"
+	"Systems Core (Large)"
+	"Plasma Core"
+	"Double Plasma Core"
+	"Triple Plasma Core"
+	"Korath Piercer"
+	"Korath Piercer Launcher"
+	"Korath Detainer"
+	"Korath Grab-Strike"
+	"Korath Fire-Lance"
+	"Korath Warder"
+	"Korath Banisher"
+	"Korath Minelayer"
+	"Korath Mine"
+	"Korath Disruptor"
+	"Korath Slicer"
+	"Korath Slicer Turret"
+
+outfitter quarg
+	"Nanotech Battery"
+	"Antimatter Core"
+	"Quarg Skylance"
+	"Quarg Anti-Missle"
+	"Intrusion Countermeasures"
+	"Medium Graviton Thruster"
+	"Medium Graviton Steering"
+	"Quantum Shield Generator"
+
+outfitter wanderer
+	Sunbeam
+	"Thunderhead Missile"
+	"Thunderhead Launcher"
+	Thunderhead
+	"Small Biochemical Cell"
+	"Large Biochemical Cell"
+	"Yellow Sun Reactor"
+	"White Sun Reactor"
+	"Type 1 Radiant Thruster"
+	"Type 2 Radiant Thruster"
+	"Type 3 Radiant Thruster"
+	"Type 4 Radiant Thruster"
+	"Type 1 Radiant Steering"
+	"Type 2 Radiant Steering"
+	"Type 3 Radiant Steering"
+	"Type 4 Radiant Steering"
+	"Bright Cloud Shielding"
+	"Dark Storm Shielding"
+	"Fuel Pod"
+	"Wanderer Ramscoop"
+
+outfitter jumpdrive
+	"Jump Drive"
+
+shipyard drak
+	Archon
+
+shipyard hai
+	"Shield Beetle"
+	"Lightning Bug"
+	"Water Bug"
+	Aphid
+
+shipyard human
+	Shuttle
+	Sparrow
+	"Star Barge"
+	Hawk
+	Blackbird
+	Osprey
+	Falcon
+	Clipper
+	Fury
+	Argosy
+	Hauler
+	"Hauler II"
+	"Hauler III"
+	Bastion
+	Scout
+	Dagger
+	Flivver
+	Headhunter
+	Raven
+	Mule
+	Aerie
+	Corvette
+	Bactrian
+	"Heavy Shuttle"
+	Berserker
+	Firebird
+	Leviathan
+	Behemoth
+	"Star Queen"
+	Rainmaker
+	Gunboat
+	Lance
+	"Combat Drone"
+	"Surveillance Drone"
+	Frigate
+	Cruiser
+	Carrier
+	Quicksilver
+	Bounder
+	Splinter
+	Manta
+	Wasp
+	Freighter
+	"Bulk Freighter"
+	Protector
+	Vanguard
+	Arrow
+	"Modified Argosy"
+	Dreadnought
+
+shipyard korath
+	"Korath Raider"
+	"Korath World-Ship"
+	"Korath Chaser"
+	"Tek Far 71 - Lek"
+	"Tek Far 78 - Osk"
+	"Tek Far 109"
+	"Far Lek 14"
+	"Far Osk 27"
+	"Met Par Tek 53"
+	"Kar Ik Vot 349"
+	"Model 16"
+	"Model 32"
+	"Model 64"
+	"Model 128"
+	"Model 256"
+	"Model 512"
+
+shipyard pug
+	"Pug Zibruka"
+	"Pug Enfolta"
+	"Pug Maboro"
+	"Pug Arfecta"
+
+shipyard quarg
+	"Quarg Skylark"
+	"Quarg Wardragon"
+
+shipyard wanderer
+	"Earth Shaper"
+	Flycatcher
+	"Summer Leaf"
+	"Autumn Leaf"
+	"Strong Wind"
+	"Deep River"
+

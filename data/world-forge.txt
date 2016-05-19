@@ -497,41 +497,48 @@ planet Forge
 	outfitter quarg
 	outfitter korath
 	outfitter wanderer
-	outfitter jumpdrive
+	outfitter drive
 	
 planet Drak
 	landscape ""
 	outfitter drak
+	outfitter drive
 	shipyard drak
 
 planet Hai
 	landscape ""
 	outfitter hai
+	outfitter drive
 	shipyard hai
 
 planet Human
 	landscape ""
 	outfitter human
+	outfitter drive
 	shipyard human
 
 planet Korath
 	landscape ""
 	outfitter korath
+	outfitter drive
 	shipyard korath
 	
 planet Pug
 	landscape ""
 	outfitter pug
+	outfitter drive
 	shipyard pug
 	
 planet Quarg
 	landscape ""
 	outfitter quarg
+	outfitter drive
 	shipyard quarg
 	
 planet Wanderer
 	landscape ""
 	outfitter wanderer
+	outfitter drive
 	shipyard wanderer
 
 start
@@ -767,8 +774,8 @@ outfitter wanderer
 	"Fuel Pod"
 	"Wanderer Ramscoop"
 
-outfitter jumpdrive
-	"Jump Drive"
+outfitter drive
+	"Developer Drive"
 
 shipyard drak
 	Archon

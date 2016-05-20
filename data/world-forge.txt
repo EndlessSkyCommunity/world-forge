@@ -17,7 +17,7 @@ system Drak
 	habitable 945
 	link Quarg
 	link Korath
-	link Pug
+	link Human
 	asteroids "large metal" 1 2.8548
 	object
 		sprite star/g5
@@ -70,9 +70,8 @@ system Drak
 			period 38.2149
 
 system Hai
-	pos -10089.5 -9992.82
+	pos -10093.5 -9992.82
 	habitable 1850
-	link Human
 	link Origin
 	link Korath
 	link Wanderer
@@ -115,7 +114,7 @@ system Hai
 		sprite planet/gas1
 		distance 1856.4
 		period 743.841
-		object Hai
+		object
 			sprite planet/rock7
 			distance 214
 			period 12.5123
@@ -125,11 +124,12 @@ system Hai
 			period 24.7264
 
 system Human
-	pos -10053.5 -9997.82
+	pos -9958.5 -9991.82
 	habitable 1080
 	link Quarg
 	link Origin
-	link Hai
+	link Drak
+	link Pug
 	asteroids "small rock" 30 2.691
 	asteroids "large rock" 50 5.0508
 	asteroids "medium metal" 4 2.8566
@@ -348,7 +348,7 @@ system Pug
 	habitable 625
 	link Origin
 	link Wanderer
-	link Drak
+	link Human
 	asteroids "small rock" 24 9.0944
 	asteroids "medium rock" 44 5.9584
 	asteroids "large rock" 78 10.6624
@@ -485,7 +485,7 @@ system Wanderer
 			period 24.2373
 
 planet Drak
-	landscape ""
+	landscape "land/drak"
 	shipyard drak
 	outfitter drak
 	outfitter drive
@@ -509,37 +509,37 @@ planet Forge
 	outfitter drive
 
 planet Hai
-	landscape ""
+	landscape "land/hai"
 	shipyard hai
 	outfitter hai
 	outfitter drive
 
 planet Human
-	landscape ""
+	landscape "land/human"
 	shipyard human
 	outfitter human
 	outfitter drive
 
 planet Korath
-	landscape ""
+	landscape "land/korath"
 	shipyard korath
 	outfitter korath
 	outfitter drive
 
 planet Pug
-	landscape ""
+	landscape "land/pug"
 	shipyard pug
 	outfitter pug
 	outfitter drive
 
 planet Quarg
-	landscape ""
+	landscape "land/quarg"
 	shipyard quarg
 	outfitter quarg
 	outfitter drive
 
 planet Wanderer
-	landscape ""
+	landscape "land/wanderer"
 	shipyard wanderer
 	outfitter wanderer
 	outfitter drive

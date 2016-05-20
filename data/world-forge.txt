@@ -507,6 +507,7 @@ planet Forge
 	outfitter korath
 	outfitter wanderer
 	outfitter drive
+	outfitter map
 
 planet Hai
 	landscape "land/hai"
@@ -779,6 +780,9 @@ outfitter wanderer
 
 outfitter drive
 	"Developer Drive"
+	
+outfitter map
+	"Local Map"
 
 shipyard drak
 	Archon

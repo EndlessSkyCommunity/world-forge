@@ -491,7 +491,7 @@ planet Drak
 	outfitter drive
 
 planet Forge
-	landscape ""
+	landscape "hochofen"
 	shipyard drak
 	shipyard hai
 	shipyard human
@@ -579,7 +579,7 @@ start
 	set "license: Wanderer Military"
 
 conversation intro
-	scene scene/lobby
+	scene hochofen
 	`The bank's architecture is what you would have called "futuristic" back when you dreamed that the future would be less squalid than the present: story above story of curves and spires and balconies, all in gleaming metal. A doorman stands by each of the heavy glass doors. You are wearing your very best clothes, but you feel shabby next to them.`
 	"	The fancy little banker in his very fancy suit is clearly trying not to show how scared he is of your laser pistol, but he can't help letting out a small whimper as he watches you shovel piles of credit chips into your sack."
 	`	A few minutes later you are on your way to meet a buddy of yours to get a face transplant and a fake ID. As he carefully injects you with local anaesthetic, he asks, "Now, what name did you say you wanted on that ID?"`

@@ -582,6 +582,29 @@ outfitter hai
 	"Pulse Turret"
 	"Hai Tracker"
 	"Hai Tracker Pod"
+	"Bullfrog Anti-Missile Turret"
+	"Chameleon Anti-Missile Turret"
+	"Hai Corundum Regenerator"
+	"Hai Diamond Regenerator"
+	"Hai Williwaw Cooling"
+	"Hai Chasm Batteries"
+	"Hai Fissure Batteries"
+	"Hai Gorge Batteries"
+	"Hai Ravine Batteries"
+	"Hai Valley Batteries"
+	"Pebble Core"
+	"Geode Reactor"
+	"Boulder Reactor"
+	`"Basrem" Atomic Thruster`
+	`"Benga" Atomic Thruster`
+	`"Biroo" Atomic Thruster`
+	`"Bondir" Atomic Thruster`
+	`"Bufaer" Atomic Thruster`
+	`"Basrem" Atomic Steering`
+	`"Benga" Atomic Steering`
+	`"Biroo" Atomic Steering`
+	`"Bondir" Atomic Steering`
+	`"Bufaer" Atomic Steering`
 
 outfitter human
 	"Energy Blaster"
@@ -591,6 +614,10 @@ outfitter human
 	"X2200 Ion Steering"
 	"X3700 Ion Thruster"
 	"X3200 Ion Steering"
+	"X4700 Ion Thruster"
+	"X4200 Ion Steering"
+	"X5700 Ion Thruster"
+	"X5200 Ion Steering"
 	"A120 Atomic Thruster"
 	"A125 Atomic Steering"
 	"A250 Atomic Thruster"

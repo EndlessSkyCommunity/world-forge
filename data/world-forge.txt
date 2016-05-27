@@ -137,11 +137,11 @@ system Human
 	object
 		sprite star/g0
 		period 25.38
-	object
+	object MarauderE
 		sprite planet/mercury
 		distance 289.647
 		period 60
-	object
+	object MarauderW
 		sprite planet/venus
 		distance 533.534
 		period 150
@@ -149,7 +149,7 @@ system Human
 		sprite planet/earth
 		distance 965.669
 		period 365.25
-		object
+		object Marauder
 			sprite planet/luna
 			distance 201.24
 			period 27.3
@@ -498,6 +498,7 @@ planet Forge
 	shipyard pug
 	shipyard quarg
 	shipyard korath
+	shipyard marauder
 	shipyard wanderer
 	outfitter drak
 	outfitter hai
@@ -525,6 +526,24 @@ planet Korath
 	landscape "land/korath"
 	shipyard korath
 	outfitter korath
+	outfitter drive
+
+planet Marauder
+	landscape "land/human"
+	shipyard marauder
+	outfitter human
+	outfitter drive
+
+planet MarauderE
+	landscape "land/human"
+	shipyard maraudere
+	outfitter human
+	outfitter drive
+
+planet MarauderW
+	landscape "land/human"
+	shipyard marauderw
+	outfitter human
 	outfitter drive
 
 planet Pug
@@ -888,6 +907,40 @@ shipyard korath
 	"Model 128"
 	"Model 256"
 	"Model 512"
+	
+shipyard marauder
+	"Marauder Arrow"
+	"Marauder Bounder"
+	"Marauder Falcon"
+	"Marauder Firebird"
+	"Marauder Fury"
+	"Marauder Leviathan"
+	"Marauder Manta"
+	"Marauder Quicksilver"
+	"Marauder Raven"
+	"Marauder Splinter"
+	
+shipyard maraudere
+	"Marauder Arrow" "Marauder Arrow (Engines)"
+	"Marauder Bounder" "Marauder Bounder (Engines)"
+	"Marauder Falcon" "Marauder Falcon (Engines)"
+	"Marauder Firebird" "Marauder Firebird (Engines)"
+	"Marauder Leviathan" "Marauder Leviathan (Engines)"
+	"Marauder Manta" "Marauder Manta (Engines)"
+	"Marauder Quicksilver" "Marauder Quicksilver (Engines)"
+	"Marauder Raven" "Marauder Raven (Engines)"
+	"Marauder Splinter" "Marauder Splinter (Engines)"
+	
+shipyard marauderw
+	"Marauder Arrow" "Marauder Arrow (Weapons)"
+	"Marauder Bounder" "Marauder Bounder (Weapons)"
+	"Marauder Falcon" "Marauder Falcon (Weapons)"
+	"Marauder Firebird" "Marauder Firebird (Weapons)"
+	"Marauder Leviathan" "Marauder Leviathan (Weapons)"
+	"Marauder Manta" "Marauder Manta (Weapons)"
+	"Marauder Quicksilver" "Marauder Quicksilver (Weapons)"
+	"Marauder Raven" "Marauder Raven (Weapons)"
+	"Marauder Splinter" "Marauder Splinter (Weapons)"
 
 shipyard pug
 	"Pug Zibruka"

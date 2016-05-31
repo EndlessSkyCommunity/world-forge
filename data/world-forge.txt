@@ -489,6 +489,8 @@ planet Drak
 	shipyard drak
 	outfitter drak
 	outfitter drive
+	outfitter basic
+	security 0
 
 planet Forge
 	landscape "hochofen"
@@ -508,61 +510,80 @@ planet Forge
 	outfitter korath
 	outfitter wanderer
 	outfitter drive
-	outfitter map
+	outfitter basic
+	security 0
 
 planet Hai
 	landscape "land/hai"
 	shipyard hai
 	outfitter hai
 	outfitter drive
+	outfitter basic
+	security 0
 
 planet Human
 	landscape "land/human"
 	shipyard human
 	outfitter human
 	outfitter drive
+	outfitter basic
+	security 0
 
 planet Korath
 	landscape "land/korath"
 	shipyard korath
 	outfitter korath
 	outfitter drive
+	outfitter basic
+	security 0
 
 planet Marauder
 	landscape "land/human"
 	shipyard marauder
 	outfitter human
 	outfitter drive
+	outfitter basic
+	security 0
 
 planet MarauderE
 	landscape "land/human"
 	shipyard maraudere
 	outfitter human
 	outfitter drive
+	outfitter basic
+	security 0
 
 planet MarauderW
 	landscape "land/human"
 	shipyard marauderw
 	outfitter human
 	outfitter drive
+	outfitter basic
+	security 0
 
 planet Pug
 	landscape "land/pug"
 	shipyard pug
 	outfitter pug
 	outfitter drive
+	outfitter basic
+	security 0
 
 planet Quarg
 	landscape "land/quarg"
 	shipyard quarg
 	outfitter quarg
 	outfitter drive
+	outfitter basic
+	security 0
 
 planet Wanderer
 	landscape "land/wanderer"
 	shipyard wanderer
 	outfitter wanderer
 	outfitter drive
+	outfitter basic
+	security 0
 
 start
 	date 16 11 3013
@@ -678,6 +699,7 @@ outfitter human
 	"Stack Core"
 	"Dwarf Core"
 	"Breeder Reactor"
+	"Fission Reactor"
 	"Cooling Ducts"
 	"Water Coolant System"
 	"Liquid Nitrogen Cooler"
@@ -701,15 +723,13 @@ outfitter human
 	"Large Radar Jammer"
 	"Blaster Turret"
 	"Meteor Missile Launcher"
+	"Sidewinder Missile Launcher"
 	"Javelin Pod"
 	"Heavy Rocket Launcher"
 	"Torpedo Launcher"
 	"Beam Laser"
-	"Mass Expansion"
-	"Cargo Expansion"
 	"Small Bunk Room"
 	"Bunk Room"
-	"Fuel Pod"
 	Afterburner
 	"Outfit Scanner"
 	Supercapacitor
@@ -804,6 +824,9 @@ outfitter quarg
 
 outfitter wanderer
 	Sunbeam
+	"Sunbeam Turret"
+	"Dual Sunbeam Turret"
+	"Wanderer Anti-Missile"
 	"Thunderhead Missile"
 	"Thunderhead Launcher"
 	Thunderhead
@@ -827,8 +850,11 @@ outfitter wanderer
 outfitter drive
 	"Developer Drive"
 	
-outfitter map
+outfitter basic
 	"Local Map"
+	"Mass Expansion"
+	"Cargo Expansion"
+	"Fuel Pod"
 
 shipyard drak
 	Archon

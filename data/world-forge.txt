@@ -740,6 +740,7 @@ outfitter human
 	Ramscoop
 	"Laser Turret"
 	"Heavy Laser"
+	"Heavy Laser Turret"
 	"Particle Cannon"
 	"Proton Gun"
 	"Modified Blaster"

@@ -542,6 +542,7 @@ planet Marauder
 	shipyard marauder
 	outfitter human
 	outfitter drive
+	outfitter basic
 	security 0
 
 planet MarauderE

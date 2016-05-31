@@ -490,6 +490,7 @@ planet Drak
 	outfitter drak
 	outfitter drive
 	outfitter basic
+	security 0
 
 planet Forge
 	landscape "hochofen"
@@ -510,6 +511,7 @@ planet Forge
 	outfitter wanderer
 	outfitter drive
 	outfitter basic
+	security 0
 
 planet Hai
 	landscape "land/hai"
@@ -517,6 +519,7 @@ planet Hai
 	outfitter hai
 	outfitter drive
 	outfitter basic
+	security 0
 
 planet Human
 	landscape "land/human"
@@ -524,6 +527,7 @@ planet Human
 	outfitter human
 	outfitter drive
 	outfitter basic
+	security 0
 
 planet Korath
 	landscape "land/korath"
@@ -531,12 +535,14 @@ planet Korath
 	outfitter korath
 	outfitter drive
 	outfitter basic
+	security 0
 
 planet Marauder
 	landscape "land/human"
 	shipyard marauder
 	outfitter human
 	outfitter drive
+	security 0
 
 planet MarauderE
 	landscape "land/human"
@@ -544,6 +550,7 @@ planet MarauderE
 	outfitter human
 	outfitter drive
 	outfitter basic
+	security 0
 
 planet MarauderW
 	landscape "land/human"
@@ -551,6 +558,7 @@ planet MarauderW
 	outfitter human
 	outfitter drive
 	outfitter basic
+	security 0
 
 planet Pug
 	landscape "land/pug"
@@ -558,6 +566,7 @@ planet Pug
 	outfitter pug
 	outfitter drive
 	outfitter basic
+	security 0
 
 planet Quarg
 	landscape "land/quarg"
@@ -565,6 +574,7 @@ planet Quarg
 	outfitter quarg
 	outfitter drive
 	outfitter basic
+	security 0
 
 planet Wanderer
 	landscape "land/wanderer"
@@ -572,6 +582,7 @@ planet Wanderer
 	outfitter wanderer
 	outfitter drive
 	outfitter basic
+	security 0
 
 start
 	date 16 11 3013

@@ -511,6 +511,7 @@ planet Forge
 	outfitter wanderer
 	outfitter drive
 	outfitter basic
+	outfitter licenses
 	security 0
 
 planet Hai
@@ -519,6 +520,7 @@ planet Hai
 	outfitter hai
 	outfitter drive
 	outfitter basic
+	outfitter licenses
 	security 0
 
 planet Human
@@ -527,6 +529,7 @@ planet Human
 	outfitter human
 	outfitter drive
 	outfitter basic
+	outfitter licenses
 	security 0
 
 planet Korath
@@ -535,6 +538,7 @@ planet Korath
 	outfitter korath
 	outfitter drive
 	outfitter basic
+	outfitter licenses
 	security 0
 
 planet Marauder
@@ -543,6 +547,7 @@ planet Marauder
 	outfitter human
 	outfitter drive
 	outfitter basic
+	outfitter licenses
 	security 0
 
 planet MarauderE
@@ -551,6 +556,7 @@ planet MarauderE
 	outfitter human
 	outfitter drive
 	outfitter basic
+	outfitter licenses	
 	security 0
 
 planet MarauderW
@@ -559,6 +565,7 @@ planet MarauderW
 	outfitter human
 	outfitter drive
 	outfitter basic
+	outfitter licenses
 	security 0
 
 planet Pug
@@ -567,6 +574,7 @@ planet Pug
 	outfitter pug
 	outfitter drive
 	outfitter basic
+	outfitter licenses
 	security 0
 
 planet Quarg
@@ -575,6 +583,7 @@ planet Quarg
 	outfitter quarg
 	outfitter drive
 	outfitter basic
+	outfitter licenses
 	security 0
 
 planet Wanderer
@@ -583,6 +592,7 @@ planet Wanderer
 	outfitter wanderer
 	outfitter drive
 	outfitter basic
+	outfitter licenses
 	security 0
 
 start
@@ -608,6 +618,31 @@ conversation intro
 	"	You give him a few hundred thousand credits extra and tell him to make you some fake Navy ship licenses too, while he's at it. Then you sit back and try to relax as he surgically rearranges your face."
 	"	It takes a few weeks or so for you to heal enough to venture out in public, but by then the furor over the robbery has begun to die down. And thanks to your extensive black market connections, every ship and outfit in human space is available to you here, including some that have not even been invented yet. Time to get off this planet..."
 
+outfit "Navy License"
+	category "Special"
+	cost 50000
+	thumbnail "outfit/license"
+	
+outfit "Cruiser License"
+	category "Special"
+	cost 50000
+	thumbnail "outfit/license"
+	
+outfit "Carrier License"
+	category "Special"
+	cost 50000
+	thumbnail "outfit/license"
+	
+outfit "Wanderer License"
+	category "Special"
+	cost 50000
+	thumbnail "outfit/license"
+	
+outfit "Wanderer Military License"
+	category "Special"
+	cost 50000
+	thumbnail "outfit/license"
+	
 outfitter drak
 	"Drak Distancer"
 	"Drak Draining Field"
@@ -856,6 +891,14 @@ outfitter basic
 	"Mass Expansion"
 	"Cargo Expansion"
 	"Fuel Pod"
+	
+outfitter licenses
+        "Pilot's License"
+        "Navy License"
+        "Cruiser License"
+        "Carrier License"
+        "Wanderer License"
+        "Wanderer Military License"
 
 shipyard drak
 	Archon

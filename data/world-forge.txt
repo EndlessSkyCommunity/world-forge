@@ -620,13 +620,12 @@ start
 	set "license: Wanderer Military"
 
 conversation intro
-	scene hochofen
-	`The bank's architecture is what you would have called "futuristic" back when you dreamed that the future would be less squalid than the present: story above story of curves and spires and balconies, all in gleaming metal. A doorman stands by each of the heavy glass doors. You are wearing your very best clothes, but you feel shabby next to them.`
-	"	The fancy little banker in his very fancy suit is clearly trying not to show how scared he is of your laser pistol, but he can't help letting out a small whimper as he watches you shovel piles of credit chips into your sack."
-	`	A few minutes later you are on your way to meet a buddy of yours to get a face transplant and a fake ID. As he carefully injects you with local anaesthetic, he asks, "Now, what name did you say you wanted on that ID?"`
+	scene scene/eso0
+	`Breaking the 4th wall and going straight into godmode?`
+	"	I would recommend you play the actual game. If you have done so, enjoy this. use it for testing, or just a sandbox experience."
+	`	Special thanks to Derpy Horse, LocalGod and FallenCat for helping in development, and thanks for testing to:"`
 	name
-	"	You give him a few hundred thousand credits extra and tell him to make you some fake Navy ship licenses too, while he's at it. Then you sit back and try to relax as he surgically rearranges your face."
-	"	It takes a few weeks or so for you to heal enough to venture out in public, but by then the furor over the robbery has begun to die down. And thanks to your extensive black market connections, every ship and outfit in human space is available to you here, including some that have not even been invented yet. Time to get off this planet..."
+	"	Have fun!"
 
 outfit "Navy License"
 	category "Special"

@@ -684,6 +684,7 @@ outfitter hai
 
 outfitter human
 	"Energy Blaster"
+	"X1050 Ion Engines"
 	"X1700 Ion Thruster"
 	"X1200 Ion Steering"
 	"X2700 Ion Thruster"
@@ -960,6 +961,12 @@ shipyard human
 	Arrow
 	"Modified Argosy"
 	Dreadnought
+	Skein
+	Roost
+	Nest
+	Barb
+	"Barb (Proton)"
+	Boxwing
 
 shipyard korath
 	"Korath Raider"

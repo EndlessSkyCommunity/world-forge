@@ -490,6 +490,7 @@ planet Drak
 	outfitter drak
 	outfitter drive
 	outfitter basic
+	spaceport ""
 	security 0
 
 planet Forge

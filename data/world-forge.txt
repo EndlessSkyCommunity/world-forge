@@ -512,7 +512,7 @@ planet Forge
 	outfitter drive
 	outfitter basic
 	outfitter licenses
-	spaceport "test"
+	spaceport ""
 	security 0
 
 planet Hai
@@ -522,6 +522,7 @@ planet Hai
 	outfitter drive
 	outfitter basic
 	outfitter licenses
+	spaceport ""
 	security 0
 
 planet Human
@@ -531,6 +532,7 @@ planet Human
 	outfitter drive
 	outfitter basic
 	outfitter licenses
+	spaceport ""
 	security 0
 
 planet Korath
@@ -540,6 +542,7 @@ planet Korath
 	outfitter drive
 	outfitter basic
 	outfitter licenses
+	spaceport ""
 	security 0
 
 planet Marauder
@@ -549,6 +552,7 @@ planet Marauder
 	outfitter drive
 	outfitter basic
 	outfitter licenses
+	spaceport ""
 	security 0
 
 planet MarauderE
@@ -557,7 +561,8 @@ planet MarauderE
 	outfitter human
 	outfitter drive
 	outfitter basic
-	outfitter licenses	
+	outfitter licenses
+	spaceport ""	
 	security 0
 
 planet MarauderW
@@ -567,6 +572,7 @@ planet MarauderW
 	outfitter drive
 	outfitter basic
 	outfitter licenses
+	spaceport ""
 	security 0
 
 planet Pug
@@ -576,6 +582,7 @@ planet Pug
 	outfitter drive
 	outfitter basic
 	outfitter licenses
+	spaceport ""
 	security 0
 
 planet Quarg
@@ -585,6 +592,7 @@ planet Quarg
 	outfitter drive
 	outfitter basic
 	outfitter licenses
+	spaceport ""
 	security 0
 
 planet Wanderer
@@ -594,6 +602,7 @@ planet Wanderer
 	outfitter drive
 	outfitter basic
 	outfitter licenses
+	spaceport ""
 	security 0
 
 start

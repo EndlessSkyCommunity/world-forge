@@ -485,7 +485,12 @@ system Wanderer
 			period 24.2373
 
 planet Drak
+        attributes forge forgedrak
 	landscape "land/drak"
+	description `Race: Drak`
+	description `Ships: Drak`
+	description `Outfits: Drak`
+	description `Note: Not obtainable in the normal game!`
 	shipyard drak
 	outfitter drak
 	outfitter drive
@@ -494,7 +499,12 @@ planet Drak
 	security 0
 
 planet Forge
+        attributes forge forgedrak forgehai forgehuman forgekorath forgepug forgewanderer
 	landscape "hochofen"
+	description `Race: all`
+	description `Ships: all`
+	description `Outfits: all`
+	description `Note: No variants`
 	shipyard drak
 	shipyard hai
 	shipyard human
@@ -517,7 +527,12 @@ planet Forge
 	security 0
 
 planet Hai
+        attributes forge forgehai
 	landscape "land/hai"
+	description `Race: Hai`
+	description `Ships: Hai`
+	description `Outfits: Hai`
+	description `Note: No variants(e.g. unfettered jump beetles)`
 	shipyard hai
 	outfitter hai
 	outfitter drive
@@ -527,7 +542,12 @@ planet Hai
 	security 0
 
 planet Human
+        attributes forge forgehuman
 	landscape "land/human"
+	description `Race: Human`
+	description `Ships: Human`
+	description `Outfits: Human`
+	description `Note: No variants and no Marauders`
 	shipyard human
 	outfitter human
 	outfitter drive
@@ -537,7 +557,12 @@ planet Human
 	security 0
 
 planet Korath
+        attributes forge forgekorath
 	landscape "land/korath"
+	description `Race: Korath`
+	description `Ships: Korath`
+	description `Outfits: Korath`
+	description `Note: No variants`
 	shipyard korath
 	outfitter korath
 	outfitter drive
@@ -547,7 +572,12 @@ planet Korath
 	security 0
 
 planet Marauder
+        attributes forge forgehuman
 	landscape "land/human"
+	description `Race: Human`
+	description `Ships: Marauder`
+	description `Outfits: Human`
+	description `Note: No variants`
 	shipyard marauder
 	outfitter human
 	outfitter drive
@@ -557,7 +587,12 @@ planet Marauder
 	security 0
 
 planet MarauderE
+        attributes forge forgehuman
 	landscape "land/human"
+	description `Race: Human`
+	description `Ships: Marauder Engine variants`
+	description `Outfits: Human`
+	description `Note: No other variants`
 	shipyard maraudere
 	outfitter human
 	outfitter drive
@@ -567,7 +602,12 @@ planet MarauderE
 	security 0
 
 planet MarauderW
+        attributes forge forgehuman
 	landscape "land/human"
+	description `Race: Human`
+	description `Ships: Marauder weapon variants`
+	description `Outfits: Human`
+	description `Note: No other variants`
 	shipyard marauderw
 	outfitter human
 	outfitter drive
@@ -577,7 +617,12 @@ planet MarauderW
 	security 0
 
 planet Pug
+        attributes forge forgepug
 	landscape "land/pug"
+	description `Race: Pug`
+	description `Ships: Pug`
+	description `Outfits: Pug`
+	description `Note: No variants`
 	shipyard pug
 	outfitter pug
 	outfitter drive
@@ -587,7 +632,12 @@ planet Pug
 	security 0
 
 planet Quarg
+        attributes forge forgequarg
 	landscape "land/quarg"
+	description `Race: Quarg`
+	description `Ships: Quarg`
+	description `Outfits: Quarg`
+	description `Note: No variants`
 	shipyard quarg
 	outfitter quarg
 	outfitter drive
@@ -597,7 +647,12 @@ planet Quarg
 	security 0
 
 planet Wanderer
+        attributes forge forgewanderer
 	landscape "land/wanderer"
+	description `Race: Wanderer`
+	description `Ships: Wanderer`
+	description `Outfits: Wanderer`
+	description `Note: No variants`
 	shipyard wanderer
 	outfitter wanderer
 	outfitter drive
@@ -1051,7 +1106,8 @@ mission "money"
         name `Need Cash?`
 	repeat
 	job
-	source "Forge"
+	source
+            attributes forge
 	description "I need a credit, a credit is what i need...  here, have one billion"
 	on accept
 		payment 1000000000
@@ -1060,7 +1116,8 @@ mission "money"
 mission "Quarg Rep. +"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgequarg"
 	description "I talked to the Quarg... They hate me!... Just kidding, we're fine. (+ 10.000)"
 	on accept
 		"reputation: Quarg" += 10000
@@ -1069,7 +1126,8 @@ mission "Quarg Rep. +"
 mission "Wanderer Rep. +"
 	repeat
 	job
-	source "Forge"
+	source 
+            attributes "forgewanderer"
 	description "Wanderer Reputation + 10.000"
 	on accept
 		"reputation: Wanderer" += 10000
@@ -1078,7 +1136,8 @@ mission "Wanderer Rep. +"
 mission "Hai Rep. +"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehai"
 	description "Hai Reputation + 10.000"
 	on accept
 		"reputation: Hai" += 10000
@@ -1087,7 +1146,8 @@ mission "Hai Rep. +"
 mission "Hai (Unfettered) Rep. +"
 	repeat
 	job
-	source "Forge"
+	source 
+            attributes "forgehai"
 	description "Hai (Unfettered) Reputation + 10.000"
 	on accept
 		"reputation: Hai (Unfettered)" += 10000
@@ -1096,7 +1156,8 @@ mission "Hai (Unfettered) Rep. +"
 mission "Pug Rep. +"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgepug"
 	description "Pug Reputation + 10.000"
 	on accept
 		"reputation: Pug" += 10000
@@ -1105,7 +1166,8 @@ mission "Pug Rep. +"
 mission "Pirate Rep. +"
 	repeat
 	job
-	source "Forge"
+	source 
+            attributes "forgehuman"
 	description "Pirate Reputation + 10.000"
 	on accept
 		"reputation: Pirate" += 10000
@@ -1114,7 +1176,8 @@ mission "Pirate Rep. +"
 mission "Syndicate Rep. +"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehuman"
 	description "Syndicate Reputation + 10.000"
 	on accept
 		"reputation: Syndicate" += 10000
@@ -1123,7 +1186,8 @@ mission "Syndicate Rep. +"
 mission "Republic Rep. +"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehuman"
 	description "Republic Reputation + 10.000"
 	on accept
 		"reputation: Republic" += 10000
@@ -1132,7 +1196,8 @@ mission "Republic Rep. +"
 mission "Free Worlds Rep. +"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehuman"
 	description "Free Worlds Reputation + 10.000"
 	on accept
 		"reputation: Free Worlds" += 10000
@@ -1141,7 +1206,8 @@ mission "Free Worlds Rep. +"
 mission "Militia Rep. +"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehuman"
 	description "Militia Reputation + 10.000"
 	on accept
 		"reputation: Militia" += 10000
@@ -1150,7 +1216,8 @@ mission "Militia Rep. +"
 mission "Merchant Rep. +"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehuman"
 	description "Merchant Reputation + 10.000"
 	on accept
 		"reputation: Merchant" += 10000
@@ -1159,7 +1226,8 @@ mission "Merchant Rep. +"
 mission "Navy (Oathkeeper) Rep. +"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehuman"
 	description "Navy (Oathkeeper) Reputation + 10.000"
 	on accept
 		"reputation: Navy (Oathkeeper)" += 10000
@@ -1168,7 +1236,8 @@ mission "Navy (Oathkeeper) Rep. +"
 mission "Korath Rep. +"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgekorath"
 	description "Korath Reputation + 10.000"
 	on accept
 		"reputation: Korath" += 10000
@@ -1177,7 +1246,8 @@ mission "Korath Rep. +"
 mission "Kor Efret Rep. +"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgekorath"
 	description "Kor Efret Reputation + 10.000"
 	on accept
 		"reputation: Kor Efret" += 10000
@@ -1186,7 +1256,8 @@ mission "Kor Efret Rep. +"
 mission "Kor Mereti Rep. +"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgekorath"
 	description "Kor Mereti Reputation + 10.000"
 	on accept
 		"reputation: Kor Mereti" += 10000
@@ -1195,7 +1266,8 @@ mission "Kor Mereti Rep. +"
 mission "Kor Sestor Rep. +"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgekorath"
 	description "Kor Sestor Reputation + 10.000"
 	on accept
 		"reputation: Kor Sestor" += 10000
@@ -1204,7 +1276,8 @@ mission "Kor Sestor Rep. +"
 mission "Quarg Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgequarg"
 	description "I talked to the Quarg... They hate me! (-10.000)"
 	on accept
 		"reputation: Quarg" += 10000
@@ -1213,7 +1286,8 @@ mission "Quarg Rep. -"
 mission "Wanderer Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgewanderer"
 	description "Wanderer Reputation - 10.000"
 	on accept
 		"reputation: Wanderer" -= 10000
@@ -1222,7 +1296,8 @@ mission "Wanderer Rep. -"
 mission "Hai Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehai"
 	description "Hai Reputation - 10.000"
 	on accept
 		"reputation: Hai" -= 10000
@@ -1231,7 +1306,8 @@ mission "Hai Rep. -"
 mission "Hai (Unfettered) Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehai"
 	description "Hai (Unfettered) Reputation - 10.000"
 	on accept
 		"reputation: Hai (Unfettered)" -= 10000
@@ -1240,7 +1316,8 @@ mission "Hai (Unfettered) Rep. -"
 mission "Pug Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgepug"
 	description "Pug Reputation - 10.000"
 	on accept
 		"reputation: Pug" -= 10000
@@ -1249,7 +1326,8 @@ mission "Pug Rep. -"
 mission "Pirate Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehuman"
 	description "Pirate Reputation - 10.000"
 	on accept
 		"reputation: Pirate" -= 10000
@@ -1258,7 +1336,8 @@ mission "Pirate Rep. -"
 mission "Syndicate Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehuman"
 	description "Syndicate Reputation - 10.000"
 	on accept
 		"reputation: Syndicate" -= 10000
@@ -1267,7 +1346,8 @@ mission "Syndicate Rep. -"
 mission "Republic Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehuman"
 	description "Republic Reputation - 10.000"
 	on accept
 		"reputation: Republic" -= 10000
@@ -1276,7 +1356,8 @@ mission "Republic Rep. -"
 mission "Free Worlds Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehuman"
 	description "Free Worlds Reputation - 10.000"
 	on accept
 		"reputation: Free Worlds" -= 10000
@@ -1285,7 +1366,8 @@ mission "Free Worlds Rep. -"
 mission "Militia Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehuman"
 	description "Militia Reputation - 10.000"
 	on accept
 		"reputation: Militia" -= 10000
@@ -1294,7 +1376,8 @@ mission "Militia Rep. -"
 mission "Merchant Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehuman"
 	description "Merchant Reputation - 10.000"
 	on accept
 		"reputation: Merchant" -= 10000
@@ -1303,7 +1386,8 @@ mission "Merchant Rep. -"
 mission "Navy (Oathkeeper) Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgehuman"
 	description "Navy (Oathkeeper) Reputation - 10.000"
 	on accept
 		"reputation: Navy (Oathkeeper)" -= 10000
@@ -1312,7 +1396,8 @@ mission "Navy (Oathkeeper) Rep. -"
 mission "Korath Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgekorath"
 	description "Korath Reputation - 10.000"
 	on accept
 		"reputation: Korath" -= 10000
@@ -1321,7 +1406,8 @@ mission "Korath Rep. -"
 mission "Kor Efret Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgekorath"
 	description "Kor Efret Reputation - 10.000"
 	on accept
 		"reputation: Kor Efret" -= 10000
@@ -1330,7 +1416,8 @@ mission "Kor Efret Rep. -"
 mission "Kor Mereti Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgekorath"
 	description "Kor Mereti Reputation - 10.000"
 	on accept
 		"reputation: Kor Mereti" -= 10000
@@ -1339,7 +1426,8 @@ mission "Kor Mereti Rep. -"
 mission "Kor Sestor Rep. -"
 	repeat
 	job
-	source "Forge"
+	source
+            attributes "forgekorath"
 	description "Kor Sestor Reputation - 10.000"
 	on accept
 		"reputation: Kor Sestor" -= 10000

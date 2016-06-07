@@ -1031,6 +1031,7 @@ shipyard human
 	Barb
 	"Barb (Proton)"
 	Boxwing
+	Finch
 
 shipyard korath
 	"Korath Raider"

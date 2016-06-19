@@ -1032,6 +1032,9 @@ shipyard human
 	"Barb (Proton)"
 	Boxwing
 	Finch
+	"Kestrel (More Shields)"
+	"Kestrel (More Weapons)"
+	"Kestrel (More Engines)"
 
 shipyard korath
 	"Korath Raider"

@@ -679,6 +679,20 @@ system Wanderer
 			distance 347
 			period 24.2373
 
+planet Deprecated
+        attributes forge
+        landscape ""
+        description `Race: all`
+        description `Ships: none so far deprecated`
+        description `Outfits: only deprecated`
+        description `Note: these have either been removed or replaced for name-,balance- or progress within the games development-reasons.`
+        shipyard deprecated
+        outfitter deprecated
+	outfitter drive
+	outfitter basic
+        spaceport ""
+        security 0
+
 planet Drak
         attributes forge forgedrak
 	landscape "land/drak"
@@ -903,6 +917,18 @@ outfit "Wanderer Military License"
 	cost 50000
 	thumbnail "outfit/license"
 	
+outfitter deprecated
+        "Reverse Thruster"
+	"NDR-114 Android"
+	"Korath Tek'far Reactor"
+	"Korath Tek'nel Reactor"
+	"Korath Shield Generator"
+	"Korath Heat Shunt"
+	"Korath Ark'torbal Thruster"
+	"Korath Ark'parat Steering"
+	"Korath Jak'torbal Thruster"
+	"Korath Jak'parat Steering"
+
 outfitter drak
 	"Drak Distancer"
 	"Drak Draining Field"
@@ -1032,7 +1058,6 @@ outfitter human
 	"Pilot's License"
 	"Security Station"
 	"Laser Rifle"
-	"NDR-114 Android"
 	Ramscoop
 	"Laser Turret"
 	"Heavy Laser"
@@ -1160,6 +1185,8 @@ outfitter licenses
         "Carrier License"
         "Wanderer License"
         "Wanderer Military License"
+
+shipyard deprecated
 
 shipyard drak
 	Archon

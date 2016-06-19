@@ -71,9 +71,9 @@ system Arena
 system Deprecated
 	pos -9916.04 -10101.6
 	habitable 625
-	link Origin
 	link Human
 	link Pug
+	link Origin
 	asteroids "large metal" 1 5.6108
 	object
 		sprite star/g5
@@ -82,7 +82,7 @@ system Deprecated
 		sprite planet/cloud5
 		distance 257.04
 		period 65.9358
-		object
+		object Deprecated
 			sprite planet/tethys
 			distance 154
 			period 12.4896
@@ -220,7 +220,7 @@ system Human
 	link Quarg
 	link Origin
 	link Drak
-	link Pug
+	link Deprecated
 	asteroids "small rock" 30 2.691
 	asteroids "large rock" 50 5.0508
 	asteroids "medium metal" 4 2.8566
@@ -384,11 +384,13 @@ system Origin
 	pos -10026 -10023.4
 	government Uninhabited
 	habitable 320
+	link Arena
 	link Human
 	link Quarg
 	link Pug
 	link Wanderer
 	link Hai
+	link Deprecated
 	asteroids "medium rock" 1 2.576
 	asteroids "large rock" 1 2.3744
 	asteroids "small metal" 1 2.5536
@@ -438,8 +440,9 @@ system Pug
 	pos -9978.51 -10165.7
 	habitable 625
 	link Origin
-	link Wanderer
-	link Human
+	link Deprecated
+	link Arena
+	link "Team Red"
 	asteroids "small rock" 24 9.0944
 	asteroids "medium rock" 44 5.9584
 	asteroids "large rock" 78 10.6624
@@ -642,7 +645,8 @@ system Wanderer
 	link Origin
 	link Hai
 	link Korath
-	link Pug
+	link "Team Blue"
+	link Arena
 	asteroids "small rock" 2 10.353
 	asteroids "medium rock" 13 9.831
 	asteroids "large rock" 3 7.395
@@ -680,40 +684,37 @@ system Wanderer
 			period 24.2373
 
 planet Deprecated
-        attributes forge
-        landscape ""
-        description `Race: all`
-        description `Ships: none so far deprecated`
-        description `Outfits: only deprecated`
-        description `Note: these have either been removed or replaced for name-,balance- or progress within the games development-reasons.`
-        shipyard deprecated
-        outfitter deprecated
+	attributes forge
+	landscape ""
+	description `Race: all`
+	description `	Ships: none so far deprecated`
+	description `	Outfits: only deprecated`
+	description `	Note: these have either been removed or replaced for name-,balance- or progress within the games development-reasons.`
+	shipyard deprecated
+	outfitter deprecated
 	outfitter drive
 	outfitter basic
-        spaceport ""
-        security 0
 
 planet Drak
-        attributes forge forgedrak
-	landscape "land/drak"
+	attributes forge forgedrak
+	landscape land/drak
 	description `Race: Drak`
-	description `Ships: Drak`
-	description `Outfits: Drak`
-	description `Note: Not obtainable in the normal game!`
+	description `	Ships: Drak`
+	description `	Outfits: Drak`
+	description `	Note: Not obtainable in the normal game!`
 	shipyard drak
 	outfitter drak
 	outfitter drive
 	outfitter basic
-	spaceport ""
 	security 0
 
 planet Forge
-        attributes forge forgedrak forgehai forgehuman forgekorath forgepug forgewanderer
-	landscape "hochofen"
+	attributes forge forgedrak forgehai forgehuman forgekorath forgepug forgewanderer
+	landscape hochofen
 	description `Race: all`
-	description `Ships: all`
-	description `Outfits: all`
-	description `Note: No variants`
+	description `	Ships: all`
+	description `	Outfits: all`
+	description `	Note: No variants`
 	shipyard drak
 	shipyard hai
 	shipyard human
@@ -732,142 +733,132 @@ planet Forge
 	outfitter drive
 	outfitter basic
 	outfitter licenses
-	spaceport ""
 	security 0
 
 planet Hai
-        attributes forge forgehai
-	landscape "land/hai"
+	attributes forge forgehai
+	landscape land/hai
 	description `Race: Hai`
-	description `Ships: Hai`
-	description `Outfits: Hai`
-	description `Note: No variants(e.g. unfettered jump beetles)`
+	description `	Ships: Hai`
+	description `	Outfits: Hai`
+	description `	Note: No variants(e.g. unfettered jump beetles)`
 	shipyard hai
 	outfitter hai
 	outfitter drive
 	outfitter basic
 	outfitter licenses
-	spaceport ""
 	security 0
 
 planet Human
-        attributes forge forgehuman
-	landscape "land/human"
+	attributes forge forgehuman
+	landscape land/human
 	description `Race: Human`
-	description `Ships: Human`
-	description `Outfits: Human`
-	description `Note: No variants and no Marauders`
+	description `	Ships: Human`
+	description `	Outfits: Human`
+	description `	Note: No variants and no Marauders`
 	shipyard human
 	outfitter human
 	outfitter drive
 	outfitter basic
 	outfitter licenses
-	spaceport ""
 	security 0
 
 planet Korath
-        attributes forge forgekorath
-	landscape "land/korath"
+	attributes forge forgekorath
+	landscape land/korath
 	description `Race: Korath`
-	description `Ships: Korath`
-	description `Outfits: Korath`
-	description `Note: No variants`
+	description `	Ships: Korath`
+	description `	Outfits: Korath`
+	description `	Note: No variants`
 	shipyard korath
 	outfitter korath
 	outfitter drive
 	outfitter basic
 	outfitter licenses
-	spaceport ""
 	security 0
 
 planet Marauder
-        attributes forge forgehuman
-	landscape "land/human"
+	attributes forge forgehuman
+	landscape land/human
 	description `Race: Human`
-	description `Ships: Marauder`
-	description `Outfits: Human`
-	description `Note: No variants`
+	description `	Ships: Marauder`
+	description `	Outfits: Human`
+	description `	Note: No variants`
 	shipyard marauder
 	outfitter human
 	outfitter drive
 	outfitter basic
 	outfitter licenses
-	spaceport ""
 	security 0
 
 planet MarauderE
-        attributes forge forgehuman
-	landscape "land/human"
+	attributes forge forgehuman
+	landscape land/human
 	description `Race: Human`
-	description `Ships: Marauder Engine variants`
-	description `Outfits: Human`
-	description `Note: No other variants`
+	description `	Ships: Marauder Engine variants`
+	description `	Outfits: Human`
+	description `	Note: No other variants`
 	shipyard maraudere
 	outfitter human
 	outfitter drive
 	outfitter basic
 	outfitter licenses
-	spaceport ""	
 	security 0
 
 planet MarauderW
-        attributes forge forgehuman
-	landscape "land/human"
+	attributes forge forgehuman
+	landscape land/human
 	description `Race: Human`
-	description `Ships: Marauder weapon variants`
-	description `Outfits: Human`
-	description `Note: No other variants`
+	description `	Ships: Marauder weapon variants`
+	description `	Outfits: Human`
+	description `	Note: No other variants`
 	shipyard marauderw
 	outfitter human
 	outfitter drive
 	outfitter basic
 	outfitter licenses
-	spaceport ""
 	security 0
 
 planet Pug
-        attributes forge forgepug
-	landscape "land/pug"
+	attributes forge forgepug
+	landscape land/pug
 	description `Race: Pug`
-	description `Ships: Pug`
-	description `Outfits: Pug`
-	description `Note: No variants`
+	description `	Ships: Pug`
+	description `	Outfits: Pug`
+	description `	Note: No variants`
 	shipyard pug
 	outfitter pug
 	outfitter drive
 	outfitter basic
 	outfitter licenses
-	spaceport ""
 	security 0
 
 planet Quarg
-        attributes forge forgequarg
-	landscape "land/quarg"
+	attributes forge forgequarg
+	landscape land/quarg
 	description `Race: Quarg`
-	description `Ships: Quarg`
-	description `Outfits: Quarg`
-	description `Note: No variants`
+	description `	Ships: Quarg`
+	description `	Outfits: Quarg`
+	description `	Note: No variants`
 	shipyard quarg
 	outfitter quarg
 	outfitter drive
 	outfitter basic
 	outfitter licenses
-	spaceport ""
 	security 0
 
 planet Wanderer
-        attributes forge forgewanderer
-	landscape "land/wanderer"
+	attributes forge forgewanderer
+	landscape land/wanderer
 	description `Race: Wanderer`
-	description `Ships: Wanderer`
-	description `Outfits: Wanderer`
-	description `Note: No variants`
+	description `	Ships: Wanderer`
+	description `	Outfits: Wanderer`
+	description `	Note: No variants`
 	shipyard wanderer
 	outfitter wanderer
 	outfitter drive
 	outfitter basic
 	outfitter licenses
-	spaceport ""
 	security 0
 
 start
@@ -886,39 +877,39 @@ start
 
 conversation intro
 	scene scene/eso0
-	`Breaking the 4th wall and going straight into godmode?`
+	"Breaking the 4th wall and going straight into godmode?"
 	"	I would recommend you play the actual game. If you have done so, enjoy this. use it for testing, or just a sandbox experience."
 	`	Special thanks to Derpy Horse, LocalGod and FallenCat for helping in development, and thanks for testing to:"`
 	name
 	"	Have fun!"
 
 outfit "Navy License"
-	category "Special"
+	category Special
 	cost 50000
-	thumbnail "outfit/license"
-	
+	thumbnail outfit/license
+
 outfit "Cruiser License"
-	category "Special"
+	category Special
 	cost 50000
-	thumbnail "outfit/license"
-	
+	thumbnail outfit/license
+
 outfit "Carrier License"
-	category "Special"
+	category Special
 	cost 50000
-	thumbnail "outfit/license"
-	
+	thumbnail outfit/license
+
 outfit "Wanderer License"
-	category "Special"
+	category Special
 	cost 50000
-	thumbnail "outfit/license"
-	
+	thumbnail outfit/license
+
 outfit "Wanderer Military License"
-	category "Special"
+	category Special
 	cost 50000
-	thumbnail "outfit/license"
-	
+	thumbnail outfit/license
+
 outfitter deprecated
-        "Reverse Thruster"
+	"Reverse Thruster"
 	"NDR-114 Android"
 	"Korath Tek'far Reactor"
 	"Korath Tek'nel Reactor"
@@ -1171,20 +1162,20 @@ outfitter wanderer
 
 outfitter drive
 	"Developer Drive"
-	
+
 outfitter basic
 	"Local Map"
 	"Mass Expansion"
 	"Cargo Expansion"
 	"Fuel Pod"
-	
+
 outfitter licenses
-        "Pilot's License"
-        "Navy License"
-        "Cruiser License"
-        "Carrier License"
-        "Wanderer License"
-        "Wanderer Military License"
+	"Pilot's License"
+	"Navy License"
+	"Cruiser License"
+	"Carrier License"
+	"Wanderer License"
+	"Wanderer Military License"
 
 shipyard deprecated
 
@@ -1275,7 +1266,7 @@ shipyard korath
 	"Model 128"
 	"Model 256"
 	"Model 512"
-	
+
 shipyard marauder
 	"Marauder Arrow"
 	"Marauder Bounder"
@@ -1287,7 +1278,7 @@ shipyard marauder
 	"Marauder Quicksilver"
 	"Marauder Raven"
 	"Marauder Splinter"
-	
+
 shipyard maraudere
 	"Marauder Arrow (Engines)"
 	"Marauder Bounder (Engines)"
@@ -1298,7 +1289,7 @@ shipyard maraudere
 	"Marauder Quicksilver (Engines)"
 	"Marauder Raven (Engines)"
 	"Marauder Splinter (Engines)"
-	
+
 shipyard marauderw
 	"Marauder Arrow (Weapons)"
 	"Marauder Bounder (Weapons)"
@@ -1328,22 +1319,22 @@ shipyard wanderer
 	"Strong Wind"
 	"Deep River"
 
-mission "money"
-        name `Need Cash?`
+mission money
+	name "Need Cash?"
 	repeat
 	job
 	source
-            attributes forge
+		attributes forge
 	description "I need a credit, a credit is what i need...  here, have one billion"
 	on accept
 		payment 1000000000
 		fail
-		
+
 mission "Quarg Rep. +"
 	repeat
 	job
 	source
-            attributes "forgequarg"
+		attributes forgequarg
 	description "I talked to the Quarg... They hate me!... Just kidding, we're fine. (+ 10.000)"
 	on accept
 		"reputation: Quarg" += 10000
@@ -1352,78 +1343,78 @@ mission "Quarg Rep. +"
 mission "Wanderer Rep. +"
 	repeat
 	job
-	source 
-            attributes "forgewanderer"
+	source
+		attributes forgewanderer
 	description "Wanderer Reputation + 10.000"
 	on accept
 		"reputation: Wanderer" += 10000
 		fail
-		
+
 mission "Hai Rep. +"
 	repeat
 	job
 	source
-            attributes "forgehai"
+		attributes forgehai
 	description "Hai Reputation + 10.000"
 	on accept
 		"reputation: Hai" += 10000
 		fail
-		
+
 mission "Hai (Unfettered) Rep. +"
 	repeat
 	job
-	source 
-            attributes "forgehai"
+	source
+		attributes forgehai
 	description "Hai (Unfettered) Reputation + 10.000"
 	on accept
 		"reputation: Hai (Unfettered)" += 10000
 		fail
-		
+
 mission "Pug Rep. +"
 	repeat
 	job
 	source
-            attributes "forgepug"
+		attributes forgepug
 	description "Pug Reputation + 10.000"
 	on accept
 		"reputation: Pug" += 10000
 		fail
-		
+
 mission "Pirate Rep. +"
 	repeat
 	job
-	source 
-            attributes "forgehuman"
+	source
+		attributes forgehuman
 	description "Pirate Reputation + 10.000"
 	on accept
 		"reputation: Pirate" += 10000
 		fail
-		
+
 mission "Syndicate Rep. +"
 	repeat
 	job
 	source
-            attributes "forgehuman"
+		attributes forgehuman
 	description "Syndicate Reputation + 10.000"
 	on accept
 		"reputation: Syndicate" += 10000
 		fail
-		
+
 mission "Republic Rep. +"
 	repeat
 	job
 	source
-            attributes "forgehuman"
+		attributes forgehuman
 	description "Republic Reputation + 10.000"
 	on accept
 		"reputation: Republic" += 10000
 		fail
-		
+
 mission "Free Worlds Rep. +"
 	repeat
 	job
 	source
-            attributes "forgehuman"
+		attributes forgehuman
 	description "Free Worlds Reputation + 10.000"
 	on accept
 		"reputation: Free Worlds" += 10000
@@ -1433,17 +1424,17 @@ mission "Militia Rep. +"
 	repeat
 	job
 	source
-            attributes "forgehuman"
+		attributes forgehuman
 	description "Militia Reputation + 10.000"
 	on accept
 		"reputation: Militia" += 10000
 		fail
-		
+
 mission "Merchant Rep. +"
 	repeat
 	job
 	source
-            attributes "forgehuman"
+		attributes forgehuman
 	description "Merchant Reputation + 10.000"
 	on accept
 		"reputation: Merchant" += 10000
@@ -1453,17 +1444,17 @@ mission "Navy (Oathkeeper) Rep. +"
 	repeat
 	job
 	source
-            attributes "forgehuman"
+		attributes forgehuman
 	description "Navy (Oathkeeper) Reputation + 10.000"
 	on accept
 		"reputation: Navy (Oathkeeper)" += 10000
 		fail
-		
+
 mission "Korath Rep. +"
 	repeat
 	job
 	source
-            attributes "forgekorath"
+		attributes forgekorath
 	description "Korath Reputation + 10.000"
 	on accept
 		"reputation: Korath" += 10000
@@ -1473,37 +1464,37 @@ mission "Kor Efret Rep. +"
 	repeat
 	job
 	source
-            attributes "forgekorath"
+		attributes forgekorath
 	description "Kor Efret Reputation + 10.000"
 	on accept
 		"reputation: Kor Efret" += 10000
 		fail
-		
+
 mission "Kor Mereti Rep. +"
 	repeat
 	job
 	source
-            attributes "forgekorath"
+		attributes forgekorath
 	description "Kor Mereti Reputation + 10.000"
 	on accept
 		"reputation: Kor Mereti" += 10000
 		fail
-		
+
 mission "Kor Sestor Rep. +"
 	repeat
 	job
 	source
-            attributes "forgekorath"
+		attributes forgekorath
 	description "Kor Sestor Reputation + 10.000"
 	on accept
 		"reputation: Kor Sestor" += 10000
 		fail
-		
+
 mission "Quarg Rep. -"
 	repeat
 	job
 	source
-            attributes "forgequarg"
+		attributes forgequarg
 	description "I talked to the Quarg... They hate me! (-10.000)"
 	on accept
 		"reputation: Quarg" += 10000
@@ -1513,77 +1504,77 @@ mission "Wanderer Rep. -"
 	repeat
 	job
 	source
-            attributes "forgewanderer"
+		attributes forgewanderer
 	description "Wanderer Reputation - 10.000"
 	on accept
 		"reputation: Wanderer" -= 10000
 		fail
-		
+
 mission "Hai Rep. -"
 	repeat
 	job
 	source
-            attributes "forgehai"
+		attributes forgehai
 	description "Hai Reputation - 10.000"
 	on accept
 		"reputation: Hai" -= 10000
 		fail
-		
+
 mission "Hai (Unfettered) Rep. -"
 	repeat
 	job
 	source
-            attributes "forgehai"
+		attributes forgehai
 	description "Hai (Unfettered) Reputation - 10.000"
 	on accept
 		"reputation: Hai (Unfettered)" -= 10000
 		fail
-		
+
 mission "Pug Rep. -"
 	repeat
 	job
 	source
-            attributes "forgepug"
+		attributes forgepug
 	description "Pug Reputation - 10.000"
 	on accept
 		"reputation: Pug" -= 10000
 		fail
-		
+
 mission "Pirate Rep. -"
 	repeat
 	job
 	source
-            attributes "forgehuman"
+		attributes forgehuman
 	description "Pirate Reputation - 10.000"
 	on accept
 		"reputation: Pirate" -= 10000
 		fail
-		
+
 mission "Syndicate Rep. -"
 	repeat
 	job
 	source
-            attributes "forgehuman"
+		attributes forgehuman
 	description "Syndicate Reputation - 10.000"
 	on accept
 		"reputation: Syndicate" -= 10000
 		fail
-		
+
 mission "Republic Rep. -"
 	repeat
 	job
 	source
-            attributes "forgehuman"
+		attributes forgehuman
 	description "Republic Reputation - 10.000"
 	on accept
 		"reputation: Republic" -= 10000
 		fail
-		
+
 mission "Free Worlds Rep. -"
 	repeat
 	job
 	source
-            attributes "forgehuman"
+		attributes forgehuman
 	description "Free Worlds Reputation - 10.000"
 	on accept
 		"reputation: Free Worlds" -= 10000
@@ -1593,17 +1584,17 @@ mission "Militia Rep. -"
 	repeat
 	job
 	source
-            attributes "forgehuman"
+		attributes forgehuman
 	description "Militia Reputation - 10.000"
 	on accept
 		"reputation: Militia" -= 10000
 		fail
-		
+
 mission "Merchant Rep. -"
 	repeat
 	job
 	source
-            attributes "forgehuman"
+		attributes forgehuman
 	description "Merchant Reputation - 10.000"
 	on accept
 		"reputation: Merchant" -= 10000
@@ -1613,17 +1604,17 @@ mission "Navy (Oathkeeper) Rep. -"
 	repeat
 	job
 	source
-            attributes "forgehuman"
+		attributes forgehuman
 	description "Navy (Oathkeeper) Reputation - 10.000"
 	on accept
 		"reputation: Navy (Oathkeeper)" -= 10000
 		fail
-		
+
 mission "Korath Rep. -"
 	repeat
 	job
 	source
-            attributes "forgekorath"
+		attributes forgekorath
 	description "Korath Reputation - 10.000"
 	on accept
 		"reputation: Korath" -= 10000
@@ -1633,28 +1624,29 @@ mission "Kor Efret Rep. -"
 	repeat
 	job
 	source
-            attributes "forgekorath"
+		attributes forgekorath
 	description "Kor Efret Reputation - 10.000"
 	on accept
 		"reputation: Kor Efret" -= 10000
 		fail
-		
+
 mission "Kor Mereti Rep. -"
 	repeat
 	job
 	source
-            attributes "forgekorath"
+		attributes forgekorath
 	description "Kor Mereti Reputation - 10.000"
 	on accept
 		"reputation: Kor Mereti" -= 10000
 		fail
-		
+
 mission "Kor Sestor Rep. -"
 	repeat
 	job
 	source
-            attributes "forgekorath"
+		attributes forgekorath
 	description "Kor Sestor Reputation - 10.000"
 	on accept
 		"reputation: Kor Sestor" -= 10000
 		fail
+

@@ -220,7 +220,7 @@ system Human
 	link Quarg
 	link Origin
 	link Drak
-	link Deprecated
+	link Deprecated+Mods
 	asteroids "small rock" 30 2.691
 	asteroids "large rock" 50 5.0508
 	asteroids "medium metal" 4 2.8566
@@ -390,7 +390,7 @@ system Origin
 	link Pug
 	link Wanderer
 	link Hai
-	link Deprecated
+	link Deprecated+Mods
 	asteroids "medium rock" 1 2.576
 	asteroids "large rock" 1 2.3744
 	asteroids "small metal" 1 2.5536
@@ -440,7 +440,7 @@ system Pug
 	pos -9978.51 -10165.7
 	habitable 625
 	link Origin
-	link Deprecated
+	link Deprecated+Mods
 	link Arena
 	link "Team Red"
 	asteroids "small rock" 24 9.0944

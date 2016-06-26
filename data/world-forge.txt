@@ -68,7 +68,7 @@ system Arena
 			distance 286
 			period 19.6973
 
-system Deprecated
+system Deprecated+Mods
 	pos -9916.04 -10101.6
 	habitable 625
 	link Human
@@ -86,8 +86,8 @@ system Deprecated
 			sprite planet/tethys
 			distance 154
 			period 12.4896
-	object
-		sprite planet/gas3
+	object Mods
+		sprite planet/ice7
 		distance 707.73
 		period 301.246
 	object
@@ -722,6 +722,7 @@ planet Forge
 	shipyard quarg
 	shipyard korath
 	shipyard marauder
+	shipyard modships
 	shipyard wanderer
 	outfitter drak
 	outfitter hai
@@ -729,6 +730,7 @@ planet Forge
 	outfitter pug
 	outfitter quarg
 	outfitter korath
+	outfitter modoutfits
 	outfitter wanderer
 	outfitter drive
 	outfitter basic
@@ -818,6 +820,19 @@ planet MarauderW
 	outfitter basic
 	outfitter licenses
 	security 0
+	
+planet Mods
+        attributes forge
+        landscape ""
+        description `Made for editing own stuff`
+        description `Ships: shipyard modships`
+        description `Outfits: outfitter modoutfits`
+        shipyard modships
+        outfitter modoutfits
+        outfitter drive
+        outfitter basic
+        outfitter license
+        security 0
 
 planet Pug
 	attributes forge forgepug

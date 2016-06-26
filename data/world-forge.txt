@@ -942,6 +942,7 @@ outfitter drak
 	"Drak Turret"
 	"Drak Antimatter Cannon"
 	"Drak Antimatter Fragment"
+	"Jump Drive"
 
 outfitter hai
 	"Ion Cannon"
@@ -1102,6 +1103,10 @@ outfitter pug
 	"Pug Lohmar Thruster"
 	"Pug Lohmar Steering"
 	"Pug Biodefenses"
+	"Jump Drive"
+	"Tier 3 Anti-Missile"
+	"Pug Gridfire Turret"
+	"Cloaking Device"
 
 outfitter korath
 	"Generator (Candle Class)"
@@ -1149,6 +1154,7 @@ outfitter quarg
 	"Medium Graviton Thruster"
 	"Medium Graviton Steering"
 	"Quantum Shield Generator"
+	"Jump Drive"
 
 outfitter wanderer
 	Sunbeam

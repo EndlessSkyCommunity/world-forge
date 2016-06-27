@@ -722,7 +722,6 @@ planet Forge
 	shipyard quarg
 	shipyard korath
 	shipyard marauder
-	shipyard modships
 	shipyard wanderer
 	outfitter drak
 	outfitter hai
@@ -730,7 +729,6 @@ planet Forge
 	outfitter pug
 	outfitter quarg
 	outfitter korath
-	outfitter modoutfits
 	outfitter wanderer
 	outfitter drive
 	outfitter basic

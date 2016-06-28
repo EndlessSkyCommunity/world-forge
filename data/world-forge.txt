@@ -240,7 +240,7 @@ system Human
 		sprite planet/earth
 		distance 965.669
 		period 365.25
-		object Marauder
+		object
 			sprite planet/luna
 			distance 201.24
 			period 27.3
@@ -753,10 +753,11 @@ planet Human
 	attributes forge forgehuman
 	landscape land/human
 	description `Race: Human`
-	description `	Ships: Human`
+	description `	Ships: Human, Marauder (Standard)`
 	description `	Outfits: Human`
-	description `	Note: No variants and no Marauders`
+	description `	Note: No variants`
 	shipyard human
+	shipyard marauder
 	outfitter human
 	outfitter drive
 	outfitter basic
@@ -772,20 +773,6 @@ planet Korath
 	description `	Note: No variants`
 	shipyard korath
 	outfitter korath
-	outfitter drive
-	outfitter basic
-	outfitter licenses
-	security 0
-
-planet Marauder
-	attributes forge forgehuman
-	landscape land/human
-	description `Race: Human`
-	description `	Ships: Marauder`
-	description `	Outfits: Human`
-	description `	Note: No variants`
-	shipyard marauder
-	outfitter human
 	outfitter drive
 	outfitter basic
 	outfitter licenses

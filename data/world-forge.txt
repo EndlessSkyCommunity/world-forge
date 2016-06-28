@@ -74,6 +74,7 @@ system Deprecated+Mods
 	link Human
 	link Pug
 	link Origin
+	link "Steam Mods"
 	asteroids "large metal" 1 5.6108
 	object
 		sprite star/g5
@@ -102,6 +103,131 @@ system Deprecated+Mods
 			sprite planet/ice7
 			distance 314
 			period 14.2121
+			
+system "Steam Mods"
+	pos -9861.92 -10138.9
+	habitable 700
+	link Deprecated+Mods
+	object "Ursa Polaris"
+		sprite planet/rhea
+		distance 327.647
+		period 114.949
+		offset 51.0468
+	object "Shields Up"
+		sprite planet/desert1
+		distance 1000.39
+		period 613.272
+		offset 181.25
+		object Mil'taj
+			sprite planet/desert4
+			distance 269.677
+			period 38.4426
+			offset 326.41
+		object "Servorum Dei"
+			sprite planet/oberon
+			distance 340.677
+			period 54.5835
+			offset 134.301
+		object "Plenipotent Dominion"
+			sprite planet/rock14
+			distance 424.677
+			period 75.9688
+			offset 31.7048
+		object "SU Misc"
+			sprite planet/lava0
+			distance 531.748
+			period 106.44
+			offset 76.4438
+	object "Alphean Boolean"
+		sprite planet/rock2
+		distance 1713.14
+		period 1374.32
+		offset 166.32
+	object "Endless Horizons"
+		sprite planet/neptune
+		distance 2450.73
+		period 2351.47
+		offset 315.903
+		object Andromedans
+			sprite planet/luna
+			distance 244.586
+			period 19.0581
+			offset 196.609
+		object Termini
+			sprite planet/ice7
+			distance 376.586
+			period 36.4107
+		object "Enigma Corp"
+			sprite planet/europa
+			distance 464.586
+			period 49.8921
+			offset 321.728
+		object "EC Misc"
+			sprite planet/dust1
+			distance 562.586
+			period 66.4838
+	object "Adamas Project"
+		sprite planet/gas16
+		distance 3422.32
+		period 3880.4
+		offset 89.6411
+		object Adamas
+			sprite planet/rock17
+			distance 203
+			period 15.2244
+		object Scavengers
+			sprite planet/dust3
+			distance 280
+			period 24.6623
+	object Enclave
+		sprite planet/io
+		distance 3831.84
+		period 4597.34
+		offset 244.52
+	object "Pompano's Ever Expanding Galaxy"
+		sprite planet/gas13
+		distance 4120.84
+		period 5127.13
+		offset 256.613
+	object Mdsmestad
+		sprite planet/gas2
+		distance 4495.84
+		period 5842.68
+		offset 268.822
+	object "West Iron"
+		sprite planet/gas12
+		distance 4880.84
+		period 6609.03
+		offset 279.4
+	object "New To Space"
+		sprite planet/gas0
+		distance 5542.84
+		period 7998.23
+		offset 293.288
+		object
+			sprite planet/ice0
+			distance 258
+			period 12.1447
+			offset 116.092
+		object
+			sprite planet/callisto
+			distance 352
+			period 19.354
+			offset 265.278
+	object Fallen
+		sprite planet/gas10
+		distance 6125.84
+		period 9292.75
+		offset 302.7
+	object Reavers
+		sprite planet/gas5
+		distance 6491.84
+		period 10137.9
+		offset 294.774
+	object "Mini Mods"
+		sprite planet/gas8
+		distance 7000
+		period 12114.1
 
 system Drak
 	pos -9904.47 -9838.82
@@ -873,6 +999,75 @@ planet Wanderer
 	outfitter basic
 	outfitter licenses
 	security 0
+	
+planet Adamas
+	landscape ""
+
+planet "Adamas Project"
+	landscape ""
+
+planet "Alphean Boolean"
+	landscape ""
+
+planet Andromedans
+	landscape ""
+
+planet "EC Misc"
+	landscape ""
+
+planet Enclave
+	landscape ""
+
+planet "Endless Horizons"
+	landscape ""
+
+planet "Enigma Corp"
+	landscape ""
+
+planet Fallen
+	landscape ""
+
+planet Mdsmestad
+	landscape ""
+
+planet Mil'taj
+	landscape ""
+	
+planet "Mini Mods"
+	landscape ""
+
+planet "New To Space"
+	landscape ""
+
+planet "Plenipotent Dominion"
+	landscape ""
+
+planet "Pompano's Ever Expanding Galaxy"
+	landscape ""
+
+planet Reavers
+	landscape ""
+
+planet "SU Misc"
+	landscape ""
+
+planet Scavengers
+	landscape ""
+
+planet "Servorum Dei"
+	landscape ""
+
+planet "Shields Up"
+	landscape ""
+
+planet Termini
+	landscape ""
+
+planet "Ursa Polaris"
+	landscape ""
+
+planet "West Iron"
+	landscape ""
 
 start
 	date 16 11 3013

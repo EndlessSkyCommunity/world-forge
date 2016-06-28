@@ -1038,8 +1038,6 @@ outfitter human
 	"D94-YV Shield Generator"
 	"Anti-Missile Turret"
 	"Heavy Anti-Missile Turret"
-	Hyperdrive
-	"Scram Drive"
 	"Meteor Missile"
 	Torpedo
 	"Sidewinder Missile"
@@ -1187,6 +1185,9 @@ outfitter basic
 	"Mass Expansion"
 	"Cargo Expansion"
 	"Fuel Pod"
+	"Jump Drive"
+	"Hypderdrive"
+	"Scram Drive"
 
 outfitter licenses
 	"Pilot's License"

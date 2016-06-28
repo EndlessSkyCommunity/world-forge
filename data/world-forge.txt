@@ -1268,6 +1268,7 @@ shipyard human
 	"Kestrel (More Shields)"
 	"Kestrel (More Weapons)"
 	"Kestrel (More Engines)"
+	"Class C Freighter"
 
 shipyard korath
 	"Korath Raider"

@@ -935,8 +935,8 @@ outfitter hai
 	"Pulse Turret"
 	"Hai Tracker"
 	"Hai Tracker Pod"
-	"Bullfrog Anti-Missile Turret"
-	"Chameleon Anti-Missile Turret"
+	"Bullfrog Anti-Missile"
+	"Chameleon Anti-Missile"
 	"Hai Corundum Regenerator"
 	"Hai Diamond Regenerator"
 	"Hai Williwaw Cooling"
@@ -1194,6 +1194,8 @@ shipyard hai
 	"Lightning Bug"
 	"Water Bug"
 	Aphid
+	"Hai Carrier"
+	"Hai Fighter"
 
 shipyard human
 	Shuttle

@@ -1002,12 +1002,15 @@ planet Wanderer
 	
 planet Adamas
 	landscape ""
+	spaceport ""
 
 planet "Adamas Project"
 	landscape ""
+	spaceport ""
 
 planet "Alphean Boolean"
 	landscape ""
+	spaceport ""
 
 planet Andromedans
 	shipyard Andromedan
@@ -1017,6 +1020,7 @@ planet Andromedans
 	description `	Ships: Andromedan`
 	description `	Outfits: Andromedan`
 	description `	Note: Compatible as of Enigma Corp v0.5.4 and a half`
+	spaceport ""
 
 planet "EC Misc"
 	outfitter "EC Misc"
@@ -1025,9 +1029,11 @@ planet "EC Misc"
 	description `	Ships: none`
 	description `	Outfits: misc outfits from the mod`
 	description `	Note: Compatible as of Enigma Corp v0.5.4 and a half`
+	spaceport ""
 
 planet Enclave
 	landscape ""
+	spaceport ""
 
 planet "Endless Horizons"
 	shipyard "Enigma Corp"
@@ -1042,6 +1048,7 @@ planet "Endless Horizons"
 	description `	Ships: All ships in mod`
 	description `	Outfits: All outfits in mod`
 	description `	Note: Compatible as of Enigma Corp v0.5.4 and a half`
+	spaceport ""
 
 planet "Enigma Corp"
 	shipyard "Enigma Corp"
@@ -1051,42 +1058,55 @@ planet "Enigma Corp"
 	description `	Ships: Enigma Corp`
 	description `	Outfits: Enigma Corp`
 	description `	Note: Compatible as of Enigma Corp v0.5.4 and a half`
+	spaceport ""
 
 planet Fallen
 	landscape ""
+	spaceport ""
 
 planet Mdsmestad
 	landscape ""
+	spaceport ""
 
 planet Mil'taj
 	landscape ""
+	spaceport ""
 	
 planet "Mini Mods"
 	landscape ""
+	spaceport ""
 
 planet "New To Space"
 	landscape ""
+	spaceport ""
 
 planet "Plenipotent Dominion"
 	landscape ""
+	spaceport ""
 
 planet "Pompano's Ever Expanding Galaxy"
 	landscape ""
+	spaceport ""
 
 planet Reavers
 	landscape ""
+	spaceport ""
 
 planet "SU Misc"
 	landscape ""
+	spaceport ""
 
 planet Scavengers
 	landscape ""
+	spaceport ""
 
 planet "Servorum Dei"
 	landscape ""
+	spaceport ""
 
 planet "Shields Up"
 	landscape ""
+	spaceport ""
 
 planet Termini
 	shipyard Termini
@@ -1096,12 +1116,15 @@ planet Termini
 	description `	Ships: Termini`
 	description `	Outfits: Termini`
 	description `	Note: Compatible as of Enigma Corp v0.5.4 and a half`
+	spaceport ""
 
 planet "Ursa Polaris"
 	landscape ""
+	spaceport ""
 
 planet "West Iron"
 	landscape ""
+	spaceport ""
 
 start
 	date 16 11 3013

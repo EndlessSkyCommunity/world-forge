@@ -1067,6 +1067,8 @@ planet "Endless Horizons"
 planet "Enigma Corp"
 	shipyard "Enigma Corp"
 	outfitter "Enigma Corp"
+	outfitter drive
+	outfitter basic
 	landscape ""
 	description `Mod: Enigma Corp`
 	description `	Ships: Enigma Corp`

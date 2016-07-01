@@ -1010,19 +1010,47 @@ planet "Alphean Boolean"
 	landscape ""
 
 planet Andromedans
+	shipyard Andromedan
+	outfitter Andromedan
 	landscape ""
+	description `Mod: Enigma Corp`
+	description `	Ships: Andromedan`
+	description `	Outfits: Andromedan`
+	description `	Note: Compatible as of Enigma Corp v0.5.4 and a half`
 
 planet "EC Misc"
+	outfitter "EC Misc"
 	landscape ""
+	description `Mod: Enigma Corp`
+	description `	Ships: none`
+	description `	Outfits: misc outfits from the mod`
+	description `	Note: Compatible as of Enigma Corp v0.5.4 and a half`
 
 planet Enclave
 	landscape ""
 
 planet "Endless Horizons"
+	shipyard "Enigma Corp"
+	shipyard Andromedan
+	shipyard Termini
+	outfitter Termini
+	outfitter Andromedan
+	outfitter "EC Misc"
+	outfitter "Enigma Corp"
 	landscape ""
+	description `Mod: Enigma Corp`
+	description `	Ships: All ships in mod`
+	description `	Outfits: All outfits in mod`
+	description `	Note: Compatible as of Enigma Corp v0.5.4 and a half`
 
 planet "Enigma Corp"
+	shipyard "Enigma Corp"
+	outfitter "Enigma Corp"
 	landscape ""
+	description `Mod: Enigma Corp`
+	description `	Ships: Enigma Corp`
+	description `	Outfits: Enigma Corp`
+	description `	Note: Compatible as of Enigma Corp v0.5.4 and a half`
 
 planet Fallen
 	landscape ""
@@ -1061,7 +1089,13 @@ planet "Shields Up"
 	landscape ""
 
 planet Termini
+	shipyard Termini
+	outfitter Termini
 	landscape ""
+	description `Mod: Enigma Corp`
+	description `	Ships: Termini`
+	description `	Outfits: Termini`
+	description `	Note: Compatible as of Enigma Corp v0.5.4 and a half`
 
 planet "Ursa Polaris"
 	landscape ""
@@ -1115,6 +1149,147 @@ outfit "Wanderer Military License"
 	category Special
 	cost 50000
 	thumbnail outfit/license
+	
+outfitter "Enigma Corp"
+	"Hellfire Cap-Up"
+	"Flux Cap-Up"
+	"Typhoon Mine Cap-Up"
+	"Flux Mine Cap-Up"
+	"Thermite Mine Cap-Up"
+	"AM-Bomb Cap-Up"
+	"Canister Cap-Up"
+	"Antimatter Steering"
+	"Antimatter Thruster"
+	"X1025 Ion Engines"
+	"Warp Afterburner"
+	"Crew Implants"
+	"Reflective Plating"
+	"Exotic Matter Plating"
+	"Heavy Water Coolant System"
+	"Cold Fusion Reactor"
+	"Red Star Core"
+	"Blackhole Reactor"
+	"Heat Sinks"
+	"Pocket Wormhole"
+	"Weapon Expansion"
+	"Engine Expansion"
+	"Reverse Engineered Jump Drive"
+	"Arc Discharger"
+	"Antimatter Launcher"
+	"Antimatter Bomb"
+	"Cryo Beam"
+	"EMP Device"
+	"Flux Mine Placer"
+	"Flux Mine"
+	"Flux Missile Launcher"
+	"Flux Missile"
+	"Forge Cannon"
+	"Fuel Rod Launcher"
+	"Grav Bomb"
+	"Gravitational Wave Generator"
+	"Hellfire Missile Launcher"
+	"Hellfire Missile"
+	"Missile Denial System"
+	"Reverse Engineered Skylance"
+	"Seeker Laser"
+	"Shrapnel Cannon"
+	"Shrapnel Canister"
+	"Thermite Mine Placer"
+	"Thermite Mine"
+	"Typhoon Mine Placer"
+	"Typhoon Mine"
+	"Wolf Bomb Bay"
+	"Wolf Bomb"
+	
+outfitter "EC Misc"
+	"Meteor Cap-Up"
+	"Sidewinder Cap-Up"
+	"Javelin Cap-Up"
+	"Rocket Cap-Up"
+	"Torpedo Cap-Up"
+	"Tracker Cap-Up"
+	"Thunderhead Cap-Up"
+	"Flux Torpedo Cap-Up"
+	"Thermite Torpedo Cap-Up"
+	"Typhoon Cap-Up"
+	"Incendiary Grenades"
+	"Plasma Rifle"
+	"Rail Rifle"
+	"Plasma Deflector"
+	"Personal Shield Generator"
+	"Breach Shotgun"
+	"Rocket Launcher"
+	"Portable Flamethrower"
+	"Reflective Plating Prototype"
+	"Reinforced Plating F-Class"
+	"Shield Overcharger F-Class"
+	"Reinforced Plating D-Class"
+	"Shield Overcharger D-Class"
+	"Reinforced Plating C-Class"
+	"Shield Overcharger C-Class"
+	"Reinforced Plating B-Class"
+	"Shield Overcharger B-Class"
+	"Reinforced Plating A-Class"
+	"Shield Overcharger A-Class"
+	"Reinforced Plating S-Class"
+	"Shield Overcharger S-Class"
+	"FP120a Atomic Battery"
+	"FP230b Atomic Battery"
+	"FP340c Atomic Battery"
+	"Fuel Powered Generator"
+	"Galaxy Map"
+	"External Fuel Pod"
+	"Weapon Expansion"
+	"Engine Expansion"
+	"Energy Turret"
+	"Flux Torpedo Launcher"
+	"Flux Torpedo"
+	"Missile Turret"
+	"Plasmathrower"
+	"Repair Turret"
+	"Nanites"
+	"Thermite Torpedo Launcher"
+	"Thermite Torpedo"
+	"Warp Inhibitor"
+	"Dark Matter"
+	
+outfitter "Andromedan"
+	"Kinetic Rod Laucher"
+	"Particle Launcher"
+	"Ballistic Pod"
+	"Hydrogen Thruster"
+	"Hydrogen Steering"
+	"Combustion Reactor"
+	"Purge Vents"
+	
+outfitter "Termini"
+	"Mothership Core"
+	"T-Drone Core"
+	"T-Drone Engines"
+	"Razer"
+	
+shipyard "Termini"
+	"Scout Drone"
+	
+shipyard "Andromedan"
+	"Combat Hauler"
+	"Gun Carrier"
+	"Planet Razer"
+	"Artillery Battleship"
+	
+shipyard "Enigma Corp"
+	"EC-001 'Badger'"
+	"EC-002 'Sentry'"
+	"EC-031 'Viper'"
+	"EC-032 'Rattlesnake'"
+	"EC-033 'King Cobra'"
+	"EC-037 'Aegis'"
+	"EC-050 'Orca'"
+	"EC-069 'Star King'"
+	"EC-070 'Star Guardian'"
+	"EC-077 'Dire Wolf'"
+	"EC-078 'Dire Hawk'"
+	"EC-099 'Oblivion'"
 
 outfitter deprecated
 	"Reverse Thruster"

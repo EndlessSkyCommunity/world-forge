@@ -1002,19 +1002,27 @@ planet Wanderer
 	
 planet Adamas
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet "Adamas Project"
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet "Alphean Boolean"
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet Andromedans
 	shipyard Andromedan
 	outfitter Andromedan
+	outfitter drive
+	outfitter basic
 	landscape ""
 	description `Mod: Enigma Corp`
 	description `	Ships: Andromedan`
@@ -1024,6 +1032,8 @@ planet Andromedans
 
 planet "EC Misc"
 	outfitter "EC Misc"
+	outfitter drive
+	outfitter basic
 	landscape ""
 	description `Mod: Enigma Corp`
 	description `	Ships: none`
@@ -1033,6 +1043,8 @@ planet "EC Misc"
 
 planet Enclave
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet "Endless Horizons"
@@ -1043,6 +1055,8 @@ planet "Endless Horizons"
 	outfitter Andromedan
 	outfitter "EC Misc"
 	outfitter "Enigma Corp"
+	outfitter drive
+	outfitter basic
 	landscape ""
 	description `Mod: Enigma Corp`
 	description `	Ships: All ships in mod`
@@ -1062,55 +1076,81 @@ planet "Enigma Corp"
 
 planet Fallen
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet Mdsmestad
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet Mil'taj
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 	
 planet "Mini Mods"
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet "New To Space"
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet "Plenipotent Dominion"
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet "Pompano's Ever Expanding Galaxy"
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet Reavers
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet "SU Misc"
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet Scavengers
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet "Servorum Dei"
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet "Shields Up"
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet Termini
 	shipyard Termini
 	outfitter Termini
+	outfitter drive
+	outfitter basic
 	landscape ""
 	description `Mod: Enigma Corp`
 	description `	Ships: Termini`
@@ -1120,10 +1160,14 @@ planet Termini
 
 planet "Ursa Polaris"
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 planet "West Iron"
 	landscape ""
+	outfitter drive
+	outfitter basic
 	spaceport ""
 
 start

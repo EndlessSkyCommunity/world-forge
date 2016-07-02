@@ -1194,8 +1194,8 @@ shipyard hai
 	"Lightning Bug"
 	"Water Bug"
 	Aphid
-	"Hai Carrier"
-	"Hai Fighter"
+	"Solifuge"
+	"Violin Spider"
 
 shipyard human
 	Shuttle

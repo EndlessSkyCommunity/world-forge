@@ -874,6 +874,7 @@ start
 	set "license: Carrier"
 	set "license: Wanderer"
 	set "license: Wanderer Military"
+	set "license: Unfettered Militia"
 
 conversation intro
 	scene scene/eso0
@@ -1183,6 +1184,7 @@ outfitter licenses
 	"Carrier License"
 	"Wanderer License"
 	"Wanderer Military License"
+	"Unfettered Militia"
 
 shipyard deprecated
 

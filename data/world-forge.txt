@@ -690,6 +690,7 @@ planet Deprecated
 	description `	Ships: none so far deprecated`
 	description `	Outfits: only deprecated`
 	description `	Note: these have either been removed or replaced for name-,balance- or progress within the games development-reasons.`
+	spaceport ""
 	shipyard deprecated
 	outfitter deprecated
 	outfitter drive
@@ -702,6 +703,7 @@ planet Drak
 	description `	Ships: Drak`
 	description `	Outfits: Drak`
 	description `	Note: Not obtainable in the normal game!`
+	spaceport ""
 	shipyard drak
 	outfitter drak
 	outfitter drive
@@ -715,6 +717,7 @@ planet Forge
 	description `	Ships: all`
 	description `	Outfits: all`
 	description `	Note: No variants`
+	spaceport ""
 	shipyard drak
 	shipyard hai
 	shipyard human
@@ -742,6 +745,7 @@ planet Hai
 	description `	Ships: Hai`
 	description `	Outfits: Hai`
 	description `	Note: No variants(e.g. unfettered jump beetles)`
+	spaceport ""
 	shipyard hai
 	outfitter hai
 	outfitter drive
@@ -756,6 +760,7 @@ planet Human
 	description `	Ships: Human, Marauder (Standard)`
 	description `	Outfits: Human`
 	description `	Note: No variants`
+	spaceport ""
 	shipyard human
 	shipyard marauder
 	outfitter human
@@ -771,6 +776,7 @@ planet Korath
 	description `	Ships: Korath`
 	description `	Outfits: Korath`
 	description `	Note: No variants`
+	spaceport ""
 	shipyard korath
 	outfitter korath
 	outfitter drive
@@ -785,6 +791,7 @@ planet MarauderE
 	description `	Ships: Marauder Engine variants`
 	description `	Outfits: Human`
 	description `	Note: No other variants`
+	spaceport ""
 	shipyard maraudere
 	outfitter human
 	outfitter drive
@@ -799,6 +806,7 @@ planet MarauderW
 	description `	Ships: Marauder weapon variants`
 	description `	Outfits: Human`
 	description `	Note: No other variants`
+	spaceport ""
 	shipyard marauderw
 	outfitter human
 	outfitter drive
@@ -812,6 +820,7 @@ planet Mods
         description `Made for editing own stuff`
         description `Ships: shipyard modships`
         description `Outfits: outfitter modoutfits`
+	spaceport ""
         shipyard modships
         outfitter modoutfits
         outfitter drive
@@ -826,6 +835,7 @@ planet Pug
 	description `	Ships: Pug`
 	description `	Outfits: Pug`
 	description `	Note: No variants`
+	spaceport ""
 	shipyard pug
 	outfitter pug
 	outfitter drive
@@ -840,6 +850,7 @@ planet Quarg
 	description `	Ships: Quarg`
 	description `	Outfits: Quarg`
 	description `	Note: No variants`
+	spaceport ""
 	shipyard quarg
 	outfitter quarg
 	outfitter drive
@@ -854,6 +865,7 @@ planet Wanderer
 	description `	Ships: Wanderer`
 	description `	Outfits: Wanderer`
 	description `	Note: No variants`
+	spaceport ""
 	shipyard wanderer
 	outfitter wanderer
 	outfitter drive

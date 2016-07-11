@@ -1086,6 +1086,8 @@ outfitter human
 	"Cloaking Device"
 	"Electron Beam"
 	"Electron Turret"
+	"Gatling Gun"
+	"Gatling Gun Ammo"
 
 outfitter pug
 	"Pug Zapper"

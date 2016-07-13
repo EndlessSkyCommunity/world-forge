@@ -1,0 +1,341 @@
+# Copyright (c) 2016 by Maximilian Korber
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+mission money
+	name "Need Cash?"
+	repeat
+	job
+	source
+		attributes forge
+	description "I need a credit, a credit is what i need...  here, have one billion"
+	on accept
+		payment 1000000000
+		fail
+
+mission "Quarg Rep. +"
+	repeat
+	job
+	source
+		attributes forgequarg
+	description "I talked to the Quarg... They hate me!... Just kidding, we're fine. (+ 10.000)"
+	on accept
+		"reputation: Quarg" += 10000
+		fail
+
+mission "Wanderer Rep. +"
+	repeat
+	job
+	source
+		attributes forgewanderer
+	description "Wanderer Reputation + 10.000"
+	on accept
+		"reputation: Wanderer" += 10000
+		fail
+
+mission "Hai Rep. +"
+	repeat
+	job
+	source
+		attributes forgehai
+	description "Hai Reputation + 10.000"
+	on accept
+		"reputation: Hai" += 10000
+		fail
+
+mission "Hai (Unfettered) Rep. +"
+	repeat
+	job
+	source
+		attributes forgehai
+	description "Hai (Unfettered) Reputation + 10.000"
+	on accept
+		"reputation: Hai (Unfettered)" += 10000
+		fail
+
+mission "Pug Rep. +"
+	repeat
+	job
+	source
+		attributes forgepug
+	description "Pug Reputation + 10.000"
+	on accept
+		"reputation: Pug" += 10000
+		fail
+
+mission "Pirate Rep. +"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Pirate Reputation + 10.000"
+	on accept
+		"reputation: Pirate" += 10000
+		fail
+
+mission "Syndicate Rep. +"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Syndicate Reputation + 10.000"
+	on accept
+		"reputation: Syndicate" += 10000
+		fail
+
+mission "Republic Rep. +"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Republic Reputation + 10.000"
+	on accept
+		"reputation: Republic" += 10000
+		fail
+
+mission "Free Worlds Rep. +"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Free Worlds Reputation + 10.000"
+	on accept
+		"reputation: Free Worlds" += 10000
+		fail
+
+mission "Militia Rep. +"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Militia Reputation + 10.000"
+	on accept
+		"reputation: Militia" += 10000
+		fail
+
+mission "Merchant Rep. +"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Merchant Reputation + 10.000"
+	on accept
+		"reputation: Merchant" += 10000
+		fail
+
+mission "Navy (Oathkeeper) Rep. +"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Navy (Oathkeeper) Reputation + 10.000"
+	on accept
+		"reputation: Navy (Oathkeeper)" += 10000
+		fail
+
+mission "Korath Rep. +"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Korath Reputation + 10.000"
+	on accept
+		"reputation: Korath" += 10000
+		fail
+
+mission "Kor Efret Rep. +"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Kor Efret Reputation + 10.000"
+	on accept
+		"reputation: Kor Efret" += 10000
+		fail
+
+mission "Kor Mereti Rep. +"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Kor Mereti Reputation + 10.000"
+	on accept
+		"reputation: Kor Mereti" += 10000
+		fail
+
+mission "Kor Sestor Rep. +"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Kor Sestor Reputation + 10.000"
+	on accept
+		"reputation: Kor Sestor" += 10000
+		fail
+
+mission "Quarg Rep. -"
+	repeat
+	job
+	source
+		attributes forgequarg
+	description "I talked to the Quarg... They hate me! (-10.000)"
+	on accept
+		"reputation: Quarg" += 10000
+		fail
+
+mission "Wanderer Rep. -"
+	repeat
+	job
+	source
+		attributes forgewanderer
+	description "Wanderer Reputation - 10.000"
+	on accept
+		"reputation: Wanderer" -= 10000
+		fail
+
+mission "Hai Rep. -"
+	repeat
+	job
+	source
+		attributes forgehai
+	description "Hai Reputation - 10.000"
+	on accept
+		"reputation: Hai" -= 10000
+		fail
+
+mission "Hai (Unfettered) Rep. -"
+	repeat
+	job
+	source
+		attributes forgehai
+	description "Hai (Unfettered) Reputation - 10.000"
+	on accept
+		"reputation: Hai (Unfettered)" -= 10000
+		fail
+
+mission "Pug Rep. -"
+	repeat
+	job
+	source
+		attributes forgepug
+	description "Pug Reputation - 10.000"
+	on accept
+		"reputation: Pug" -= 10000
+		fail
+
+mission "Pirate Rep. -"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Pirate Reputation - 10.000"
+	on accept
+		"reputation: Pirate" -= 10000
+		fail
+
+mission "Syndicate Rep. -"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Syndicate Reputation - 10.000"
+	on accept
+		"reputation: Syndicate" -= 10000
+		fail
+
+mission "Republic Rep. -"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Republic Reputation - 10.000"
+	on accept
+		"reputation: Republic" -= 10000
+		fail
+
+mission "Free Worlds Rep. -"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Free Worlds Reputation - 10.000"
+	on accept
+		"reputation: Free Worlds" -= 10000
+		fail
+
+mission "Militia Rep. -"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Militia Reputation - 10.000"
+	on accept
+		"reputation: Militia" -= 10000
+		fail
+
+mission "Merchant Rep. -"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Merchant Reputation - 10.000"
+	on accept
+		"reputation: Merchant" -= 10000
+		fail
+
+mission "Navy (Oathkeeper) Rep. -"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Navy (Oathkeeper) Reputation - 10.000"
+	on accept
+		"reputation: Navy (Oathkeeper)" -= 10000
+		fail
+
+mission "Korath Rep. -"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Korath Reputation - 10.000"
+	on accept
+		"reputation: Korath" -= 10000
+		fail
+
+mission "Kor Efret Rep. -"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Kor Efret Reputation - 10.000"
+	on accept
+		"reputation: Kor Efret" -= 10000
+		fail
+
+mission "Kor Mereti Rep. -"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Kor Mereti Reputation - 10.000"
+	on accept
+		"reputation: Kor Mereti" -= 10000
+		fail
+
+mission "Kor Sestor Rep. -"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Kor Sestor Reputation - 10.000"
+	on accept
+		"reputation: Kor Sestor" -= 10000
+		fail
+

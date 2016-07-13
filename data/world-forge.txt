@@ -971,6 +971,10 @@ outfitter hai
 	`"Biroo" Atomic Steering`
 	`"Bondir" Atomic Steering`
 	`"Bufaer" Atomic Steering`
+	`"Baellie" Atomic Engines`
+	"Sand Cell"
+	"Rail Gun"
+	"Rail Gun Slug"
 
 outfitter human
 	"Energy Blaster"
@@ -1086,6 +1090,8 @@ outfitter human
 	"Cloaking Device"
 	"Electron Beam"
 	"Electron Turret"
+	"Gatling Gun"
+	"Gatling Gun Ammo"
 
 outfitter pug
 	"Pug Zapper"
@@ -1210,6 +1216,8 @@ shipyard hai
 	Aphid
 	"Solifuge"
 	"Violin Spider"
+	"Pond Strider"
+	"Flea"
 
 shipyard human
 	Shuttle

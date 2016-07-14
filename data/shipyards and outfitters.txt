@@ -59,8 +59,8 @@ outfitter hai
 	`"Bufaer" Atomic Steering`
 	`"Baellie" Atomic Engines`
 	"Sand Cell"
-	"Rail Gun"
-	"Rail Gun Slug"
+	"Railgun"
+	"Railgun Slug"
 
 outfitter human
 	"Energy Blaster"

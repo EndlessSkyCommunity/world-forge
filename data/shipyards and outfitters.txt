@@ -269,6 +269,7 @@ outfitter wanderer
 	"Dark Storm Shielding"
 	"Fuel Pod"
 	"Wanderer Ramscoop"
+	"Red Sun Reactor"
 
 outfitter drive
 	"Developer Drive"
@@ -289,7 +290,8 @@ outfitter licenses
 	"Carrier License"
 	"Wanderer License"
 	"Wanderer Military License"
-	"Unfettered Militia"
+	"Unfettered Militia License"
+	"Militia Carrier License"
 
 shipyard deprecated
 
@@ -437,3 +439,4 @@ shipyard wanderer
 	"Autumn Leaf"
 	"Strong Wind"
 	"Deep River"
+	Tempest

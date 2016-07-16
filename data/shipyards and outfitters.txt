@@ -279,6 +279,7 @@ outfitter basic
 	"Jump Drive"
 	"Hypderdrive"
 	"Scram Drive"
+	"Command Center"
 
 outfitter licenses
 	"Pilot's License"

@@ -277,7 +277,7 @@ outfitter basic
 	"Cargo Expansion"
 	"Fuel Pod"
 	"Jump Drive"
-	"Hypderdrive"
+	"Hyperdrive"
 	"Scram Drive"
 	"Command Center"
 

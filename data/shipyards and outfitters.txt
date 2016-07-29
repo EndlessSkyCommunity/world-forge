@@ -267,6 +267,8 @@ outfitter wanderer
 	"Fuel Pod"
 	"Wanderer Ramscoop"
 	"Red Sun Reactor"
+	"Blue Sun Reactor"
+	"Wanderer Heat Sink"
 
 outfitter drive
 	"Developer Drive"
@@ -438,3 +440,5 @@ shipyard wanderer
 	"Strong Wind"
 	"Deep River"
 	Tempest
+	Derecho
+	Hurricane

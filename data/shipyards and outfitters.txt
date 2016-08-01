@@ -254,6 +254,8 @@ outfitter wanderer
 	"Large Biochemical Cell"
 	"Yellow Sun Reactor"
 	"White Sun Reactor"
+	"Red Sun Reactor"
+	"Blue Sun Reactor"
 	"Type 1 Radiant Thruster"
 	"Type 2 Radiant Thruster"
 	"Type 3 Radiant Thruster"
@@ -266,7 +268,7 @@ outfitter wanderer
 	"Dark Storm Shielding"
 	"Fuel Pod"
 	"Wanderer Ramscoop"
-	"Red Sun Reactor"
+	"Wanderer Heat Sink"
 
 outfitter drive
 	"Developer Drive"
@@ -432,9 +434,11 @@ shipyard quarg
 
 shipyard wanderer
 	"Earth Shaper"
-	Flycatcher
+	"Flycatcher"
 	"Summer Leaf"
 	"Autumn Leaf"
 	"Strong Wind"
 	"Deep River"
-	Tempest
+	"Tempest"
+	"Derecho"
+	"Hurricane"

@@ -266,7 +266,6 @@ outfitter wanderer
 	"Type 4 Radiant Steering"
 	"Bright Cloud Shielding"
 	"Dark Storm Shielding"
-	"Fuel Pod"
 	"Wanderer Ramscoop"
 	"Wanderer Heat Sink"
 

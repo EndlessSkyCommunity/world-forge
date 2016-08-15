@@ -411,7 +411,7 @@ system Origin
 		sprite planet/wormhole
 		distance 722.45
 		period 434.207
-	object
+	object Painter
 		sprite planet/callisto
 		distance 1147.49
 		period 869.177
@@ -826,6 +826,17 @@ planet Mods
         outfitter drive
         outfitter basic
         outfitter license
+        security 0
+        
+planet Painter
+        attributes forge
+        landscape ""
+        description `Home of the Painter`
+        description `A mystic entity considering itself an artist.`
+        description `... THE artist.`
+        description `Also likes Earl Grey.`
+        spaceport "A wonderful canvas..."
+        outfitter painter
         security 0
 
 planet Pug

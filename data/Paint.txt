@@ -38,47 +38,47 @@ event "Swizzeled6"
 	government "Escort"
 		swizzle 6
 
-outfit "Swizzle 2(R<->G)"
-	category "Special"
-	cost 0
-	thumbnail "outfit/paint"
-	description "R<->G E.g: Militia. Visit the Spaceport to apply it."
-
-outfit "Swizzle 5(R<->B)"
-	category "Special"
-	cost 0
-	thumbnail "outfit/paint"
-	description "R<->B E.g: Merchant. Visit the Spaceport to apply it."
-
 outfit "Swizzle 0(none)"
 	category "Special"
 	cost 0
 	thumbnail "outfit/paint"
-	description "No swizzle E.g: Navy. Visit the Spaceport to apply it."
-
-outfit "Swizzle 4(R->B->G->R)"
-	category "Special"
-	cost 0
-	thumbnail "outfit/paint"
-	description "R->B->G->R E.g: Syndicate. Visit the Spaceport to apply it."
-
-outfit "Swizzle 3(R->G->B->R)"
-	category "Special"
-	cost 0
-	thumbnail "outfit/paint"
-	description "R->G->B->R E.g: ?. Visit the Spaceport to apply it."
-
-outfit "Swizzle 6(G->R,B->G)"
-	category "Special"
-	cost 0
-	thumbnail "outfit/paint"
-	description "G->R,B->G E.g: Pirates. Visit the Spaceport to apply it."
+	description "No swizzle E.g: Navy; orange and yellow. Visit the Spaceport to apply it."
 
 outfit "Swizzle 1(G<->B)"
 	category "Special"
 	cost 0
 	thumbnail "outfit/paint"
-	description "G<->B E.g: Pinkish Human Ships. Visit the Spaceport to apply it."
+	description "G<->B E.g: Syndicate Exremists; pink. Visit the Spaceport to apply it."
+
+outfit "Swizzle 2(R<->G)"
+	category "Special"
+	cost 0
+	thumbnail "outfit/paint"
+	description "R<->G E.g: Militia; green. Visit the Spaceport to apply it."
+
+outfit "Swizzle 3(R->G->B->R)"
+	category "Special"
+	cost 0
+	thumbnail "outfit/paint"
+	description "R->G->B->R E.g: Test Dummies; light blue and green. Visit the Spaceport to apply it."
+
+outfit "Swizzle 4(R->B->G->R)"
+	category "Special"
+	cost 0
+	thumbnail "outfit/paint"
+	description "R->B->G->R E.g: Syndicate; purple. Visit the Spaceport to apply it."
+
+outfit "Swizzle 5(R<->B)"
+	category "Special"
+	cost 0
+	thumbnail "outfit/paint"
+	description "R<->B E.g: Merchants; blue. Visit the Spaceport to apply it."
+
+outfit "Swizzle 6(G->R,B->G)"
+	category "Special"
+	cost 0
+	thumbnail "outfit/paint"
+	description "G->R,B->G E.g: Pirates; red and black. Visit the Spaceport to apply it."
 
 outfitter painter
         "Swizzle 0(none)"

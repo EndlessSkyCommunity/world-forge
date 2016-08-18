@@ -236,7 +236,7 @@ outfitter quarg
 	"Nanotech Battery"
 	"Antimatter Core"
 	"Quarg Skylance"
-	"Quarg Anti-Missle"
+	"Quarg Anti-Missile"
 	"Intrusion Countermeasures"
 	"Medium Graviton Thruster"
 	"Medium Graviton Steering"

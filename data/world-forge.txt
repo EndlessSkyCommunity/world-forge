@@ -9,24 +9,15 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 start
-	date 16 11 3013
 	system Origin
 	planet Forge
-	account
-		credits 480000
-		score 400
-		mortgage Mortgage
-			principal 480000
-			interest 0.004
-			term 365
-	set "license: Pilot's"
 
 conversation intro
 	scene scene/eso0
 	"Breaking the 4th wall and going straight into godmode?"
 	"	I would recommend you play the actual game. If you have done so, enjoy this. use it for testing, or just a sandbox experience."
 	`	For the purposes of not needing to remove this plugin every time you want to start a new pilot meant for playing the game without cheating, you have been given the normal amount of credits and starting mortgage, but you may easily go to the jobs board here on Forge and "earn" yourself some credits to pay off your mortgage and buy whatever you want.`
-	`	Special thanks to Derpy Horse, LocalGod and FallenCat for helping in development, and thanks for testing to:"`
+	`	Special thanks to Derpy Horse, LocalGod and FallenCat and [update needed] for helping in development, and thanks for testing to:"`
 	name
 	"	Have fun!"
 

@@ -8,6 +8,166 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+mission "Add Pilot's License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Gives you a Pilot's license."
+	on accept
+		set "license: Pilot's"
+		fail
+
+mission "Add Navy License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Gives you a Navy license."
+	on accept
+		set "license: Navy"
+		fail
+
+mission "Add Cruiser License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Gives you a Cruiser license."
+	on accept
+		set "license: Cruiser"
+		fail
+
+mission "Add Carrier License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Gives you a Carrier license."
+	on accept
+		set "license: Carrier"
+		fail
+
+mission "Add Wanderer License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Gives you a Wanderer license."
+	on accept
+		set "license: Wanderer"
+		fail
+
+mission "Add Wanderer Military License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Gives you a Wanderer Military license."
+	on accept
+		set "license: Wanderer Military"
+		fail
+
+mission "Add Unfettered Militia License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Gives you an Unfettered Militia license."
+	on accept
+		set "license: Unfettered Militia"
+		fail
+
+mission "Add Militia Carrier License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Gives you a Milita Carrier license."
+	on accept
+		set "license: Militia Carrier"
+		fail
+
+mission "Remove Pilot's License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Removes your Pilot's license."
+	on accept
+		clear "license: Pilot's"
+		fail
+
+mission "Remove Navy License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Removes your Navy license."
+	on accept
+		clear "license: Navy"
+		fail
+
+mission "Remove Cruiser License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Removes your Cruiser license."
+	on accept
+		clear "license: Cruiser"
+		fail
+
+mission "Remove Carrier License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Removes your Carrier license."
+	on accept
+		clear "license: Carrier"
+		fail
+
+mission "Remove Wanderer License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Removes your Wanderer license."
+	on accept
+		clear "license: Wanderer"
+		fail
+
+mission "Remove Wanderer Military License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Removes your Wanderer Military license."
+	on accept
+		clear "license: Wanderer Military"
+		fail
+
+mission "Remove Unfettered Militia License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Removes your Unfettered Militia license."
+	on accept
+		clear "license: Unfettered Militia"
+		fail
+
+mission "Remove Militia Carrier License"
+	repeat
+	job
+	source
+		attributes forgelicenses
+	description "Removes your Milita Carrier license."
+	on accept
+		clear "license: Militia Carrier"
+		fail
+
 mission money
 	name "Need Cash?"
 	repeat
@@ -338,4 +498,3 @@ mission "Kor Sestor Rep. -"
 	on accept
 		"reputation: Kor Sestor" -= 10000
 		fail
-

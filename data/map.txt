@@ -727,7 +727,7 @@ planet Forge
 	shipyard marauder
 	shipyard wanderer
 	shipyard deprecated
-	shipyard mods
+	shipyard modships
 	outfitter drak
 	outfitter hai
 	outfitter human
@@ -738,7 +738,7 @@ planet Forge
 	outfitter drive
 	outfitter basic
 	outfitter deprecated
-	outfitter mods
+	outfitter modoutfits
 	outfitter licenses
 	security 0
 

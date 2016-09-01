@@ -403,7 +403,7 @@ system Origin
 		sprite planet/venus
 		distance 351.61
 		period 147.427
-		object
+		object Licenses
 			sprite planet/lava0
 			distance 168
 			period 24.8475
@@ -735,7 +735,6 @@ planet Forge
 	outfitter wanderer
 	outfitter drive
 	outfitter basic
-	outfitter licenses
 	security 0
 
 planet Hai
@@ -750,7 +749,6 @@ planet Hai
 	outfitter hai
 	outfitter drive
 	outfitter basic
-	outfitter licenses
 	security 0
 
 planet Human
@@ -766,7 +764,6 @@ planet Human
 	outfitter human
 	outfitter drive
 	outfitter basic
-	outfitter licenses
 	security 0
 
 planet Korath
@@ -781,7 +778,13 @@ planet Korath
 	outfitter korath
 	outfitter drive
 	outfitter basic
-	outfitter licenses
+	security 0
+
+planet Licenses
+	attributes forge forgelicenses
+	landscape land/
+	description `All licenses in the game are offered here. Check the jobs board to see them.`
+	spaceport ""
 	security 0
 
 planet MarauderE
@@ -796,7 +799,6 @@ planet MarauderE
 	outfitter human
 	outfitter drive
 	outfitter basic
-	outfitter licenses
 	security 0
 
 planet MarauderW
@@ -811,7 +813,6 @@ planet MarauderW
 	outfitter human
 	outfitter drive
 	outfitter basic
-	outfitter licenses
 	security 0
 	
 planet Mods
@@ -851,7 +852,6 @@ planet Pug
 	outfitter pug
 	outfitter drive
 	outfitter basic
-	outfitter licenses
 	security 0
 
 planet Quarg
@@ -866,7 +866,6 @@ planet Quarg
 	outfitter quarg
 	outfitter drive
 	outfitter basic
-	outfitter licenses
 	security 0
 
 planet Wanderer
@@ -881,5 +880,4 @@ planet Wanderer
 	outfitter wanderer
 	outfitter drive
 	outfitter basic
-	outfitter licenses
 	security 0

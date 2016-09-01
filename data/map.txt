@@ -726,6 +726,8 @@ planet Forge
 	shipyard korath
 	shipyard marauder
 	shipyard wanderer
+	shipyard deprecated
+	shipyard modships
 	outfitter drak
 	outfitter hai
 	outfitter human
@@ -735,6 +737,8 @@ planet Forge
 	outfitter wanderer
 	outfitter drive
 	outfitter basic
+	outfitter deprecated
+	outfitter modoutfits
 	security 0
 
 planet Hai

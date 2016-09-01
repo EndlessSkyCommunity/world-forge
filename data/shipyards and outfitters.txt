@@ -282,16 +282,6 @@ outfitter basic
 	"Scram Drive"
 	"Command Center"
 
-outfitter licenses
-	"Pilot's License"
-	"Navy License"
-	"Cruiser License"
-	"Carrier License"
-	"Wanderer License"
-	"Wanderer Military License"
-	"Unfettered Militia License"
-	"Militia Carrier License"
-
 shipyard deprecated
 
 shipyard drak

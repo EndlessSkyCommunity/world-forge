@@ -231,6 +231,8 @@ outfitter korath
 	"Korath Disruptor"
 	"Korath Slicer"
 	"Korath Slicer Turret"
+	"Reasoning Node"
+	"Control Transciever"
 
 outfitter quarg
 	"Nanotech Battery"

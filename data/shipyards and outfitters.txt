@@ -143,12 +143,9 @@ outfitter human
 	"Heavy Rocket Launcher"
 	"Torpedo Launcher"
 	"Beam Laser"
-	"Small Bunk Room"
-	"Bunk Room"
 	Afterburner
 	"Outfit Scanner"
 	Supercapacitor
-	"Pilot's License"
 	"Security Station"
 	"Laser Rifle"
 	Ramscoop
@@ -232,7 +229,7 @@ outfitter korath
 	"Korath Slicer"
 	"Korath Slicer Turret"
 	"Reasoning Node"
-	"Control Transciever"
+	"Control Transceiver"
 
 outfitter quarg
 	"Nanotech Battery"
@@ -283,6 +280,8 @@ outfitter basic
 	"Hyperdrive"
 	"Scram Drive"
 	"Command Center"
+	"Small Bunk Room"
+	"Bunk Room"
 
 shipyard deprecated
 

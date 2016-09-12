@@ -59,7 +59,7 @@ outfitter hai
 	`"Bufaer" Atomic Steering`
 	`"Baellie" Atomic Engines`
 	"Sand Cell"
-	"Railgun"
+	Railgun
 	"Railgun Slug"
 
 outfitter human
@@ -277,7 +277,7 @@ outfitter basic
 	"Cargo Expansion"
 	"Fuel Pod"
 	"Jump Drive"
-	"Hyperdrive"
+	Hyperdrive
 	"Scram Drive"
 	"Command Center"
 	"Small Bunk Room"
@@ -293,10 +293,10 @@ shipyard hai
 	"Lightning Bug"
 	"Water Bug"
 	Aphid
-	"Solifuge"
+	Solifuge
 	"Violin Spider"
 	"Pond Strider"
-	"Flea"
+	Flea
 
 shipyard human
 	Shuttle
@@ -424,11 +424,12 @@ shipyard quarg
 
 shipyard wanderer
 	"Earth Shaper"
-	"Flycatcher"
+	Flycatcher
 	"Summer Leaf"
 	"Autumn Leaf"
 	"Strong Wind"
 	"Deep River"
-	"Tempest"
-	"Derecho"
-	"Hurricane"
+	Tempest
+	Derecho
+	Hurricane
+	"Deep River Transport"

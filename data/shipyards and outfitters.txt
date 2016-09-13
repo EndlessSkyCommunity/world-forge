@@ -59,7 +59,7 @@ outfitter hai
 	`"Bufaer" Atomic Steering`
 	`"Baellie" Atomic Engines`
 	"Sand Cell"
-	Railgun
+	"Railgun"
 	"Railgun Slug"
 
 outfitter human
@@ -129,9 +129,9 @@ outfitter human
 	"Anti-Missile Turret"
 	"Heavy Anti-Missile Turret"
 	"Meteor Missile"
-	Torpedo
+	"Torpedo"
 	"Sidewinder Missile"
-	Javelin
+	"Javelin"
 	"Heavy Rocket"
 	"Cargo Scanner"
 	"Small Radar Jammer"
@@ -143,12 +143,12 @@ outfitter human
 	"Heavy Rocket Launcher"
 	"Torpedo Launcher"
 	"Beam Laser"
-	Afterburner
+	"Afterburner"
 	"Outfit Scanner"
-	Supercapacitor
+	"Supercapacitor"
 	"Security Station"
 	"Laser Rifle"
-	Ramscoop
+	"Ramscoop"
 	"Laser Turret"
 	"Heavy Laser"
 	"Heavy Laser Turret"
@@ -167,7 +167,7 @@ outfitter human
 	"Typhoon Launcher"
 	"Typhoon Torpedo"
 	"Ionic Afterburner"
-	Flamethrower
+	"Flamethrower"
 	"S-270 Regenerator"
 	"S-970 Regenerator"
 	"Cloaking Device"
@@ -242,13 +242,13 @@ outfitter quarg
 	"Quantum Shield Generator"
 
 outfitter wanderer
-	Sunbeam
+	"Sunbeam"
 	"Sunbeam Turret"
 	"Dual Sunbeam Turret"
 	"Wanderer Anti-Missile"
 	"Thunderhead Missile"
 	"Thunderhead Launcher"
-	Thunderhead
+	"Thunderhead"
 	"Small Biochemical Cell"
 	"Large Biochemical Cell"
 	"Yellow Sun Reactor"
@@ -277,7 +277,7 @@ outfitter basic
 	"Cargo Expansion"
 	"Fuel Pod"
 	"Jump Drive"
-	Hyperdrive
+	"Hyperdrive"
 	"Scram Drive"
 	"Command Center"
 	"Small Bunk Room"
@@ -286,75 +286,75 @@ outfitter basic
 shipyard deprecated
 
 shipyard drak
-	Archon
+	"Archon"
 
 shipyard hai
 	"Shield Beetle"
 	"Lightning Bug"
 	"Water Bug"
-	Aphid
-	Solifuge
+	"Aphid"
+	"Solifuge"
 	"Violin Spider"
 	"Pond Strider"
-	Flea
+	"Flea"
 
 shipyard human
-	Shuttle
-	Sparrow
+	"Shuttle"
+	"Sparrow"
 	"Star Barge"
-	Hawk
-	Blackbird
-	Osprey
-	Falcon
-	Clipper
-	Fury
-	Argosy
-	Hauler
+	"Hawk"
+	"Blackbird"
+	"Osprey"
+	"Falcon"
+	"Clipper"
+	"Fury"
+	"Argosy"
+	"Hauler"
 	"Hauler II"
 	"Hauler III"
-	Bastion
-	Scout
-	Dagger
-	Flivver
-	Headhunter
-	Raven
-	Mule
-	Aerie
-	Corvette
-	Bactrian
+	"Bastion"
+	"Scout"
+	"Dagger"
+	"Flivver"
+	"Headhunter"
+	"Raven"
+	"Mule"
+	"Aerie"
+	"Corvette"
+	"Bactrian"
 	"Heavy Shuttle"
-	Berserker
-	Firebird
-	Leviathan
-	Behemoth
+	"Berserker"
+	"Firebird"
+	"Leviathan"
+	"Behemoth"
 	"Star Queen"
-	Rainmaker
-	Gunboat
-	Lance
+	"Rainmaker"
+	"Gunboat"
+	"Lance"
 	"Combat Drone"
 	"Surveillance Drone"
-	Frigate
-	Cruiser
-	Carrier
-	Quicksilver
-	Bounder
-	Splinter
-	Manta
-	Wasp
-	Freighter
+	"Frigate"
+	"Cruiser"
+	"Carrier"
+	"Quicksilver"
+	"Bounder"
+	"Splinter"
+	"Manta"
+	"Wasp"
+	"Freighter"
 	"Bulk Freighter"
-	Protector
-	Vanguard
-	Arrow
+	"Protector"
+	"Vanguard"
+	"Arrow"
 	"Modified Argosy"
-	Dreadnought
-	Skein
-	Roost
-	Nest
-	Barb
+	"Dreadnought"
+	"Skein"
+	"Roost"
+	"Nest"
+	"Barb"
 	"Barb (Proton)"
-	Boxwing
-	Finch
+	"Boxwing"
+	"Finch"
 	"Kestrel (More Shields)"
 	"Kestrel (More Weapons)"
 	"Kestrel (More Engines)"
@@ -424,12 +424,12 @@ shipyard quarg
 
 shipyard wanderer
 	"Earth Shaper"
-	Flycatcher
+	"Flycatcher"
 	"Summer Leaf"
 	"Autumn Leaf"
 	"Strong Wind"
 	"Deep River"
-	Tempest
-	Derecho
-	Hurricane
+	"Tempest"
+	"Derecho"
+	"Hurricane"
 	"Deep River Transport"

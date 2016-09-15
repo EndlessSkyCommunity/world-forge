@@ -282,6 +282,18 @@ outfitter basic
 	"Command Center"
 	"Small Bunk Room"
 	"Bunk Room"
+	"Aluminum"
+	"Copper"
+	"Gold"
+	"Iron"
+	"Lead"
+	"Neodymium"
+	"Platinum
+	"Silicon"
+	"Silver"
+	"Titanium"
+	"Tungsten"
+	"Uranium"
 
 shipyard deprecated
 

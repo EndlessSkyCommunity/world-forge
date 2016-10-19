@@ -728,6 +728,30 @@ planet Forge
 	shipyard wanderer
 	shipyard deprecated
 	shipyard modships
+	shipyard "Basic Ships"
+	shipyard "Tarazed Basics"
+	shipyard "Tarazed Advanced"
+	shipyard "Southbound Basics"
+	shipyard "Southbound Advanced"
+	shipyard "Lionheart Basics"
+	shipyard "Lionheart Advanced"
+	shipyard "Betelgeuse Basics"
+	shipyard "Betelgeuse Advanced"
+	shipyard "Navy Basics"
+	shipyard "Navy Advanced"
+	shipyard "Megaparsec Basics"
+	shipyard "Megaparsec Advanced"
+	shipyard "Syndicate Basics"
+	shipyard "Syndicate Advanced"
+	shipyard "Southern Pirates"
+	shipyard "Northern Pirates"
+	shipyard "Luxury Ships"
+	shipyard "Hai Basics"
+	shipyard "Hai Intermediate"
+	shipyard "Hai Advanced"
+	shipyard "Wanderer Basics"
+	shipyard "Wanderer Advanced"
+	shipyard "Alien Ships"
 	outfitter drak
 	outfitter hai
 	outfitter human
@@ -739,6 +763,27 @@ planet Forge
 	outfitter basic
 	outfitter deprecated
 	outfitter modoutfits
+	outfitter "Common Outfits"
+	outfitter "Basic Weapons"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "Pirate Outfits"
+	outfitter "Special Outfits"
+	outfitter "Hai Basics"
+	outfitter "Hai Intermediate"
+	outfitter "Hai Advanced"
+	outfitter "Wanderer Basics"
+	outfitter "Wanderer Advanced"
 	security 0
 
 planet Hai
@@ -750,7 +795,13 @@ planet Hai
 	description `	Note: No variants(e.g. unfettered jump beetles)`
 	spaceport ""
 	shipyard hai
+	shipyard "Hai Basics"
+	shipyard "Hai Intermediate"
+	shipyard "Hai Advanced"
 	outfitter hai
+	outfitter "Hai Basics"
+	outfitter "Hai Intermediate"
+	outfitter "Hai Advanced"
 	outfitter drive
 	outfitter basic
 	security 0
@@ -765,7 +816,43 @@ planet Human
 	spaceport ""
 	shipyard human
 	shipyard marauder
+	shipyard "Basic Ships"
+	shipyard "Tarazed Basics"
+	shipyard "Tarazed Advanced"
+	shipyard "Southbound Basics"
+	shipyard "Southbound Advanced"
+	shipyard "Lionheart Basics"
+	shipyard "Lionheart Advanced"
+	shipyard "Betelgeuse Basics"
+	shipyard "Betelgeuse Advanced"
+	shipyard "Navy Basics"
+	shipyard "Navy Advanced"
+	shipyard "Megaparsec Basics"
+	shipyard "Megaparsec Advanced"
+	shipyard "Syndicate Basics"
+	shipyard "Syndicate Advanced"
+	shipyard "Southern Pirates"
+	shipyard "Northern Pirates"
+	shipyard "Luxury Ships"
 	outfitter human
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Basic Weapons"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "Pirate Outfits"
+	outfitter "Stack Core"
+	outfitter "Nuke"
 	outfitter drive
 	outfitter basic
 	security 0
@@ -881,7 +968,11 @@ planet Wanderer
 	description `	Note: No variants`
 	spaceport ""
 	shipyard wanderer
+	shipyard "Wanderer Basics"
+	shipyard "Wanderer Advanced"
 	outfitter wanderer
+	outfitter "Wanderer Basics"
+	outfitter "Wanderer Advanced"
 	outfitter drive
 	outfitter basic
 	security 0

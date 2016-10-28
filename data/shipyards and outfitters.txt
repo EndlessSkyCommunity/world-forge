@@ -288,7 +288,7 @@ outfitter basic
 	"Iron"
 	"Lead"
 	"Neodymium"
-	"Platinum
+	"Platinum"
 	"Silicon"
 	"Silver"
 	"Titanium"

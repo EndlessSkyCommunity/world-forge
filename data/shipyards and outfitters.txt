@@ -28,6 +28,21 @@ outfitter drak
 	"Drak Antimatter Cannon"
 	"Drak Antimatter Fragment"
 
+outfitter coalition
+	"Small Collector Module"
+	"Large Collector Module"
+	"Small Battery Module"
+	"Large Battery Module"
+	"Small Shield Module"
+	"Large Shield Module"
+	"Small Repair Module"
+	"Large Repair Module"
+	"Cooling Module"
+	"Small Thrust Module"
+	"Large Thrust Module"
+	"Small Steering Module"
+	"Large Steering Module"
+
 outfitter hai
 	"Ion Cannon"
 	"Pulse Cannon"
@@ -299,6 +314,21 @@ shipyard deprecated
 
 shipyard drak
 	"Archon"
+
+shipyard coalition
+	"Arach Courier"
+	"Arach Freighter"
+	"Arach Hulk"
+	"Arach Spindle"
+	"Arach Transport"
+	"Kimek Briar"
+	"Kimek Spire"
+	"Kimek Thistle"
+	"Kimek Thorn"
+	"Saryd Runabout"
+	"Saryd Sojourner"
+	"Saryd Traveler"
+	"Saryd Visitor"
 
 shipyard hai
 	"Shield Beetle"

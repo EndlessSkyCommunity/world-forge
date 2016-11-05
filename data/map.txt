@@ -724,9 +724,9 @@ planet Forge
 	shipyard pug
 	shipyard quarg
 	shipyard korath
+	shipyard coalition
 	shipyard marauder
 	shipyard wanderer
-	shipyard deprecated
 	shipyard modships
 	shipyard "Basic Ships"
 	shipyard "Tarazed Basics"
@@ -758,10 +758,10 @@ planet Forge
 	outfitter pug
 	outfitter quarg
 	outfitter korath
+	outfitter coalition
 	outfitter wanderer
 	outfitter drive
 	outfitter basic
-	outfitter deprecated
 	outfitter modoutfits
 	outfitter "Common Outfits"
 	outfitter "Basic Weapons"

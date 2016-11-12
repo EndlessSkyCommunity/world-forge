@@ -15,6 +15,7 @@ galaxy "World Forge"
 system Arena
 	pos -10091.6 -10149.4
 	habitable 745.92
+	link Coalition
 	link Origin
 	link Pug
 	link Wanderer
@@ -67,6 +68,58 @@ system Arena
 			sprite planet/rock17
 			distance 286
 			period 19.6973
+
+system Coalition
+	pos -10106 -10073.4
+	government Uninhabited
+	habitable 320
+	link Arena
+	link Origin
+	link Wanderer
+	asteroids "medium rock" 1 2.576
+	asteroids "large rock" 1 2.3744
+	asteroids "small metal" 1 2.5536
+	asteroids "medium metal" 1 1.9936
+	asteroids "large metal" 3 2.8224
+	object
+		sprite star/m0
+		period 10
+	object Coalition
+		sprite planet/venus
+		distance 351.61
+		period 147.427
+		object
+			sprite planet/lava0
+			distance 168
+			period 24.8475
+	object
+		sprite planet/wormhole
+		distance 722.45
+		period 434.207
+	object
+		sprite planet/callisto
+		distance 1147.49
+		period 869.177
+	object
+		sprite planet/gas13
+		distance 2305.74
+		period 2475.71
+		object
+			sprite planet/io
+			distance 292
+			period 14.0859
+		object
+			sprite planet/dust7
+			distance 411
+			period 23.5219
+		object
+			sprite planet/dust0
+			distance 524
+			period 33.8616
+		object
+			sprite planet/rock0
+			distance 644
+			period 46.1359
 
 system Deprecated+Mods
 	pos -9916.04 -10101.6
@@ -385,6 +438,7 @@ system Origin
 	government Uninhabited
 	habitable 320
 	link Arena
+	link Coalition
 	link Human
 	link Quarg
 	link Pug
@@ -642,6 +696,7 @@ system "Team Red"
 system Wanderer
 	pos -10205.9 -10038.8
 	habitable 625
+	link Coalition
 	link Origin
 	link Hai
 	link Korath
@@ -682,6 +737,19 @@ system Wanderer
 			sprite planet/dust3
 			distance 347
 			period 24.2373
+
+planet Coalition
+	attributes forge forgecoalition
+	landscape ""
+	description `Races: Arach, Kimek, and Saryd`
+	description `	Ships: Arach, Kimek, and Saryd`
+	description `	Outfits: Coalition`
+	description `	Note: No variants.`
+	spaceport ""
+	shipyard coalition
+	outfitter coalition
+	outfitter drive
+	outfitter basic
 
 planet Deprecated
 	attributes forge

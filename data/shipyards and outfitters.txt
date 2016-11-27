@@ -76,6 +76,7 @@ outfitter hai
 	"Sand Cell"
 	"Railgun"
 	"Railgun Slug"
+	"Tracker Storage Pod"
 
 outfitter human
 	"Energy Blaster"
@@ -190,6 +191,13 @@ outfitter human
 	"Electron Turret"
 	"Gatling Gun"
 	"Gatling Gun Ammo"
+	"Bullet Boxes"
+	"Typhoon Storage Tube"
+	"Sidewinder Storage Rack"
+	"Meteor Missile Box"
+	"Heavy Rocket Rack"
+	"Javelin Storage Crate"
+	"Torpedo Storage Rack"
 
 outfitter pug
 	"Pug Zapper"
@@ -245,6 +253,8 @@ outfitter korath
 	"Korath Slicer Turret"
 	"Reasoning Node"
 	"Control Transceiver"
+	"Korath Piercer Rack"
+	"Korath Mine Rack"
 
 outfitter quarg
 	"Nanotech Battery"
@@ -282,6 +292,7 @@ outfitter wanderer
 	"Dark Storm Shielding"
 	"Wanderer Ramscoop"
 	"Wanderer Heat Sink"
+	"Thunderhead Storage Array"
 
 outfitter drive
 	"Developer Drive"

@@ -42,6 +42,11 @@ outfitter coalition
 	"Large Thrust Module"
 	"Small Steering Module"
 	"Large Steering Module"
+	"Finisher Pod"
+	"Finisher Torpedo"
+	"Heliarch Attractor"
+	"Heliarch Repulsor"
+	"Ion Rain Gun"
 
 outfitter hai
 	"Ion Cannon"

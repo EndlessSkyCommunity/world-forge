@@ -47,6 +47,10 @@ outfitter coalition
 	"Heliarch Attractor"
 	"Heliarch Repulsor"
 	"Ion Rain Gun"
+	"Bombardment Cannon"
+	"Bombardment Turret"
+	"Small Reactor Module"
+	"Large Reactor Module"
 
 outfitter hai
 	"Ion Cannon"
@@ -345,6 +349,9 @@ shipyard coalition
 	"Saryd Sojourner"
 	"Saryd Traveler"
 	"Saryd Visitor"
+	"Heliarch Neutralizer"
+	"Heliarch Interdictor"
+	"Heliarch Punisher"
 
 shipyard hai
 	"Shield Beetle"

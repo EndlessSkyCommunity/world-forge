@@ -436,6 +436,7 @@ shipyard korath
 	"Far Osk 27"
 	"Met Par Tek 53"
 	"Kar Ik Vot 349"
+	"Model 8"
 	"Model 16"
 	"Model 32"
 	"Model 64"

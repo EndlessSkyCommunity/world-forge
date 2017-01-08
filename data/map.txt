@@ -372,31 +372,6 @@ system Korath
 			period 36.1525
 
 system Nocte
-	pos -467 172
-	government Republic
-	habitable 135
-	link Vega
-	asteroids "small rock" 121 1.9558
-	asteroids "medium rock" 14 1.9096
-	asteroids "large rock" 28 1.4784
-	asteroids "small metal" 8 1.8326
-	asteroids "medium metal" 77 2.2946
-	asteroids "large metal" 19 1.7094
-	trade Clothing 311
-	trade Electronics 713
-	trade Equipment 514
-	trade Food 385
-	trade "Heavy Metals" 917
-	trade Industrial 619
-	trade "Luxury Goods" 1020
-	trade Medical 566
-	trade Metal 285
-	trade Plastic 363
-	fleet "Small Northern Merchants" 1500
-	fleet "Large Northern Merchants" 5000
-	fleet "Small Republic" 3000
-	fleet "Large Republic" 7000
-	fleet "Small Northern Pirates" 2500
 	object
 		sprite star/m4
 		period 10

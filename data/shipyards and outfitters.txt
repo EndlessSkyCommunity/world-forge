@@ -202,7 +202,7 @@ outfitter human
 	"Gatling Gun Ammo"
 	"Bullet Boxes"
 	"Typhoon Storage Tube"
-	"Sidewinder Storage Rack"
+	"Sidewinder Missile Rack"
 	"Meteor Missile Box"
 	"Heavy Rocket Rack"
 	"Javelin Storage Crate"

@@ -950,29 +950,29 @@ planet MarauderW
 	security 0
 	
 planet Mods
-        attributes forge
-        landscape ""
-        description `Made for editing own stuff`
-        description `Ships: shipyard modships`
-        description `Outfits: outfitter modoutfits`
+	attributes forge
+	landscape ""
+	description `Made for editing own stuff`
+	description `Ships: shipyard modships`
+	description `Outfits: outfitter modoutfits`
 	spaceport ""
-        shipyard modships
-        outfitter modoutfits
-        outfitter drive
-        outfitter basic
-        outfitter license
-        security 0
+	shipyard modships
+	outfitter modoutfits
+	outfitter drive
+	outfitter basic
+	outfitter license
+	security 0
         
 planet Painter
-        attributes forge
-        landscape ""
-        description `Home of the Painter`
-        description `A mystic entity considering itself an artist.`
-        description `... THE artist.`
-        description `Also likes Earl Grey.`
-        spaceport "A wonderful canvas..."
-        outfitter painter
-        security 0
+	attributes forge
+	landscape ""
+	description `Home of the Painter`
+	description `A mystic entity considering itself an artist.`
+	description `... THE artist.`
+	description `Also likes Earl Grey.`
+	spaceport "A wonderful canvas..."
+	outfitter painter
+	security 0
 
 planet Pug
 	attributes forge forgepug

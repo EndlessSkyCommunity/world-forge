@@ -332,6 +332,10 @@ outfitter basic
 
 shipyard deprecated
 
+shipyard persons
+	"God Kestrel"
+	"Captain Nate's Vanguard"
+
 shipyard drak
 	"Archon"
 

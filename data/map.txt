@@ -761,7 +761,6 @@ planet Forge
 	description `	Outfits: all`
 	description `	Note: No variants`
 	spaceport ""
-	shipyard persons
 	shipyard drak
 	shipyard hai
 	shipyard human

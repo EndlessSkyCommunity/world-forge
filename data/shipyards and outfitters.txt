@@ -19,6 +19,7 @@ outfitter deprecated
 	"Korath Ark'parat Steering"
 	"Korath Jak'torbal Thruster"
 	"Korath Jak'parat Steering"
+	"Mass Expansion"
 
 outfitter drak
 	"Drak Distancer"
@@ -308,7 +309,7 @@ outfitter drive
 
 outfitter basic
 	"Local Map"
-	"Mass Expansion"
+	"Outfits Expansion"
 	"Cargo Expansion"
 	"Fuel Pod"
 	"Jump Drive"

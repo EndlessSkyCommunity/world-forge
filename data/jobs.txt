@@ -179,6 +179,16 @@ mission money
 		payment 1000000000
 		fail
 
+mission "Boost Combat Rating"
+	repeat
+	job
+	source
+		attributes forge
+	description "Boost your combat rating by 200,000 (enough to go from 0 to 12)."
+	on accept
+		"combat rating" += 200000
+		fail
+
 mission "Quarg Rep. +"
 	repeat
 	job
@@ -339,6 +349,26 @@ mission "Kor Sestor Rep. +"
 		"reputation: Kor Sestor" += 10000
 		fail
 
+mission "Coalition Rep. +"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Coalition Reputation + 10.000"
+	on accept
+		"reputation: Coalition" += 10000
+		fail
+
+mission "Heliarch Rep. +"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Heliarch Reputation + 10.000"
+	on accept
+		"reputation: Heliarch" += 10000
+		fail
+
 mission "Quarg Rep. -"
 	repeat
 	job
@@ -497,4 +527,24 @@ mission "Kor Sestor Rep. -"
 	description "Kor Sestor Reputation - 10.000"
 	on accept
 		"reputation: Kor Sestor" -= 10000
+		fail
+
+mission "Coalition Rep. -"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Coalition Reputation - 10.000"
+	on accept
+		"reputation: Coalition" -= 10000
+		fail
+
+mission "Heliarch Rep. -"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Heliarch Reputation - 10.000"
+	on accept
+		"reputation: Heliarch" -= 10000
 		fail

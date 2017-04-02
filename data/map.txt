@@ -717,8 +717,8 @@ planet Coalition
 	attributes forge forgecoalition
 	landscape ""
 	description `Races: Arach, Kimek, and Saryd`
-	description `	Ships: Arach, Kimek, and Saryd`
-	description `	Outfits: Coalition`
+	description `	Ships: Arach, Kimek, Saryd, and Heliarch`
+	description `	Outfits: Coalition and Heliarch`
 	description `	Note: No variants.`
 	spaceport ""
 	shipyard coalition
@@ -754,7 +754,7 @@ planet Drak
 	security 0
 
 planet Forge
-	attributes forge forgedrak forgehai forgehuman forgekorath forgepug forgewanderer
+	attributes forge forgedrak forgehai forgehuman forgekorath forgepug forgewanderer forgequarg forgecoalition
 	landscape hochofen
 	description `Race: all`
 	description `	Ships: all`

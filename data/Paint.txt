@@ -41,43 +41,43 @@ event "Swizzeled6"
 outfit "Swizzle 0(none)"
 	category "Special"
 	cost 0
-	thumbnail "outfit/paint"
+	thumbnail "outfit/swizzle0"
 	description "No swizzle E.g: Navy; orange and yellow. Visit the Spaceport to apply it."
 
 outfit "Swizzle 1(G<->B)"
 	category "Special"
 	cost 0
-	thumbnail "outfit/paint"
+	thumbnail "outfit/swizzle1"
 	description "G<->B E.g: Syndicate Exremists; pink. Visit the Spaceport to apply it."
 
 outfit "Swizzle 2(R<->G)"
 	category "Special"
 	cost 0
-	thumbnail "outfit/paint"
+	thumbnail "outfit/swizzle2"
 	description "R<->G E.g: Militia; green. Visit the Spaceport to apply it."
 
 outfit "Swizzle 3(R->G->B->R)"
 	category "Special"
 	cost 0
-	thumbnail "outfit/paint"
+	thumbnail "outfit/swizzle3"
 	description "R->G->B->R E.g: Test Dummies; light blue and green. Visit the Spaceport to apply it."
 
 outfit "Swizzle 4(R->B->G->R)"
 	category "Special"
 	cost 0
-	thumbnail "outfit/paint"
+	thumbnail "outfit/swizzle4"
 	description "R->B->G->R E.g: Syndicate; purple. Visit the Spaceport to apply it."
 
 outfit "Swizzle 5(R<->B)"
 	category "Special"
 	cost 0
-	thumbnail "outfit/paint"
+	thumbnail "outfit/swizzle5"
 	description "R<->B E.g: Merchants; blue. Visit the Spaceport to apply it."
 
 outfit "Swizzle 6(G->R,B->G)"
 	category "Special"
 	cost 0
-	thumbnail "outfit/paint"
+	thumbnail "outfit/swizzle6"
 	description "G->R,B->G E.g: Pirates; red and black. Visit the Spaceport to apply it."
 
 outfitter painter

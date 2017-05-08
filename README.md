@@ -11,3 +11,4 @@ It does support older pilots without doing harm to them, but also has a altered 
 Thx Local God, LeafyGrove, Storm Crow for helping in creating and updating.
 Thx to Earl Grey, from whom i basically copied and edited the swizzle change system.
 Special Thanks goes to Derpy Horse, as well as the official title "Maintainer of World Forge". 
+No, for real, Derpy is the reason this still exists.

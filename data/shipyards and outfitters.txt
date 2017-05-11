@@ -87,6 +87,7 @@ outfitter hai
 	"Railgun"
 	"Railgun Slug"
 	"Tracker Storage Pod"
+	"Quantum Keystone"
 
 outfitter human
 	"Energy Blaster"
@@ -304,6 +305,28 @@ outfitter wanderer
 	"Wanderer Heat Sink"
 	"Thunderhead Storage Array"
 
+outfitter remnant
+	"Inhibitor Cannon"
+	"Thrasher Cannon"
+	"Thrasher Turret"
+	"Point Defense Turret"
+	"Crystal Capacitor"
+	"Millennium Cell"
+	"Epoch Cell"
+	"Aeon Cell"
+	"Thermoelectric Cooler"
+	"Emergency Ramscoop"
+	"Quantum Key Stone"
+	"Crucible-Class Thruster"
+	"Crucible-Class Steering"
+	"Forge-Class Thruster"
+	"Forge-Class Steering"
+	"Smelter-Class Thruster"
+	"Smelter-Class Steering"
+
+outfitter void
+	Mouthparts?
+
 outfitter drive
 	"Developer Drive"
 
@@ -500,3 +523,11 @@ shipyard wanderer
 	"Derecho"
 	"Hurricane"
 	"Deep River Transport"
+
+shipyard remnant
+	"Starling"
+	"Albatross"
+
+shipyard void
+	"Void Sprite"
+	"Void Sprite (Infant)"

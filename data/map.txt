@@ -771,6 +771,8 @@ planet Forge
 	shipyard marauder
 	shipyard wanderer
 	shipyard modships
+	shipyard remnant
+	shipyard void
 	shipyard "Basic Ships"
 	shipyard "Tarazed Basics"
 	shipyard "Tarazed Advanced"
@@ -806,6 +808,8 @@ planet Forge
 	outfitter drive
 	outfitter basic
 	outfitter modoutfits
+	outfitter remnant
+	outfitter void
 	outfitter "Common Outfits"
 	outfitter "Basic Weapons"
 	outfitter "Ammo North"

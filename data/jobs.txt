@@ -441,7 +441,7 @@ mission "Friendly Remnant"
 	repeat
 	job
 	source
-		attributes forgecoalition
+		attributes forge
 	description "Set your reputation with the Remnant to positive 100,000."
 	to offer
 		"reputation: Remnant" <= 0
@@ -453,7 +453,7 @@ mission "Friendly Drak"
 	repeat
 	job
 	source
-		attributes forgecoalition
+		attributes forgedrak
 	description "Set your reputation with the Drak to positive 100,000."
 	to offer
 		"reputation: Drak" <= 0
@@ -693,7 +693,7 @@ mission "Hostile Drak"
 	repeat
 	job
 	source
-		attributes forge
+		attributes forgedrak
 	description "Set your reputation with the Drak to negative 100,000."
 	to offer
 		"reputation: Drak" >= 0

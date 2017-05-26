@@ -14,6 +14,8 @@ mission "Add Pilot's License"
 	source
 		attributes forgelicenses
 	description "Gives you a Pilot's license."
+	to offer
+		not "license: Pilot's"
 	on accept
 		set "license: Pilot's"
 		fail
@@ -24,6 +26,8 @@ mission "Add Navy License"
 	source
 		attributes forgelicenses
 	description "Gives you a Navy license."
+	to offer
+		not "license: Navy"
 	on accept
 		set "license: Navy"
 		fail
@@ -34,6 +38,8 @@ mission "Add Cruiser License"
 	source
 		attributes forgelicenses
 	description "Gives you a Cruiser license."
+	to offer
+		not "license: Cruiser"
 	on accept
 		set "license: Cruiser"
 		fail
@@ -44,6 +50,8 @@ mission "Add Carrier License"
 	source
 		attributes forgelicenses
 	description "Gives you a Carrier license."
+	to offer
+		not "license: Carrier"
 	on accept
 		set "license: Carrier"
 		fail
@@ -54,6 +62,8 @@ mission "Add Wanderer License"
 	source
 		attributes forgelicenses
 	description "Gives you a Wanderer license."
+	to offer
+		not "license: Wanderer"
 	on accept
 		set "license: Wanderer"
 		fail
@@ -64,6 +74,8 @@ mission "Add Wanderer Military License"
 	source
 		attributes forgelicenses
 	description "Gives you a Wanderer Military license."
+	to offer
+		not "license: Wanderer Military"
 	on accept
 		set "license: Wanderer Military"
 		fail
@@ -74,6 +86,8 @@ mission "Add Unfettered Militia License"
 	source
 		attributes forgelicenses
 	description "Gives you an Unfettered Militia license."
+	to offer
+		not "license: Unfettered Militia"
 	on accept
 		set "license: Unfettered Militia"
 		fail
@@ -84,6 +98,8 @@ mission "Add Militia Carrier License"
 	source
 		attributes forgelicenses
 	description "Gives you a Milita Carrier license."
+	to offer
+		not "license: Militia Carrier"
 	on accept
 		set "license: Militia Carrier"
 		fail
@@ -94,6 +110,8 @@ mission "Remove Pilot's License"
 	source
 		attributes forgelicenses
 	description "Removes your Pilot's license."
+	to offer
+		has "license: Pilot's"
 	on accept
 		clear "license: Pilot's"
 		fail
@@ -104,6 +122,8 @@ mission "Remove Navy License"
 	source
 		attributes forgelicenses
 	description "Removes your Navy license."
+	to offer
+		has "license: Navy"
 	on accept
 		clear "license: Navy"
 		fail
@@ -114,6 +134,8 @@ mission "Remove Cruiser License"
 	source
 		attributes forgelicenses
 	description "Removes your Cruiser license."
+	to offer
+		has "license: Cruiser"
 	on accept
 		clear "license: Cruiser"
 		fail
@@ -124,6 +146,8 @@ mission "Remove Carrier License"
 	source
 		attributes forgelicenses
 	description "Removes your Carrier license."
+	to offer
+		has "license: Carrier"
 	on accept
 		clear "license: Carrier"
 		fail
@@ -134,6 +158,8 @@ mission "Remove Wanderer License"
 	source
 		attributes forgelicenses
 	description "Removes your Wanderer license."
+	to offer
+		has "license: Wanderer"
 	on accept
 		clear "license: Wanderer"
 		fail
@@ -144,6 +170,8 @@ mission "Remove Wanderer Military License"
 	source
 		attributes forgelicenses
 	description "Removes your Wanderer Military license."
+	to offer
+		has "license: Wanderer Military"
 	on accept
 		clear "license: Wanderer Military"
 		fail
@@ -154,6 +182,8 @@ mission "Remove Unfettered Militia License"
 	source
 		attributes forgelicenses
 	description "Removes your Unfettered Militia license."
+	to offer
+		has "license: Unfettered Militia"
 	on accept
 		clear "license: Unfettered Militia"
 		fail
@@ -164,6 +194,8 @@ mission "Remove Militia Carrier License"
 	source
 		attributes forgelicenses
 	description "Removes your Milita Carrier license."
+	to offer
+		has "license: Militia Carrier"
 	on accept
 		clear "license: Militia Carrier"
 		fail
@@ -189,362 +221,482 @@ mission "Boost Combat Rating"
 		"combat rating" += 200000
 		fail
 
-mission "Quarg Rep. +"
+mission "Friendly Quarg"
 	repeat
 	job
 	source
 		attributes forgequarg
-	description "I talked to the Quarg... They hate me!... Just kidding, we're fine. (+ 10.000)"
+	description "Set your reputation with the Quarg to positive 100,000."
+	to offer
+		"reputation: Quarg" <= 0
 	on accept
-		"reputation: Quarg" += 10000
+		"reputation: Quarg" == 100000
 		fail
 
-mission "Wanderer Rep. +"
+mission "Friendly Wanderer"
 	repeat
 	job
 	source
 		attributes forgewanderer
-	description "Wanderer Reputation + 10.000"
+	description "Set your reputation with the Wanderer to positive 100,000."
+	to offer
+		"reputation: Wanderer" <= 0
 	on accept
-		"reputation: Wanderer" += 10000
+		"reputation: Wanderer" == 100000
 		fail
 
-mission "Hai Rep. +"
+mission "Friendly Hai"
 	repeat
 	job
 	source
 		attributes forgehai
-	description "Hai Reputation + 10.000"
+	description "Set your reputation with the Hai to positive 100,000."
+	to offer
+		"reputation: Hai" <= 0
 	on accept
-		"reputation: Hai" += 10000
+		"reputation: Hai" == 100000
 		fail
 
-mission "Hai (Unfettered) Rep. +"
+mission "Friendly Hai (Unfettered)"
 	repeat
 	job
 	source
 		attributes forgehai
-	description "Hai (Unfettered) Reputation + 10.000"
+	description "Set your reputation with the Hai (Unfettered) to positive 100,000."
+	to offer
+		"reputation: Hai (Unfettered)" <= 0
 	on accept
-		"reputation: Hai (Unfettered)" += 10000
+		"reputation: Hai (Unfettered)" == 100000
 		fail
 
-mission "Pug Rep. +"
+mission "Friendly Pug"
 	repeat
 	job
 	source
 		attributes forgepug
-	description "Pug Reputation + 10.000"
+	description "Set your reputation with the Pug to positive 100,000."
+	to offer
+		"reputation: Pug" <= 0
 	on accept
-		"reputation: Pug" += 10000
+		"reputation: Pug" == 100000
 		fail
 
-mission "Pirate Rep. +"
+mission "Friendly Pirates"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Pirate Reputation + 10.000"
+	description "Set your reputation with Pirates to positive 100,000."
+	to offer
+		"reputation: Pirate" <= 0
 	on accept
-		"reputation: Pirate" += 10000
+		"reputation: Pirate" == 100000
 		fail
 
-mission "Syndicate Rep. +"
+mission "Friendly Syndicate"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Syndicate Reputation + 10.000"
+	description "Set your reputation with the Syndicate to positive 100,000."
+	to offer
+		"reputation: Syndicate" <= 0
 	on accept
-		"reputation: Syndicate" += 10000
+		"reputation: Syndicate" == 100000
 		fail
 
-mission "Republic Rep. +"
+mission "Friendly Republic"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Republic Reputation + 10.000"
+	description "Set your reputation with the Republic to positive 100,000."
+	to offer
+		"reputation: Republic" <= 0
 	on accept
-		"reputation: Republic" += 10000
+		"reputation: Republic" == 100000
 		fail
 
-mission "Free Worlds Rep. +"
+mission "Friendly Free Worlds"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Free Worlds Reputation + 10.000"
+	description "Set your reputation with the Free Worlds to positive 100,000."
+	to offer
+		"reputation: Free Worlds" <= 0
 	on accept
-		"reputation: Free Worlds" += 10000
+		"reputation: Free Worlds" == 100000
 		fail
 
-mission "Militia Rep. +"
+mission "Friendly Militia"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Militia Reputation + 10.000"
+	description "Set your reputation with the Militia to positive 100,000."
+	to offer
+		"reputation: Militia" <= 0
 	on accept
-		"reputation: Militia" += 10000
+		"reputation: Militia" == 100000
 		fail
 
-mission "Merchant Rep. +"
+mission "Friendly Merchants"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Merchant Reputation + 10.000"
+	description "Set your reputation with Merchants to positive 100,000."
+	to offer
+		"reputation: Merchant" <= 0
 	on accept
-		"reputation: Merchant" += 10000
+		"reputation: Merchant" == 100000
 		fail
 
-mission "Navy (Oathkeeper) Rep. +"
+mission "Friendly Navy (Oathkeeper)"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Navy (Oathkeeper) Reputation + 10.000"
+	description "Set your reputation with the Navy (Oathkeeper) to positive 100,000."
+	to offer
+		"reputation: Navy (Oathkeeper)" <= 0
 	on accept
-		"reputation: Navy (Oathkeeper)" += 10000
+		"reputation: Navy (Oathkeeper)" == 100000
 		fail
 
-mission "Korath Rep. +"
+mission "Friendly Korath"
 	repeat
 	job
 	source
 		attributes forgekorath
-	description "Korath Reputation + 10.000"
+	description "Set your reputation with the Korath to positive 100,000."
+	to offer
+		"reputation: Korath" <= 0
 	on accept
-		"reputation: Korath" += 10000
+		"reputation: Korath" == 100000
 		fail
 
-mission "Kor Efret Rep. +"
+mission "Friendly Kor Efret"
 	repeat
 	job
 	source
 		attributes forgekorath
-	description "Kor Efret Reputation + 10.000"
+	description "Set your reputation with the Kor Efret to positive 100,000."
+	to offer
+		"reputation: Kor Efret" <= 0
 	on accept
-		"reputation: Kor Efret" += 10000
+		"reputation: Kor Efret" == 100000
 		fail
 
-mission "Kor Mereti Rep. +"
+mission "Friendly Kor Mereti"
 	repeat
 	job
 	source
 		attributes forgekorath
-	description "Kor Mereti Reputation + 10.000"
+	description "Set your reputation with the Kor Mereti to positive 100,000."
+	to offer
+		"reputation: Kor Mereti" <= 0
 	on accept
-		"reputation: Kor Mereti" += 10000
+		"reputation: Kor Mereti" == 100000
 		fail
 
-mission "Kor Sestor Rep. +"
+mission "Friendly Kor Sestor"
 	repeat
 	job
 	source
 		attributes forgekorath
-	description "Kor Sestor Reputation + 10.000"
+	description "Set your reputation with the Kor Sestor to positive 100,000."
+	to offer
+		"reputation: Kor Sestor" <= 0
 	on accept
-		"reputation: Kor Sestor" += 10000
+		"reputation: Kor Sestor" == 100000
 		fail
 
-mission "Coalition Rep. +"
+mission "Friendly Coalition"
 	repeat
 	job
 	source
 		attributes forgecoalition
-	description "Coalition Reputation + 10.000"
+	description "Set your reputation with the Coalition to positive 100,000."
+	to offer
+		"reputation: Coalition" <= 0
 	on accept
-		"reputation: Coalition" += 10000
+		"reputation: Coalition" == 100000
 		fail
 
-mission "Heliarch Rep. +"
+mission "Friendly Heliarch"
 	repeat
 	job
 	source
 		attributes forgecoalition
-	description "Heliarch Reputation + 10.000"
+	description "Set your reputation with the Heliarch to positive 100,000."
+	to offer
+		"reputation: Heliarch" <= 0
 	on accept
-		"reputation: Heliarch" += 10000
+		"reputation: Heliarch" == 100000
 		fail
 
-mission "Quarg Rep. -"
+mission "Friendly Remnant"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Set your reputation with the Remnant to positive 100,000."
+	to offer
+		"reputation: Remnant" <= 0
+	on accept
+		"reputation: Remnant" == 100000
+		fail
+
+mission "Friendly Drak"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Set your reputation with the Drak to positive 100,000."
+	to offer
+		"reputation: Drak" <= 0
+	on accept
+		"reputation: Drak" == 100000
+		fail
+
+mission "Hostile Quarg"
 	repeat
 	job
 	source
 		attributes forgequarg
-	description "I talked to the Quarg... They hate me! (-10.000)"
+	description "Set your reputation with the Quarg to negative 100,000."
+	to offer
+		"reputation: Quarg" >= 0
 	on accept
-		"reputation: Quarg" += 10000
+		"reputation: Quarg" == -100000
 		fail
 
-mission "Wanderer Rep. -"
+mission "Hostile Wanderer"
 	repeat
 	job
 	source
 		attributes forgewanderer
-	description "Wanderer Reputation - 10.000"
+	description "Set your reputation with the Wanderer to negative 100,000."
+	to offer
+		"reputation: Wanderer" >= 0
 	on accept
-		"reputation: Wanderer" -= 10000
+		"reputation: Wanderer" == -100000
 		fail
 
-mission "Hai Rep. -"
+mission "Hostile Hai"
 	repeat
 	job
 	source
 		attributes forgehai
-	description "Hai Reputation - 10.000"
+	description "Set your reputation with the Hai to negative 100,000."
+	to offer
+		"reputation: Hai" >= 0
 	on accept
-		"reputation: Hai" -= 10000
+		"reputation: Hai" == -100000
 		fail
 
-mission "Hai (Unfettered) Rep. -"
+mission "Hostile Hai (Unfettered)"
 	repeat
 	job
 	source
 		attributes forgehai
-	description "Hai (Unfettered) Reputation - 10.000"
+	description "Set your reputation with the Hai (Unfettered) to negative 100,000."
+	to offer
+		"reputation: Hai (Unfettered)" >= 0
 	on accept
-		"reputation: Hai (Unfettered)" -= 10000
+		"reputation: Hai (Unfettered)" == -100000
 		fail
 
-mission "Pug Rep. -"
+mission "Hostile Pug"
 	repeat
 	job
 	source
 		attributes forgepug
-	description "Pug Reputation - 10.000"
+	description "Set your reputation with the Pug to negative 100,000."
+	to offer
+		"reputation: Pug" >= 0
 	on accept
-		"reputation: Pug" -= 10000
+		"reputation: Pug" == -100000
 		fail
 
-mission "Pirate Rep. -"
+mission "Hostile Pirates"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Pirate Reputation - 10.000"
+	description "Set your reputation with Pirates to negative 100,000."
+	to offer
+		"reputation: Pirate" >= 0
 	on accept
-		"reputation: Pirate" -= 10000
+		"reputation: Pirate" == -100000
 		fail
 
-mission "Syndicate Rep. -"
+mission "Hostile Syndicate"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Syndicate Reputation - 10.000"
+	description "Set your reputation with the Syndicate to negative 100,000."
+	to offer
+		"reputation: Syndicate" >= 0
 	on accept
-		"reputation: Syndicate" -= 10000
+		"reputation: Syndicate" == -100000
 		fail
 
-mission "Republic Rep. -"
+mission "Hostile Republic"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Republic Reputation - 10.000"
+	description "Set your reputation with the Republic to negative 100,000."
+	to offer
+		"reputation: Republic" >= 0
 	on accept
-		"reputation: Republic" -= 10000
+		"reputation: Republic" == -100000
 		fail
 
-mission "Free Worlds Rep. -"
+mission "Hostile Free Worlds"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Free Worlds Reputation - 10.000"
+	description "Set your reputation with the Free Worlds to negative 100,000."
+	to offer
+		"reputation: Free Worlds" >= 0
 	on accept
-		"reputation: Free Worlds" -= 10000
+		"reputation: Free Worlds" == -100000
 		fail
 
-mission "Militia Rep. -"
+mission "Hostile Militia"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Militia Reputation - 10.000"
+	description "Set your reputation with the Militia to negative 100,000."
+	to offer
+		"reputation: Militia" >= 0
 	on accept
-		"reputation: Militia" -= 10000
+		"reputation: Militia" == -100000
 		fail
 
-mission "Merchant Rep. -"
+mission "Hostile Merchants"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Merchant Reputation - 10.000"
+	description "Set your reputation with Merchants to negative 100,000."
+	to offer
+		"reputation: Merchant" >= 0
 	on accept
-		"reputation: Merchant" -= 10000
+		"reputation: Merchant" == -100000
 		fail
 
-mission "Navy (Oathkeeper) Rep. -"
+mission "Hostile Navy (Oathkeeper)"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Navy (Oathkeeper) Reputation - 10.000"
+	description "Set your reputation with the Navy (Oathkeeper) to negative  100,000."
+	to offer
+		"reputation: Navy (Oathkeeper)" >= 0
 	on accept
-		"reputation: Navy (Oathkeeper)" -= 10000
+		"reputation: Navy (Oathkeeper)" == -100000
 		fail
 
-mission "Korath Rep. -"
+mission "Hostile Korath"
 	repeat
 	job
 	source
 		attributes forgekorath
-	description "Korath Reputation - 10.000"
+	description "Set your reputation with the Korath to negative 100,000."
+	to offer
+		"reputation: Korath" >= 0
 	on accept
-		"reputation: Korath" -= 10000
+		"reputation: Korath" == -100000
 		fail
 
-mission "Kor Efret Rep. -"
+mission "Hostile Kor Efret"
 	repeat
 	job
 	source
 		attributes forgekorath
-	description "Kor Efret Reputation - 10.000"
+	description "Set your reputation with the Kor Efret to negative 100,000."
+	to offer
+		"reputation: Kor Efret" >= 0
 	on accept
-		"reputation: Kor Efret" -= 10000
+		"reputation: Kor Efret" == -100000
 		fail
 
-mission "Kor Mereti Rep. -"
+mission "Hostile Kor Mereti"
 	repeat
 	job
 	source
 		attributes forgekorath
-	description "Kor Mereti Reputation - 10.000"
+	description "Set your reputation with the Kor Mereti to negative 100,000."
+	to offer
+		"reputation: Kor Mereti" >= 0
 	on accept
-		"reputation: Kor Mereti" -= 10000
+		"reputation: Kor Mereti" == -100000
 		fail
 
-mission "Kor Sestor Rep. -"
+mission "Hostile Kor Sestor"
 	repeat
 	job
 	source
 		attributes forgekorath
-	description "Kor Sestor Reputation - 10.000"
+	description "Set your reputation with the Kor Sestor to negative 100,000."
+	to offer
+		"reputation: Kor Sestor" >= 0
 	on accept
-		"reputation: Kor Sestor" -= 10000
+		"reputation: Kor Sestor" == -100000
 		fail
 
-mission "Coalition Rep. -"
+mission "Hostile Coalition"
 	repeat
 	job
 	source
 		attributes forgecoalition
-	description "Coalition Reputation - 10.000"
+	description "Set your reputation with the Coalition to negative 100,000."
+	to offer
+		"reputation: Coalition" >= 0
 	on accept
-		"reputation: Coalition" -= 10000
+		"reputation: Coalition" == -100000
 		fail
 
-mission "Heliarch Rep. -"
+mission "Hostile Heliarch"
 	repeat
 	job
 	source
 		attributes forgecoalition
-	description "Heliarch Reputation - 10.000"
+	description "Set your reputation with the Heliarch to negative 100,000."
+	to offer
+		"reputation: Heliarch" >= 0
 	on accept
-		"reputation: Heliarch" -= 10000
+		"reputation: Heliarch" == -100000
+		fail
+
+mission "Hostile Remnant"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Remnant to negative 100,000."
+	to offer
+		"reputation: Remnant" >= 0
+	on accept
+		"reputation: Remnant" == -100000
+		fail
+
+mission "Hostile Drak"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Drak to negative 100,000."
+	to offer
+		"reputation: Drak" >= 0
+	on accept
+		"reputation: Drak" == -100000
 		fail

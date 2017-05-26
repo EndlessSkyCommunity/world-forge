@@ -124,6 +124,18 @@ mission "Add Militia Carrier License"
 	on accept
 		set "license: Militia Carrier"
 		fail
+		
+mission "Add Remnant License"
+	repeat
+	job
+	source
+		attributes forge
+	description "Gives you a Remnant license."
+	to offer
+		not "license: Remnant"
+	on accept
+		set "license: Remnant"
+		fail
 
 mission "Remove Pilot's License"
 	repeat
@@ -219,6 +231,18 @@ mission "Remove Militia Carrier License"
 		has "license: Militia Carrier"
 	on accept
 		clear "license: Militia Carrier"
+		fail
+
+mission "Remove Remnant License"
+	repeat
+	job
+	source
+		attributes forge
+	description "Removes your Remnant license."
+	to offer
+		has "license: Remnant"
+	on accept
+		clear "license: Remnant"
 		fail
 
 mission "Friendly Quarg"

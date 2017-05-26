@@ -527,6 +527,7 @@ shipyard wanderer
 shipyard remnant
 	"Starling"
 	"Albatross"
+	"Gascraft"
 
 shipyard void
 	"Void Sprite"

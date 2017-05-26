@@ -432,7 +432,7 @@ system Origin
 		sprite planet/venus
 		distance 351.61
 		period 147.427
-		object Licenses
+		object
 			sprite planet/lava0
 			distance 168
 			period 24.8475
@@ -916,13 +916,6 @@ planet Korath
 	outfitter korath
 	outfitter drive
 	outfitter basic
-	security 0
-
-planet Licenses
-	attributes forge forgelicenses
-	landscape land/
-	description `All licenses in the game are offered here. Check the jobs board to see them.`
-	spaceport ""
 	security 0
 
 planet MarauderE

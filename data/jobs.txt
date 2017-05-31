@@ -124,7 +124,7 @@ mission "Add Militia Carrier License"
 	on accept
 		set "license: Militia Carrier"
 		fail
-		
+
 mission "Add Remnant License"
 	repeat
 	job
@@ -135,6 +135,42 @@ mission "Add Remnant License"
 		not "license: Remnant"
 	on accept
 		set "license: Remnant"
+		fail
+
+mission "Add Coalition License"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Gives you a Coalition license."
+	to offer
+		not "license: Coalition"
+	on accept
+		set "license: Coalition"
+		fail
+
+mission "Add Heliarch License"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Gives you a Heliarch license."
+	to offer
+		not "license: Heliarch"
+	on accept
+		set "license: Heliarch"
+		fail
+
+mission "Add Wanderer Outfits License"
+	repeat
+	job
+	source
+		attributes forgewanderer
+	description "Gives you a Wanderer Outfits license."
+	to offer
+		not "license: Wanderer Outfits"
+	on accept
+		set "license: Wanderer Outfits"
 		fail
 
 mission "Remove Pilot's License"
@@ -243,6 +279,42 @@ mission "Remove Remnant License"
 		has "license: Remnant"
 	on accept
 		clear "license: Remnant"
+		fail
+
+mission "Remove Coalition License"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Removes your Coalition license."
+	to offer
+		has "license: Coalition"
+	on accept
+		clear "license: Coalition"
+		fail
+
+mission "Remove Heliarch License"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Removes your Heliarch license."
+	to offer
+		has "license: Heliarch"
+	on accept
+		clear "license: Heliarch"
+		fail
+
+mission "Remove Wanderer Outfits License"
+	repeat
+	job
+	source
+		attributes forgewanderer
+	description "Removes your Wanderer Outfits license."
+	to offer
+		has "license: Wanderer Outfits"
+	on accept
+		clear "license: Wanderer Outfits"
 		fail
 
 mission "Friendly Quarg"

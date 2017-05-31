@@ -14,4 +14,5 @@ outfit "Developer Drive"
 	"jump speed" 500
 	"hyperdrive" 1
 	"jump drive" 1
+	"jump fuel" 0
 	"ramscoop" 500

@@ -326,7 +326,7 @@ mission "Friendly Quarg"
 	to offer
 		"reputation: Quarg" <= 0
 	on accept
-		"reputation: Quarg" == 100000
+		"reputation: Quarg" = 100000
 		fail
 
 mission "Friendly Wanderer"
@@ -338,7 +338,7 @@ mission "Friendly Wanderer"
 	to offer
 		"reputation: Wanderer" <= 0
 	on accept
-		"reputation: Wanderer" == 100000
+		"reputation: Wanderer" = 100000
 		fail
 
 mission "Friendly Hai"
@@ -350,7 +350,7 @@ mission "Friendly Hai"
 	to offer
 		"reputation: Hai" <= 0
 	on accept
-		"reputation: Hai" == 100000
+		"reputation: Hai" = 100000
 		fail
 
 mission "Friendly Hai (Unfettered)"
@@ -362,7 +362,7 @@ mission "Friendly Hai (Unfettered)"
 	to offer
 		"reputation: Hai (Unfettered)" <= 0
 	on accept
-		"reputation: Hai (Unfettered)" == 100000
+		"reputation: Hai (Unfettered)" = 100000
 		fail
 
 mission "Friendly Pug"
@@ -374,7 +374,7 @@ mission "Friendly Pug"
 	to offer
 		"reputation: Pug" <= 0
 	on accept
-		"reputation: Pug" == 100000
+		"reputation: Pug" = 100000
 		fail
 
 mission "Friendly Pirates"
@@ -386,7 +386,7 @@ mission "Friendly Pirates"
 	to offer
 		"reputation: Pirate" <= 0
 	on accept
-		"reputation: Pirate" == 100000
+		"reputation: Pirate" = 100000
 		fail
 
 mission "Friendly Syndicate"
@@ -398,7 +398,7 @@ mission "Friendly Syndicate"
 	to offer
 		"reputation: Syndicate" <= 0
 	on accept
-		"reputation: Syndicate" == 100000
+		"reputation: Syndicate" = 100000
 		fail
 
 mission "Friendly Republic"
@@ -410,7 +410,7 @@ mission "Friendly Republic"
 	to offer
 		"reputation: Republic" <= 0
 	on accept
-		"reputation: Republic" == 100000
+		"reputation: Republic" = 100000
 		fail
 
 mission "Friendly Free Worlds"
@@ -422,7 +422,7 @@ mission "Friendly Free Worlds"
 	to offer
 		"reputation: Free Worlds" <= 0
 	on accept
-		"reputation: Free Worlds" == 100000
+		"reputation: Free Worlds" = 100000
 		fail
 
 mission "Friendly Militia"
@@ -434,7 +434,7 @@ mission "Friendly Militia"
 	to offer
 		"reputation: Militia" <= 0
 	on accept
-		"reputation: Militia" == 100000
+		"reputation: Militia" = 100000
 		fail
 
 mission "Friendly Merchants"
@@ -446,7 +446,7 @@ mission "Friendly Merchants"
 	to offer
 		"reputation: Merchant" <= 0
 	on accept
-		"reputation: Merchant" == 100000
+		"reputation: Merchant" = 100000
 		fail
 
 mission "Friendly Navy (Oathkeeper)"
@@ -458,7 +458,7 @@ mission "Friendly Navy (Oathkeeper)"
 	to offer
 		"reputation: Navy (Oathkeeper)" <= 0
 	on accept
-		"reputation: Navy (Oathkeeper)" == 100000
+		"reputation: Navy (Oathkeeper)" = 100000
 		fail
 
 mission "Friendly Korath"
@@ -470,7 +470,7 @@ mission "Friendly Korath"
 	to offer
 		"reputation: Korath" <= 0
 	on accept
-		"reputation: Korath" == 100000
+		"reputation: Korath" = 100000
 		fail
 
 mission "Friendly Kor Efret"
@@ -482,7 +482,7 @@ mission "Friendly Kor Efret"
 	to offer
 		"reputation: Kor Efret" <= 0
 	on accept
-		"reputation: Kor Efret" == 100000
+		"reputation: Kor Efret" = 100000
 		fail
 
 mission "Friendly Kor Mereti"
@@ -494,7 +494,7 @@ mission "Friendly Kor Mereti"
 	to offer
 		"reputation: Kor Mereti" <= 0
 	on accept
-		"reputation: Kor Mereti" == 100000
+		"reputation: Kor Mereti" = 100000
 		fail
 
 mission "Friendly Kor Sestor"
@@ -506,7 +506,7 @@ mission "Friendly Kor Sestor"
 	to offer
 		"reputation: Kor Sestor" <= 0
 	on accept
-		"reputation: Kor Sestor" == 100000
+		"reputation: Kor Sestor" = 100000
 		fail
 
 mission "Friendly Coalition"
@@ -518,7 +518,7 @@ mission "Friendly Coalition"
 	to offer
 		"reputation: Coalition" <= 0
 	on accept
-		"reputation: Coalition" == 100000
+		"reputation: Coalition" = 100000
 		fail
 
 mission "Friendly Heliarch"
@@ -530,7 +530,7 @@ mission "Friendly Heliarch"
 	to offer
 		"reputation: Heliarch" <= 0
 	on accept
-		"reputation: Heliarch" == 100000
+		"reputation: Heliarch" = 100000
 		fail
 
 mission "Friendly Remnant"
@@ -542,7 +542,7 @@ mission "Friendly Remnant"
 	to offer
 		"reputation: Remnant" <= 0
 	on accept
-		"reputation: Remnant" == 100000
+		"reputation: Remnant" = 100000
 		fail
 
 mission "Friendly Drak"
@@ -554,7 +554,7 @@ mission "Friendly Drak"
 	to offer
 		"reputation: Drak" <= 0
 	on accept
-		"reputation: Drak" == 100000
+		"reputation: Drak" = 100000
 		fail
 
 mission "Hostile Quarg"
@@ -566,7 +566,7 @@ mission "Hostile Quarg"
 	to offer
 		"reputation: Quarg" >= 0
 	on accept
-		"reputation: Quarg" == -100000
+		"reputation: Quarg" = -100000
 		fail
 
 mission "Hostile Wanderer"
@@ -578,7 +578,7 @@ mission "Hostile Wanderer"
 	to offer
 		"reputation: Wanderer" >= 0
 	on accept
-		"reputation: Wanderer" == -100000
+		"reputation: Wanderer" = -100000
 		fail
 
 mission "Hostile Hai"
@@ -590,7 +590,7 @@ mission "Hostile Hai"
 	to offer
 		"reputation: Hai" >= 0
 	on accept
-		"reputation: Hai" == -100000
+		"reputation: Hai" = -100000
 		fail
 
 mission "Hostile Hai (Unfettered)"
@@ -602,7 +602,7 @@ mission "Hostile Hai (Unfettered)"
 	to offer
 		"reputation: Hai (Unfettered)" >= 0
 	on accept
-		"reputation: Hai (Unfettered)" == -100000
+		"reputation: Hai (Unfettered)" = -100000
 		fail
 
 mission "Hostile Pug"
@@ -614,7 +614,7 @@ mission "Hostile Pug"
 	to offer
 		"reputation: Pug" >= 0
 	on accept
-		"reputation: Pug" == -100000
+		"reputation: Pug" = -100000
 		fail
 
 mission "Hostile Pirates"
@@ -626,7 +626,7 @@ mission "Hostile Pirates"
 	to offer
 		"reputation: Pirate" >= 0
 	on accept
-		"reputation: Pirate" == -100000
+		"reputation: Pirate" = -100000
 		fail
 
 mission "Hostile Syndicate"
@@ -638,7 +638,7 @@ mission "Hostile Syndicate"
 	to offer
 		"reputation: Syndicate" >= 0
 	on accept
-		"reputation: Syndicate" == -100000
+		"reputation: Syndicate" = -100000
 		fail
 
 mission "Hostile Republic"
@@ -650,7 +650,7 @@ mission "Hostile Republic"
 	to offer
 		"reputation: Republic" >= 0
 	on accept
-		"reputation: Republic" == -100000
+		"reputation: Republic" = -100000
 		fail
 
 mission "Hostile Free Worlds"
@@ -662,7 +662,7 @@ mission "Hostile Free Worlds"
 	to offer
 		"reputation: Free Worlds" >= 0
 	on accept
-		"reputation: Free Worlds" == -100000
+		"reputation: Free Worlds" = -100000
 		fail
 
 mission "Hostile Militia"
@@ -674,7 +674,7 @@ mission "Hostile Militia"
 	to offer
 		"reputation: Militia" >= 0
 	on accept
-		"reputation: Militia" == -100000
+		"reputation: Militia" = -100000
 		fail
 
 mission "Hostile Merchants"
@@ -686,7 +686,7 @@ mission "Hostile Merchants"
 	to offer
 		"reputation: Merchant" >= 0
 	on accept
-		"reputation: Merchant" == -100000
+		"reputation: Merchant" = -100000
 		fail
 
 mission "Hostile Navy (Oathkeeper)"
@@ -698,7 +698,7 @@ mission "Hostile Navy (Oathkeeper)"
 	to offer
 		"reputation: Navy (Oathkeeper)" >= 0
 	on accept
-		"reputation: Navy (Oathkeeper)" == -100000
+		"reputation: Navy (Oathkeeper)" = -100000
 		fail
 
 mission "Hostile Korath"
@@ -710,7 +710,7 @@ mission "Hostile Korath"
 	to offer
 		"reputation: Korath" >= 0
 	on accept
-		"reputation: Korath" == -100000
+		"reputation: Korath" = -100000
 		fail
 
 mission "Hostile Kor Efret"
@@ -722,7 +722,7 @@ mission "Hostile Kor Efret"
 	to offer
 		"reputation: Kor Efret" >= 0
 	on accept
-		"reputation: Kor Efret" == -100000
+		"reputation: Kor Efret" = -100000
 		fail
 
 mission "Hostile Kor Mereti"
@@ -734,7 +734,7 @@ mission "Hostile Kor Mereti"
 	to offer
 		"reputation: Kor Mereti" >= 0
 	on accept
-		"reputation: Kor Mereti" == -100000
+		"reputation: Kor Mereti" = -100000
 		fail
 
 mission "Hostile Kor Sestor"
@@ -746,7 +746,7 @@ mission "Hostile Kor Sestor"
 	to offer
 		"reputation: Kor Sestor" >= 0
 	on accept
-		"reputation: Kor Sestor" == -100000
+		"reputation: Kor Sestor" = -100000
 		fail
 
 mission "Hostile Coalition"
@@ -758,7 +758,7 @@ mission "Hostile Coalition"
 	to offer
 		"reputation: Coalition" >= 0
 	on accept
-		"reputation: Coalition" == -100000
+		"reputation: Coalition" = -100000
 		fail
 
 mission "Hostile Heliarch"
@@ -770,7 +770,7 @@ mission "Hostile Heliarch"
 	to offer
 		"reputation: Heliarch" >= 0
 	on accept
-		"reputation: Heliarch" == -100000
+		"reputation: Heliarch" = -100000
 		fail
 
 mission "Hostile Remnant"
@@ -782,7 +782,7 @@ mission "Hostile Remnant"
 	to offer
 		"reputation: Remnant" >= 0
 	on accept
-		"reputation: Remnant" == -100000
+		"reputation: Remnant" = -100000
 		fail
 
 mission "Hostile Drak"
@@ -794,5 +794,5 @@ mission "Hostile Drak"
 	to offer
 		"reputation: Drak" >= 0
 	on accept
-		"reputation: Drak" == -100000
+		"reputation: Drak" = -100000
 		fail

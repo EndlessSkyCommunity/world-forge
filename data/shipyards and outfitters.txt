@@ -209,6 +209,8 @@ outfitter human
 	"Heavy Rocket Rack"
 	"Javelin Storage Crate"
 	"Torpedo Storage Rack"
+	"Tactical Scanner"
+	"Asteroid Scanner"
 
 outfitter pug
 	"Pug Zapper"
@@ -304,6 +306,8 @@ outfitter wanderer
 	"Wanderer Ramscoop"
 	"Wanderer Heat Sink"
 	"Thunderhead Storage Array"
+	"Moonbeam"
+	"Moonbeam Turret"
 
 outfitter remnant
 	"Inhibitor Cannon"
@@ -523,6 +527,8 @@ shipyard wanderer
 	"Derecho"
 	"Hurricane"
 	"Deep River Transport"
+	"Cool Breeze"
+	"Winter Gale"
 
 shipyard remnant
 	"Starling"

@@ -160,7 +160,6 @@ outfitter human
 	"Sidewinder Missile"
 	"Javelin"
 	"Heavy Rocket"
-	"Cargo Scanner"
 	"Small Radar Jammer"
 	"Large Radar Jammer"
 	"Blaster Turret"
@@ -171,7 +170,6 @@ outfitter human
 	"Torpedo Launcher"
 	"Beam Laser"
 	"Afterburner"
-	"Outfit Scanner"
 	"Supercapacitor"
 	"Security Station"
 	"Laser Rifle"
@@ -209,8 +207,6 @@ outfitter human
 	"Heavy Rocket Rack"
 	"Javelin Storage Crate"
 	"Torpedo Storage Rack"
-	"Tactical Scanner"
-	"Asteroid Scanner"
 
 outfitter pug
 	"Pug Zapper"
@@ -357,6 +353,11 @@ outfitter basic
 	"Titanium"
 	"Tungsten"
 	"Uranium"
+	"Outfit Scanner"
+	"Cargo Scanner"
+	"Tactical Scanner"
+	"Asteroid Scanner"
+	"Surveillance Pod"
 
 shipyard deprecated
 

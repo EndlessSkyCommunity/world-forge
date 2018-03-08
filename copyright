@@ -1,7 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: endless-sky-world-forge-plugin
-Upstream-Contact: Maximilian Korber <maximiliankorber@gmx.de>
-Source: https://github.com/wrzlprnft/world-forge
+Source: https://github.com/Amazinite/world-forge
 
 Files:
  images/ui/orion_nebula*

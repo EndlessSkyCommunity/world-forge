@@ -118,7 +118,7 @@ mission "Add Militia Carrier License"
 	job
 	source
 		attributes forgehuman
-	description "Gives you a Milita Carrier license."
+	description "Gives you a Militia Carrier license."
 	to offer
 		not "license: Militia Carrier"
 	on accept
@@ -262,7 +262,7 @@ mission "Remove Militia Carrier License"
 	job
 	source
 		attributes forgehuman
-	description "Removes your Milita Carrier license."
+	description "Removes your Militia Carrier license."
 	to offer
 		has "license: Militia Carrier"
 	on accept

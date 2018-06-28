@@ -309,6 +309,8 @@ outfitter remnant
 	"Inhibitor Cannon"
 	"Thrasher Cannon"
 	"Thrasher Turret"
+	"EMP Torpedo Bay"
+	"EMP Torpedo"
 	"Point Defense Turret"
 	"Crystal Capacitor"
 	"Millennium Cell"
@@ -325,7 +327,7 @@ outfitter remnant
 	"Smelter-Class Steering"
 
 outfitter void
-	Mouthparts?
+	"Mouthparts?"
 
 outfitter drive
 	"Developer Drive"

@@ -6,7 +6,7 @@ Have a look at [the wiki](https://github.com/Wrzlprnft/world-forge/wiki) for mor
 It is not yet finished, but working.
 It does support older pilots without doing harm to them, but also has a altered start for new pilots.
 
-##I do not recommend this for playing in super sandbox mode, because the game might actually get boring using all the superweapons, but if you're into that, go ahead.
+## I do not recommend this for playing in super sandbox mode, because the game might actually get boring using all the superweapons, but if you're into that, go ahead.
 
 Thx Local God, LeafyGrove, Storm Crow for helping in creating and updating.
 Thx to Earl Grey, from whom i basically copied and edited the swizzle change system.

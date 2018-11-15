@@ -88,6 +88,7 @@ outfitter hai
 	"Railgun Slug"
 	"Tracker Storage Pod"
 	"Quantum Keystone"
+	"Pulse Rifle"
 
 outfitter human
 	"Energy Blaster"
@@ -264,6 +265,7 @@ outfitter korath
 	"Control Transceiver"
 	"Korath Piercer Rack"
 	"Korath Mine Rack"
+	"Korath Repeater Rifle"
 
 outfitter quarg
 	"Nanotech Battery"
@@ -325,6 +327,7 @@ outfitter remnant
 	"Forge-Class Steering"
 	"Smelter-Class Thruster"
 	"Smelter-Class Steering"
+	"Tuning Rifle"
 
 outfitter void
 	"Mouthparts?"
@@ -393,6 +396,9 @@ shipyard hai
 	"Violin Spider"
 	"Pond Strider"
 	"Flea"
+	"Centipede"
+	"Grasshopper"
+	"Geocoris"
 
 shipyard human
 	"Shuttle"

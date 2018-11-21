@@ -959,7 +959,7 @@ planet Mods
 	outfitter basic
 	outfitter license
 	security 0
-        
+	
 planet Painter
 	attributes forge
 	landscape ""

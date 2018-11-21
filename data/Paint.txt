@@ -81,13 +81,13 @@ outfit "Swizzle 6(G->R,B->G)"
 	description "G->R,B->G E.g: Pirates; red and black. Visit the Spaceport to apply it."
 
 outfitter painter
-        "Swizzle 0(none)"
-        "Swizzle 1(G<->B)"
-        "Swizzle 2(R<->G)"
-        "Swizzle 3(R->G->B->R)"
-        "Swizzle 4(R->B->G->R)"
-        "Swizzle 5(R<->B)"
-        "Swizzle 6(G->R,B->G)"
+	"Swizzle 0(none)"
+	"Swizzle 1(G<->B)"
+	"Swizzle 2(R<->G)"
+	"Swizzle 3(R->G->B->R)"
+	"Swizzle 4(R->B->G->R)"
+	"Swizzle 5(R<->B)"
+	"Swizzle 6(G->R,B->G)"
 	
 mission "Swizzle 0"
 	repeat

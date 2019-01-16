@@ -266,6 +266,7 @@ outfitter korath
 	"Korath Piercer Rack"
 	"Korath Mine Rack"
 	"Korath Repeater Rifle"
+	"Fuel Processor"
 
 outfitter quarg
 	"Nanotech Battery"
@@ -363,6 +364,8 @@ outfitter basic
 	"Tactical Scanner"
 	"Asteroid Scanner"
 	"Surveillance Pod"
+	"Brig"
+	"Luxury Accommodations"
 
 shipyard deprecated
 

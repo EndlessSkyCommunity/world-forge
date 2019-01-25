@@ -133,8 +133,9 @@ mission "Add Coalition Licenses"
 		attributes forgecoalition
 	description "Gives you the Coalition and Heliarch licenses."
 	to offer
-		not "license: Coalition"
-		not "license: Heliarch"
+		or
+			not "license: Coalition"
+			not "license: Heliarch"
 	on accept
 		set "license: Coalition"
 		set "license: Heliarch"

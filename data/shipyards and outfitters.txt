@@ -546,6 +546,8 @@ shipyard remnant
 	"Starling"
 	"Albatross"
 	"Gascraft"
+	"Pelican"
+	"Gull"
 
 shipyard void
 	"Void Sprite"

@@ -41,64 +41,50 @@ mission "Add Pilot's License"
 		set "license: Pilot's"
 		fail
 
-mission "Add Navy License"
+mission "Add City-Ship License"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Gives you a Navy license."
+	description "Gives you a City-Ship license."
 	to offer
-		not "license: Navy"
+		not "license: City-Ship"
+	on accept
+		set "license: City-Ship"
+		fail
+
+mission "Add Navy Licenses"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Gives you the Navy, Cruiser, and Carrier licenses."
+	to offer
+		or
+			not "license: Navy"
+			not "license: Cruiser"
+			not "license: Carrier"
 	on accept
 		set "license: Navy"
-		fail
-
-mission "Add Cruiser License"
-	repeat
-	job
-	source
-		attributes forgehuman
-	description "Gives you a Cruiser license."
-	to offer
-		not "license: Cruiser"
-	on accept
 		set "license: Cruiser"
-		fail
-
-mission "Add Carrier License"
-	repeat
-	job
-	source
-		attributes forgehuman
-	description "Gives you a Carrier license."
-	to offer
-		not "license: Carrier"
-	on accept
 		set "license: Carrier"
 		fail
 
-mission "Add Wanderer License"
+mission "Add Wanderer Licenses"
 	repeat
 	job
 	source
 		attributes forgewanderer
-	description "Gives you a Wanderer license."
+	description "Gives you the Wanderer, Wanderer Outfits, and Wanderer Military licenses."
 	to offer
-		not "license: Wanderer"
+		or
+			not "license: Wanderer"
+			not "license: Wanderer Military"
+			not "license: Wanderer Outfits"
 	on accept
 		set "license: Wanderer"
-		fail
-
-mission "Add Wanderer Military License"
-	repeat
-	job
-	source
-		attributes forgewanderer
-	description "Gives you a Wanderer Military license."
-	to offer
-		not "license: Wanderer Military"
-	on accept
 		set "license: Wanderer Military"
+		set "license: Wanderer Outfits"
 		fail
 
 mission "Add Unfettered Militia License"
@@ -125,196 +111,55 @@ mission "Add Militia Carrier License"
 		set "license: Militia Carrier"
 		fail
 
-mission "Add Remnant License"
+mission "Add Remnant Licenses"
 	repeat
 	job
 	source
 		attributes forge
-	description "Gives you a Remnant license."
+	description "Gives you the Remnant and Remnant Capital licenses."
 	to offer
-		not "license: Remnant"
+		or
+			not "license: Remnant"
+			not "license: Remnant Capital"
 	on accept
 		set "license: Remnant"
+		set "license: Remnant Capital"
 		fail
 
-mission "Add Coalition License"
+mission "Add Coalition Licenses"
 	repeat
 	job
 	source
 		attributes forgecoalition
-	description "Gives you a Coalition license."
+	description "Gives you the Coalition and Heliarch licenses."
 	to offer
 		not "license: Coalition"
-	on accept
-		set "license: Coalition"
-		fail
-
-mission "Add Heliarch License"
-	repeat
-	job
-	source
-		attributes forgecoalition
-	description "Gives you a Heliarch license."
-	to offer
 		not "license: Heliarch"
 	on accept
+		set "license: Coalition"
 		set "license: Heliarch"
 		fail
 
-mission "Add Wanderer Outfits License"
-	repeat
-	job
-	source
-		attributes forgewanderer
-	description "Gives you a Wanderer Outfits license."
-	to offer
-		not "license: Wanderer Outfits"
-	on accept
-		set "license: Wanderer Outfits"
-		fail
-
-mission "Remove Pilot's License"
-	repeat
-	job
-	source
-		attributes forgehuman
-	description "Removes your Pilot's license."
-	to offer
-		has "license: Pilot's"
-	on accept
-		clear "license: Pilot's"
-		fail
-
-mission "Remove Navy License"
-	repeat
-	job
-	source
-		attributes forgehuman
-	description "Removes your Navy license."
-	to offer
-		has "license: Navy"
-	on accept
-		clear "license: Navy"
-		fail
-
-mission "Remove Cruiser License"
-	repeat
-	job
-	source
-		attributes forgehuman
-	description "Removes your Cruiser license."
-	to offer
-		has "license: Cruiser"
-	on accept
-		clear "license: Cruiser"
-		fail
-
-mission "Remove Carrier License"
-	repeat
-	job
-	source
-		attributes forgehuman
-	description "Removes your Carrier license."
-	to offer
-		has "license: Carrier"
-	on accept
-		clear "license: Carrier"
-		fail
-
-mission "Remove Wanderer License"
-	repeat
-	job
-	source
-		attributes forgewanderer
-	description "Removes your Wanderer license."
-	to offer
-		has "license: Wanderer"
-	on accept
-		clear "license: Wanderer"
-		fail
-
-mission "Remove Wanderer Military License"
-	repeat
-	job
-	source
-		attributes forgewanderer
-	description "Removes your Wanderer Military license."
-	to offer
-		has "license: Wanderer Military"
-	on accept
-		clear "license: Wanderer Military"
-		fail
-
-mission "Remove Unfettered Militia License"
-	repeat
-	job
-	source
-		attributes forgehai
-	description "Removes your Unfettered Militia license."
-	to offer
-		has "license: Unfettered Militia"
-	on accept
-		clear "license: Unfettered Militia"
-		fail
-
-mission "Remove Militia Carrier License"
-	repeat
-	job
-	source
-		attributes forgehuman
-	description "Removes your Militia Carrier license."
-	to offer
-		has "license: Militia Carrier"
-	on accept
-		clear "license: Militia Carrier"
-		fail
-
-mission "Remove Remnant License"
+mission "Remove Licenses"
 	repeat
 	job
 	source
 		attributes forge
-	description "Removes your Remnant license."
-	to offer
-		has "license: Remnant"
+	description "Removes all licenses. You can readd the licenses you want by departing the planet and returning to the job board."
 	on accept
-		clear "license: Remnant"
-		fail
-
-mission "Remove Coalition License"
-	repeat
-	job
-	source
-		attributes forgecoalition
-	description "Removes your Coalition license."
-	to offer
-		has "license: Coalition"
-	on accept
-		clear "license: Coalition"
-		fail
-
-mission "Remove Heliarch License"
-	repeat
-	job
-	source
-		attributes forgecoalition
-	description "Removes your Heliarch license."
-	to offer
-		has "license: Heliarch"
-	on accept
-		clear "license: Heliarch"
-		fail
-
-mission "Remove Wanderer Outfits License"
-	repeat
-	job
-	source
-		attributes forgewanderer
-	description "Removes your Wanderer Outfits license."
-	to offer
-		has "license: Wanderer Outfits"
-	on accept
+		clear "license: Pilot's"
+		clear "license: City-Ship"
+		clear "license: Navy"
+		clear "license: Cruiser"
+		clear "license: Carrier"
+		clear "license: Wanderer"
 		clear "license: Wanderer Outfits"
+		clear "license: Wanderer Military"
+		clear "license: Unfettered Militia"
+		clear "license: Militia Carrier"
+		clear "license: Remnant"
+		clear "license: Coalition"
+		clear "license: Heliarch"
 		fail
 
 mission "Friendly Quarg"

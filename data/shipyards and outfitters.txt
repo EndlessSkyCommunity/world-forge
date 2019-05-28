@@ -367,7 +367,7 @@ outfitter basic
 	"Brig"
 	"Luxury Accommodations"
 
-shipyard deprecated
+# shipyard deprecated
 
 shipyard drak
 	"Archon"

@@ -734,7 +734,7 @@ planet Deprecated
 	description `	Outfits: only deprecated`
 	description `	Note: these have either been removed or replaced for name-,balance- or progress within the games development-reasons.`
 	spaceport ""
-	shipyard deprecated
+	# shipyard deprecated
 	outfitter deprecated
 	outfitter drive
 	outfitter basic
@@ -770,7 +770,7 @@ planet Forge
 	shipyard coalition
 	shipyard marauder
 	shipyard wanderer
-	shipyard modships
+#	shipyard modships
 	shipyard remnant
 	shipyard void
 	shipyard "Basic Ships"
@@ -796,7 +796,6 @@ planet Forge
 	shipyard "Hai Advanced"
 	shipyard "Wanderer Basics"
 	shipyard "Wanderer Advanced"
-	shipyard "Alien Ships"
 	outfitter drak
 	outfitter hai
 	outfitter human
@@ -807,7 +806,7 @@ planet Forge
 	outfitter wanderer
 	outfitter drive
 	outfitter basic
-	outfitter modoutfits
+#	outfitter modoutfits
 	outfitter remnant
 	outfitter void
 	outfitter "Common Outfits"
@@ -825,7 +824,6 @@ planet Forge
 	outfitter "Kraz Basics"
 	outfitter "Kraz Advanced"
 	outfitter "Pirate Outfits"
-	outfitter "Special Outfits"
 	outfitter "Hai Basics"
 	outfitter "Hai Intermediate"
 	outfitter "Hai Advanced"
@@ -953,11 +951,10 @@ planet Mods
 	description `Ships: shipyard modships`
 	description `Outfits: outfitter modoutfits`
 	spaceport ""
-	shipyard modships
-	outfitter modoutfits
+#	shipyard modships
+#	outfitter modoutfits
 	outfitter drive
 	outfitter basic
-	outfitter license
 	security 0
 	
 planet Painter

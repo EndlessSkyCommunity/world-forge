@@ -8,8 +8,8 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-#Edit your own stuff in here:
+# Edit your own stuff in here, then remove the "#"s before the outfitter or shipyard:
 
-outfitter modoutfits
+# outfitter modoutfits
 
-shipyard modships
+# shipyard modships

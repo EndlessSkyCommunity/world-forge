@@ -22,7 +22,7 @@ mission "Remnant: Bounty (Raider - Crippled)"
 		government "Korath"
 		personality coward target uninterested marked waiting
 		system
-			Arena
+			system "Arena"
 		fleet
 			names "korath"
 			cargo 3
@@ -48,7 +48,7 @@ mission "Remnant: Bounty 2 (Raider - Hyperdrive)"
 		government "Korath"
 		personality heroic vindictive target uninterested waiting marked
 		system
-			Arena
+			system "Arena"
 		fleet
 			names "korath"
 			cargo 3
@@ -74,7 +74,7 @@ mission "Remnant: Bounty NA (World Ship - Crippled)"
 		government "Korath"
 		personality coward target uninterested marked waiting
 		system
-			Arena
+			system "Arena"
 		fleet
 			names "korath"
 			cargo 3
@@ -100,13 +100,39 @@ mission "Remnant: Bounty NA (Korath World-Ship B (Ember))"
 		government "Korath"
 		personality heroic vindictive target uninterested waiting marked
 		system
-			Arena
+			system "Arena"
 		fleet
 			names "korath"
 			cargo 3
 			variant
 				"Korath World-Ship B (Ember)"
 		dialog "You have destroyed the Korath ship. You can now return to <planet> to collect your payment."
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 600000
+		dialog "The Remnant military leader station here thanks you for hunting down the <npc>, and gives you the agreed-upon payment of <payment>. He notes that they currently don't have a communication link to the Remnant worlds, so everyone back home won't know this mission happened."
+
+
+
+mission "Remnant: Bounty NA (1 Korath Chasers)"
+	job
+	repeat
+	name "Remnant bounty (1 Korath Chasers)"
+	description "Hunt down the Korath ships that are lurking in Arena, then return to <planet> to receive your payment of <payment>."
+	source
+		attribute "CombatBoard"
+	npc kill
+		government "Korath"
+		personality heroic vindictive target uninterested waiting marked
+		system
+			system "Arena"
+		fleet
+			names "korath"
+			cargo 3
+			variant
+				"Korath Chaser"
+		dialog "You have destroyed the Korath ships. You can now return to <planet> to collect your payment."
 	on visit
 		dialog phrase "generic bounty hunting on visit"
 	on complete
@@ -126,7 +152,7 @@ mission "Remnant: Bounty NA (2 Korath Chasers)"
 		government "Korath"
 		personality heroic vindictive target uninterested waiting marked
 		system
-			Arena
+			system "Arena"
 		fleet
 			names "korath"
 			cargo 3
@@ -141,10 +167,10 @@ mission "Remnant: Bounty NA (2 Korath Chasers)"
 
 
 
-mission "Remnant: Bounty NA (3 Korath Chasers)"
+mission "Remnant: Bounty NA (2 Korath Chasers)b"
 	job
 	repeat
-	name "Remnant bounty (3 Korath Chasers)"
+	name "Remnant bounty (2 Korath Chasers)b"
 	description "Hunt down the Korath ships that are lurking in Arena, then return to <planet> to receive your payment of <payment>."
 	source
 		attribute "CombatBoard"
@@ -152,12 +178,12 @@ mission "Remnant: Bounty NA (3 Korath Chasers)"
 		government "Korath"
 		personality heroic vindictive target uninterested waiting marked
 		system
-			Arena
+			system "Arena"
 		fleet
 			names "korath"
 			cargo 3
 			variant
-				"Korath Chaser" 3
+				"Korath Chaser" 2
 		dialog "You have destroyed the Korath ships. You can now return to <planet> to collect your payment."
 	on visit
 		dialog phrase "generic bounty hunting on visit"
@@ -178,7 +204,7 @@ mission "Remnant: Bounty NA (5 Korath Chasers)"
 		government "Korath"
 		personality heroic vindictive target uninterested waiting marked
 		system
-			Arena
+			system "Arena"
 		fleet
 			names "korath"
 			cargo 3
@@ -204,7 +230,7 @@ mission "Remnant: Bounty NA (C Raider + Chasers)"
 		government "Korath"
 		personality heroic vindictive target uninterested waiting marked
 		system
-			Arena
+			system "Arena"
 		fleet
 			names "korath"
 			cargo 3
@@ -231,7 +257,7 @@ mission "Remnant: Bounty NA (H Raider + Chasers)"
 		government "Korath"
 		personality heroic vindictive target uninterested waiting marked
 		system
-			Arena
+			system "Arena"
 		fleet
 			names "korath"
 			cargo 3

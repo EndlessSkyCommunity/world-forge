@@ -1,0 +1,246 @@
+# Copyright (c) 2017 by Michael Zahniser
+# Copyright (c) 2018 by Zitchas
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+
+
+mission "Remnant: Bounty (Raider - Crippled)"
+	job
+	repeat
+	name "Remnant bounty (Raider - Crippled)"
+	description "Hunt down a crippled Korath ship that is lurking in Arena, then return to <planet> to receive your payment of <payment>."
+	source
+		attribute "CombatBoard"
+	npc kill
+		government "Korath"
+		personality coward target uninterested marked waiting
+		system
+			Arena
+		fleet
+			names "korath"
+			cargo 3
+			variant
+				"Korath Raider (Crippled)"
+		dialog "You have destroyed the Korath ship. You can now return to <planet> to collect your payment."
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 300000
+		dialog "The Remnant military leader station here thanks you for hunting down the <npc>, and gives you the agreed-upon payment of <payment>. He notes that they currently don't have a communication link to the Remnant worlds, so everyone back home won't know this mission happened."
+
+
+
+mission "Remnant: Bounty 2 (Raider - Hyperdrive)"
+	job
+	repeat
+	name "Remnant bounty 2 (Raider - Hyperdrive)"
+	description "Hunt down a Korath ship that is lurking in Remnant territory, then return to <planet> to receive your payment of <payment>."
+	source
+		government "Remnant"
+	npc kill
+		government "Korath"
+		personality heroic vindictive target uninterested waiting marked
+		system
+			Arena
+		fleet
+			names "korath"
+			cargo 3
+			variant
+				"Korath Raider (Hyperdrive)"
+		dialog "You have destroyed the Korath ship. You can now return to <planet> to collect your payment."
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 400000
+		dialog "The Remnant military leader station here thanks you for hunting down the <npc>, and gives you the agreed-upon payment of <payment>. He notes that they currently don't have a communication link to the Remnant worlds, so everyone back home won't know this mission happened."
+
+
+
+mission "Remnant: Bounty NA (World Ship - Crippled)"
+	job
+	repeat
+	name "Remnant bounty (World Ship - Crippled)"
+	description "Hunt down a crippled Korath ship that is lurking in Arena, then return to <planet> to receive your payment of <payment>."
+	source
+		attribute "CombatBoard"
+	npc kill
+		government "Korath"
+		personality coward target uninterested marked waiting
+		system
+			Arena
+		fleet
+			names "korath"
+			cargo 3
+			variant
+				"Korath World-Ship B (Crippled)"
+		dialog "You have destroyed the Korath ship. You can now return to <planet> to collect your payment."
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 500000
+		dialog "The Remnant military leader station here thanks you for hunting down the <npc>, and gives you the agreed-upon payment of <payment>. He notes that they currently don't have a communication link to the Remnant worlds, so everyone back home won't know this mission happened."
+
+
+
+mission "Remnant: Bounty NA (Korath World-Ship B (Ember))"
+	job
+	repeat
+	name "Remnant bounty (Korath World-Ship B (Ember))"
+	description "Hunt down a Korath ship that is lurking in Arena, then return to <planet> to receive your payment of <payment>."
+	source
+		attribute "CombatBoard"
+	npc kill
+		government "Korath"
+		personality heroic vindictive target uninterested waiting marked
+		system
+			Arena
+		fleet
+			names "korath"
+			cargo 3
+			variant
+				"Korath World-Ship B (Ember)"
+		dialog "You have destroyed the Korath ship. You can now return to <planet> to collect your payment."
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 600000
+		dialog "The Remnant military leader station here thanks you for hunting down the <npc>, and gives you the agreed-upon payment of <payment>. He notes that they currently don't have a communication link to the Remnant worlds, so everyone back home won't know this mission happened."
+
+
+
+mission "Remnant: Bounty NA (2 Korath Chasers)"
+	job
+	repeat
+	name "Remnant bounty (2 Korath Chasers)"
+	description "Hunt down the Korath ships that are lurking in Arena, then return to <planet> to receive your payment of <payment>."
+	source
+		attribute "CombatBoard"
+	npc kill
+		government "Korath"
+		personality heroic vindictive target uninterested waiting marked
+		system
+			Arena
+		fleet
+			names "korath"
+			cargo 3
+			variant
+				"Korath Chaser" 2
+		dialog "You have destroyed the Korath ships. You can now return to <planet> to collect your payment."
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 600000
+		dialog "The Remnant military leader station here thanks you for hunting down the <npc>, and gives you the agreed-upon payment of <payment>. He notes that they currently don't have a communication link to the Remnant worlds, so everyone back home won't know this mission happened."
+
+
+
+mission "Remnant: Bounty NA (3 Korath Chasers)"
+	job
+	repeat
+	name "Remnant bounty (3 Korath Chasers)"
+	description "Hunt down the Korath ships that are lurking in Arena, then return to <planet> to receive your payment of <payment>."
+	source
+		attribute "CombatBoard"
+	npc kill
+		government "Korath"
+		personality heroic vindictive target uninterested waiting marked
+		system
+			Arena
+		fleet
+			names "korath"
+			cargo 3
+			variant
+				"Korath Chaser" 3
+		dialog "You have destroyed the Korath ships. You can now return to <planet> to collect your payment."
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 600000
+		dialog "The Remnant military leader station here thanks you for hunting down the <npc>, and gives you the agreed-upon payment of <payment>. He notes that they currently don't have a communication link to the Remnant worlds, so everyone back home won't know this mission happened."
+
+
+
+mission "Remnant: Bounty NA (5 Korath Chasers)"
+	job
+	repeat
+	name "Remnant bounty (5 Korath Chasers)"
+	description "Hunt down the Korath ships that are lurking in Arena, then return to <planet> to receive your payment of <payment>."
+	source
+		attribute "CombatBoard"
+	npc kill
+		government "Korath"
+		personality heroic vindictive target uninterested waiting marked
+		system
+			Arena
+		fleet
+			names "korath"
+			cargo 3
+			variant
+				"Korath Chaser" 5
+		dialog "You have destroyed the Korath ships. You can now return to <planet> to collect your payment."
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 600000
+		dialog "The Remnant military leader station here thanks you for hunting down the <npc>, and gives you the agreed-upon payment of <payment>. He notes that they currently don't have a communication link to the Remnant worlds, so everyone back home won't know this mission happened."
+
+
+
+mission "Remnant: Bounty NA (C Raider + Chasers)"
+	job
+	repeat
+	name "Remnant bounty (C Raider + Chasers)"
+	description "Hunt down the Korath ships that are lurking in Arena, then return to <planet> to receive your payment of <payment>."
+	source
+		attribute "CombatBoard"
+	npc kill
+		government "Korath"
+		personality heroic vindictive target uninterested waiting marked
+		system
+			Arena
+		fleet
+			names "korath"
+			cargo 3
+			variant
+				"Korath Raider (Crippled)"
+				"Korath Chaser" 2
+		dialog "You have destroyed the Korath ships. You can now return to <planet> to collect your payment."
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 600000
+		dialog "The Remnant military leader station here thanks you for hunting down the <npc>, and gives you the agreed-upon payment of <payment>. He notes that they currently don't have a communication link to the Remnant worlds, so everyone back home won't know this mission happened."
+
+
+
+mission "Remnant: Bounty NA (H Raider + Chasers)"
+	job
+	repeat
+	name "Remnant bounty (H Raider + Chasers)"
+	description "Hunt down the Korath ships that are lurking in Arena, then return to <planet> to receive your payment of <payment>."
+	source
+		attribute "CombatBoard"
+	npc kill
+		government "Korath"
+		personality heroic vindictive target uninterested waiting marked
+		system
+			Arena
+		fleet
+			names "korath"
+			cargo 3
+			variant
+				"Korath Raider (Hyperdrive)"
+				"Korath Chaser" 2
+		dialog "You have destroyed the Korath ships. You can now return to <planet> to collect your payment."
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 600000
+		dialog "The Remnant military leader station here thanks you for hunting down the <npc>, and gives you the agreed-upon payment of <payment>. He notes that they currently don't have a communication link to the Remnant worlds, so everyone back home won't know this mission happened."

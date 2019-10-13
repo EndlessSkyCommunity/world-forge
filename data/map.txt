@@ -754,7 +754,7 @@ planet Drak
 	security 0
 
 planet Forge
-	attributes forge forgedrak forgehai forgehuman forgekorath forgepug forgewanderer forgequarg forgecoalition
+	attributes forge forgedrak forgehai forgehuman forgekorath forgepug forgewanderer forgequarg forgecoalition combatboard
 	landscape hochofen
 	description `Race: all`
 	description `	Ships: all`

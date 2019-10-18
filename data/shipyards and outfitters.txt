@@ -52,6 +52,8 @@ outfitter coalition
 	"Bombardment Turret"
 	"Small Reactor Module"
 	"Large Reactor Module"
+	"Enforcer Riot Staff"
+	"Enforcer Confrontation Gear"
 
 outfitter hai
 	"Ion Cannon"
@@ -224,6 +226,7 @@ outfitter pug
 	"Tier 3 Anti-Missile"
 	"Pug Gridfire Turret"
 	"Cloaking Device"
+	"Pug Peacekeeping Staff"
 
 outfitter korath
 	"Generator (Candle Class)"

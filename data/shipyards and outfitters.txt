@@ -52,8 +52,11 @@ outfitter coalition
 	"Bombardment Turret"
 	"Small Reactor Module"
 	"Large Reactor Module"
+	"Scanning Module"
 	"Enforcer Riot Staff"
 	"Enforcer Confrontation Gear"
+	"Overclocked Repair Module"
+	"Overcharged Shield Module"
 
 outfitter hai
 	"Ion Cannon"

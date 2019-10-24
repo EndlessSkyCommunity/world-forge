@@ -328,6 +328,7 @@ outfitter remnant
 	"Thermoelectric Cooler"
 	"Emergency Ramscoop"
 	"Quantum Key Stone"
+	"Anvil-Class Engine"
 	"Crucible-Class Thruster"
 	"Crucible-Class Steering"
 	"Forge-Class Thruster"
@@ -335,6 +336,7 @@ outfitter remnant
 	"Smelter-Class Thruster"
 	"Smelter-Class Steering"
 	"Tuning Rifle"
+	"Salvage Scanner"
 
 outfitter void
 	"Mouthparts?"

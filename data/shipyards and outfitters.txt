@@ -549,6 +549,7 @@ shipyard wanderer
 	"Deep River Transport"
 	"Cool Breeze"
 	"Winter Gale"
+	"Riptide"
 
 shipyard remnant
 	"Starling"

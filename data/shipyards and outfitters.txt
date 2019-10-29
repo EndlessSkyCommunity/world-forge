@@ -337,6 +337,7 @@ outfitter remnant
 	"Smelter-Class Steering"
 	"Tuning Rifle"
 	"Salvage Scanner"
+	"Void Rifle"
 
 outfitter void
 	"Mouthparts?"
@@ -557,6 +558,10 @@ shipyard remnant
 	"Gascraft"
 	"Pelican"
 	"Gull"
+	"Penguin"
+	"Ibis"
+	"Petrel"
+	"Tern"
 
 shipyard void
 	"Void Sprite"

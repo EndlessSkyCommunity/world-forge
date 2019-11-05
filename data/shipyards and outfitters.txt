@@ -52,6 +52,11 @@ outfitter coalition
 	"Bombardment Turret"
 	"Small Reactor Module"
 	"Large Reactor Module"
+	"Scanning Module"
+	"Enforcer Riot Staff"
+	"Enforcer Confrontation Gear"
+	"Overclocked Repair Module"
+	"Overcharged Shield Module"
 
 outfitter hai
 	"Ion Cannon"
@@ -224,6 +229,7 @@ outfitter pug
 	"Tier 3 Anti-Missile"
 	"Pug Gridfire Turret"
 	"Cloaking Device"
+	"Pug Peacekeeping Staff"
 
 outfitter korath
 	"Generator (Candle Class)"
@@ -322,6 +328,7 @@ outfitter remnant
 	"Thermoelectric Cooler"
 	"Emergency Ramscoop"
 	"Quantum Key Stone"
+	"Anvil-Class Engine"
 	"Crucible-Class Thruster"
 	"Crucible-Class Steering"
 	"Forge-Class Thruster"
@@ -329,6 +336,8 @@ outfitter remnant
 	"Smelter-Class Thruster"
 	"Smelter-Class Steering"
 	"Tuning Rifle"
+	"Salvage Scanner"
+	"Void Rifle"
 
 outfitter void
 	"Mouthparts?"
@@ -541,6 +550,7 @@ shipyard wanderer
 	"Deep River Transport"
 	"Cool Breeze"
 	"Winter Gale"
+	"Riptide"
 
 shipyard remnant
 	"Starling"
@@ -548,6 +558,10 @@ shipyard remnant
 	"Gascraft"
 	"Pelican"
 	"Gull"
+	"Penguin"
+	"Ibis"
+	"Petrel"
+	"Tern"
 
 shipyard void
 	"Void Sprite"

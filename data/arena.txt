@@ -17,10 +17,10 @@ mission "Remnant: Bounty (Raider - Crippled)"
 	name "Remnant bounty (Raider - Crippled)"
 	description "Hunt down a crippled Korath ship that is lurking in Arena, then return to <planet> to receive your payment of <payment>."
 	source
-		attribute "CombatBoard"
+		attributes "CombatBoard"
 	npc kill
 		government "Korath"
-		personality coward target waiting
+		personality coward target uninterested marked waiting
 		system
 			system "Arena"
 		fleet
@@ -46,7 +46,7 @@ mission "Remnant: Bounty 2 (Raider - Hyperdrive)"
 		government "Remnant"
 	npc kill
 		government "Korath"
-		personality heroic target waiting
+		personality heroic vindictive target uninterested waiting marked
 		system
 			system "Arena"
 		fleet
@@ -69,10 +69,10 @@ mission "Remnant: Bounty NA (World Ship - Crippled)"
 	name "Remnant bounty (World Ship - Crippled)"
 	description "Hunt down a crippled Korath ship that is lurking in Arena, then return to <planet> to receive your payment of <payment>."
 	source
-		attribute "CombatBoard"
+		attributes "CombatBoard"
 	npc kill
 		government "Korath"
-		personality coward target waiting
+		personality coward target uninterested marked waiting
 		system
 			system "Arena"
 		fleet
@@ -95,10 +95,10 @@ mission "Remnant: Bounty NA (Korath World-Ship B (Ember))"
 	name "Remnant bounty (Korath World-Ship B (Ember))"
 	description "Hunt down a Korath ship that is lurking in Arena, then return to <planet> to receive your payment of <payment>."
 	source
-		attribute "CombatBoard"
+		attributes "CombatBoard"
 	npc kill
 		government "Korath"
-		personality heroic target waiting
+		personality heroic vindictive target uninterested waiting marked
 		system
 			system "Arena"
 		fleet
@@ -121,10 +121,10 @@ mission "Remnant: Bounty NA (1 Korath Chasers)"
 	name "Remnant bounty (1 Korath Chasers)"
 	description "Hunt down the Korath ships that are lurking in Arena, then return to <planet> to receive your payment of <payment>."
 	source
-		attribute "CombatBoard"
+		attributes "CombatBoard"
 	npc kill
 		government "Korath"
-		personality heroic target waiting
+		personality heroic vindictive target uninterested waiting marked
 		system
 			system "Arena"
 		fleet
@@ -147,10 +147,10 @@ mission "Remnant: Bounty NA (2 Korath Chasers)"
 	name "Remnant bounty (2 Korath Chasers)"
 	description "Hunt down the Korath ships that are lurking in Arena, then return to <planet> to receive your payment of <payment>."
 	source
-		attribute "CombatBoard"
+		attributes "CombatBoard"
 	npc kill
 		government "Korath"
-		personality heroic target waiting
+		personality heroic vindictive target uninterested waiting marked
 		system
 			system "Arena"
 		fleet
@@ -173,10 +173,10 @@ mission "Remnant: Bounty NA (2 Korath Chasers)b"
 	name "Remnant bounty (2 Korath Chasers)b"
 	description "Hunt down the Korath ships that are lurking in Arena, then return to <planet> to receive your payment of <payment>."
 	source
-		attribute "CombatBoard"
+		attributes "CombatBoard"
 	npc kill
 		government "Korath"
-		personality heroic target waiting
+		personality heroic vindictive target uninterested waiting marked
 		system
 			system "Arena"
 		fleet
@@ -199,10 +199,10 @@ mission "Remnant: Bounty NA (5 Korath Chasers)"
 	name "Remnant bounty (5 Korath Chasers)"
 	description "Hunt down the Korath ships that are lurking in Arena, then return to <planet> to receive your payment of <payment>."
 	source
-		attribute "CombatBoard"
+		attributes "CombatBoard"
 	npc kill
 		government "Korath"
-		personality heroic target waiting
+		personality heroic vindictive target uninterested waiting marked
 		system
 			system "Arena"
 		fleet
@@ -225,10 +225,10 @@ mission "Remnant: Bounty NA (C Raider + Chasers)"
 	name "Remnant bounty (C Raider + Chasers)"
 	description "Hunt down the Korath ships that are lurking in Arena, then return to <planet> to receive your payment of <payment>."
 	source
-		attribute "CombatBoard"
+		attributes "CombatBoard"
 	npc kill
 		government "Korath"
-		personality heroic target waiting
+		personality heroic vindictive target uninterested waiting marked
 		system
 			system "Arena"
 		fleet
@@ -252,10 +252,10 @@ mission "Remnant: Bounty NA (H Raider + Chasers)"
 	name "Remnant bounty (H Raider + Chasers)"
 	description "Hunt down the Korath ships that are lurking in Arena, then return to <planet> to receive your payment of <payment>."
 	source
-		attribute "CombatBoard"
+		attributes "CombatBoard"
 	npc kill
 		government "Korath"
-		personality heroic target waiting
+		personality heroic vindictive target uninterested waiting marked
 		system
 			system "Arena"
 		fleet

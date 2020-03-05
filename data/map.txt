@@ -773,6 +773,7 @@ planet Forge
 #	shipyard modships
 	shipyard remnant
 	shipyard void
+	shipyard ka'het
 	shipyard "Basic Ships"
 	shipyard "Tarazed Basics"
 	shipyard "Tarazed Advanced"
@@ -809,6 +810,7 @@ planet Forge
 #	outfitter modoutfits
 	outfitter remnant
 	outfitter void
+	outfitter ka'het
 	outfitter "Common Outfits"
 	outfitter "Basic Weapons"
 	outfitter "Ammo North"

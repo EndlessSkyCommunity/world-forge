@@ -342,6 +342,17 @@ outfitter remnant
 outfitter void
 	"Mouthparts?"
 
+outfitter ka'het
+	"Ka'het Ravager Beam"
+	"Ka'het Ravager Turret"
+	"Ka'het Annihilator"
+	"Ka'het Annihilator Turret"
+	"Ka'het EMP Deployer"
+	"EMP Torpedo"
+	"Ka'het Primary Cooling"
+	"Ka'het Support Cooling"
+	"Ka'het Shield Restorer"
+
 outfitter drive
 	"Developer Drive"
 
@@ -566,3 +577,9 @@ shipyard remnant
 shipyard void
 	"Void Sprite"
 	"Void Sprite (Infant)"
+
+shipyard ka'het
+	"Maeri'het"
+	"Telis'het"
+	"Selii'mar"
+	"Faes'mar"

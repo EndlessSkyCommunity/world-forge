@@ -99,16 +99,16 @@ mission "Add Unfettered Militia License"
 		set "license: Unfettered Militia"
 		fail
 
-mission "Add Militia Carrier License"
+mission "Add Militia License"
 	repeat
 	job
 	source
 		attributes forgehuman
-	description "Gives you a Militia Carrier license."
+	description "Gives you a Militia license."
 	to offer
-		not "license: Militia Carrier"
+		not "license: Militia"
 	on accept
-		set "license: Militia Carrier"
+		set "license: Militia"
 		fail
 
 mission "Add Remnant Licenses"

@@ -1015,3 +1015,6 @@ planet Wanderer
 	outfitter drive
 	outfitter basic
 	security 0
+
+planet Rupture
+

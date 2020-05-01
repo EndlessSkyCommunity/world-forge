@@ -57,6 +57,7 @@ outfitter coalition
 	"Enforcer Confrontation Gear"
 	"Overclocked Repair Module"
 	"Overcharged Shield Module"
+	"Ion Hail Turret"
 
 outfitter hai
 	"Ion Cannon"
@@ -338,6 +339,8 @@ outfitter remnant
 	"Tuning Rifle"
 	"Salvage Scanner"
 	"Void Rifle"
+	"Bellows-Class Afterburner"
+	"Inhibitor Turret"
 
 outfitter void
 	"Mouthparts?"

@@ -355,6 +355,8 @@ outfitter ka'het
 	"Ka'het Primary Cooling"
 	"Ka'het Support Cooling"
 	"Ka'het Shield Restorer"
+	"Ka'het MHD Generator"
+	"Ka'het Reserve Accumulator"
 
 outfitter drive
 	"Developer Drive"
@@ -464,6 +466,9 @@ shipyard human
 	"Frigate"
 	"Cruiser"
 	"Carrier"
+	"Auxiliary"
+	"Auxiliary (Cargo)"
+	"Auxiliary (Transport)"
 	"Quicksilver"
 	"Bounder"
 	"Splinter"
@@ -482,6 +487,7 @@ shipyard human
 	"Barb"
 	"Barb (Proton)"
 	"Boxwing"
+	"Dropship"
 	"Finch"
 	"Kestrel (More Shields)"
 	"Kestrel (More Weapons)"

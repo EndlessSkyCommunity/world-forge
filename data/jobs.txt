@@ -58,14 +58,16 @@ mission "Add Navy Licenses"
 	job
 	source
 		attributes forgehuman
-	description "Gives you the Navy, Cruiser, and Carrier licenses."
+	description "Gives you the Navy, Auxiliary, Cruiser, and Carrier licenses."
 	to offer
 		or
 			not "license: Navy"
+			not "license: Navy Auxiliary"
 			not "license: Cruiser"
 			not "license: Carrier"
 	on accept
 		set "license: Navy"
+		set "license: Navy Auxiliary"
 		set "license: Cruiser"
 		set "license: Carrier"
 		fail

@@ -358,6 +358,15 @@ outfitter ka'het
 	"Ka'het MHD Generator"
 	"Ka'het Reserve Accumulator"
 
+outfitter sheragi
+	"Electromagnetic Battery"
+	"Fusion Drive"
+	"Sheragi Cooling Unit"
+	"Damaged Sheragi Systems"
+	"Dragonflame Cannon"
+	"Sheragi Anti-Missile"
+	"Particle Waveform Turret"
+
 outfitter drive
 	"Developer Drive"
 
@@ -384,6 +393,7 @@ outfitter basic
 	"Titanium"
 	"Tungsten"
 	"Uranium"
+	"Yottrite"
 	"Outfit Scanner"
 	"Cargo Scanner"
 	"Tactical Scanner"
@@ -582,6 +592,7 @@ shipyard remnant
 	"Ibis"
 	"Petrel"
 	"Tern"
+	"Peregrine"
 
 shipyard void
 	"Void Sprite"
@@ -592,3 +603,6 @@ shipyard ka'het
 	"Telis'het"
 	"Selii'mar"
 	"Faes'mar"
+
+shipyard sheragi
+	"Emerald Sword"

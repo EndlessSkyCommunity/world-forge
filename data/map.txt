@@ -774,6 +774,7 @@ planet Forge
 	shipyard remnant
 	shipyard void
 	shipyard ka'het
+	shipyard sheragi
 	shipyard "Basic Ships"
 	shipyard "Tarazed Basics"
 	shipyard "Tarazed Advanced"
@@ -811,6 +812,7 @@ planet Forge
 	outfitter remnant
 	outfitter void
 	outfitter ka'het
+	outfitter sheragi
 	outfitter "Common Outfits"
 	outfitter "Basic Weapons"
 	outfitter "Ammo North"

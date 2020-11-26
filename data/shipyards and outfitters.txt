@@ -357,15 +357,24 @@ outfitter ka'het
 	"Ka'het Shield Restorer"
 	"Ka'het MHD Generator"
 	"Ka'het Reserve Accumulator"
+	"Maeri Engine Nacelles"
+	"Ka'het Sustainer Nacelles"
+	"Telis Engine Nacelles"
+	"Ka'het Compact Engine"
 
 outfitter sheragi
-	"Electromagnetic Battery"
+	"Large EM Battery"
+	"Small EM Battery"
 	"Fusion Drive"
-	"Sheragi Cooling Unit"
-	"Damaged Sheragi Systems"
+	"Fission Drive"
+	"Large Hybrid Cooling"
+	"Small Hybrid Cooling"
+	"Electronic Warfare System"
 	"Dragonflame Cannon"
 	"Sheragi Anti-Missile"
 	"Particle Waveform Turret"
+	"Shard Fabricator"
+	"Heavy Ion Cyclotron"
 
 outfitter drive
 	"Developer Drive"
@@ -424,6 +433,12 @@ shipyard coalition
 	"Heliarch Neutralizer"
 	"Heliarch Interdictor"
 	"Heliarch Punisher"
+	"Heliarch Breacher"
+	"Heliarch Hunter"
+	"Heliarch Judicator"
+	"Heliarch Pursuer"
+	"Heliarch Rover"
+	"Heliarch Stalker"
 
 shipyard hai
 	"Shield Beetle"

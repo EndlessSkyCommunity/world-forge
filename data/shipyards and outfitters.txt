@@ -92,6 +92,7 @@ outfitter hai
 	"Sand Cell"
 	"Railgun"
 	"Railgun Slug"
+	"Railgun Slug Rack"
 	"Tracker Storage Pod"
 	"Quantum Keystone"
 	"Pulse Rifle"

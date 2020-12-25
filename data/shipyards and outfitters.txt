@@ -601,7 +601,6 @@ shipyard wanderer
 shipyard remnant
 	"Starling"
 	"Albatross"
-	"Gascraft"
 	"Pelican"
 	"Gull"
 	"Penguin"

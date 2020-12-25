@@ -14,9 +14,9 @@ mission money
 	job
 	source
 		attributes forge
-	description "I need a credit, a credit is what i need...  here, have one billion"
+	description "I need a credit, a credit is what I need...  here, have one trillion"
 	on accept
-		payment 1000000000
+		payment 1000000000000
 		fail
 
 mission "Boost Combat Rating"
@@ -27,6 +27,16 @@ mission "Boost Combat Rating"
 	description "Boost your combat rating by 200,000 (enough to go from 0 to 12)."
 	on accept
 		"combat rating" += 200000
+		fail
+
+mission "Reset Combat Rating"
+	repeat
+	job
+	source
+		attributes forge
+	description "Reset your combat rating to 0."
+	on accept
+		"combat rating" = 0
 		fail
 
 mission "Add Pilot's License"
@@ -63,13 +73,13 @@ mission "Add Navy Licenses"
 		or
 			not "license: Navy"
 			not "license: Navy Auxiliary"
-			not "license: Cruiser"
-			not "license: Carrier"
+			not "license: Navy Cruiser"
+			not "license: Navy Carrier"
 	on accept
 		set "license: Navy"
 		set "license: Navy Auxiliary"
-		set "license: Cruiser"
-		set "license: Carrier"
+		set "license: Navy Cruiser"
+		set "license: Navy Carrier"
 		fail
 
 mission "Add Wanderer Licenses"
@@ -153,8 +163,8 @@ mission "Remove Licenses"
 		clear "license: Pilot's"
 		clear "license: City-Ship"
 		clear "license: Navy"
-		clear "license: Cruiser"
-		clear "license: Carrier"
+		clear "license: Navy Cruiser"
+		clear "license: Navy Carrier"
 		clear "license: Wanderer"
 		clear "license: Wanderer Outfits"
 		clear "license: Wanderer Military"
@@ -163,6 +173,63 @@ mission "Remove Licenses"
 		clear "license: Remnant"
 		clear "license: Coalition"
 		clear "license: Heliarch"
+		fail
+
+mission "Reset Reputation"
+	repeat
+	job
+	source
+		attributes forge
+	description "Reset your reputation with all governments to the default."
+	on offer
+		"reputation: Alpha" = -1000
+		"reputation: Author" = 1
+		"reputation: Builder" = 0
+		"reputation: Bounty" = -1000
+		"reputation: Bounty (Disguised)" = 1
+		"reputation: Bounty Hunter" = -1000
+		"reputation: Coalition" = 1
+		"reputation: Deep" = -1000
+		"reputation: Deep Security" = 1
+		"reputation: Derelict" = 0
+		"reputation: Drak" = 1
+		"reputation: Drak (Hostile)" = -1000
+		"reputation: Free Worlds" = 1
+		"reputation: Hai" = 0
+		"reputation: Hai (Wormhole Access)" = 0
+		"reputation: Hai (Unfettered)" = -1000
+		"reputation: Heliarch" = 1
+		"reputation: Independent" = 10
+		"reputation: Independent (Killable)" = 10
+		"reputation: Indigenous Lifeform" = 1
+		"reputation: Ka'het" = -1
+		"reputation: Ka'het (Infighting)" = -1
+		"reputation: Korath" = -10
+		"reputation: Korath Nanobots" = -1000
+		"reputation: Kor Efret" = 1
+		"reputation: Kor Mereti" = -1000
+		"reputation: Kor Mereti (Hostile)" = -1000
+		"reputation: Kor Sestor" = -1000
+		"reputation: Marauder" = 1
+		"reputation: Merchant" = 10
+		"reputation: Militia" = 0
+		"reputation: Navy Intelligence" = 0
+		"reputation: Navy (Oathkeeper)" = 100
+		"reputation: Neutral" = 1
+		"reputation: Parrot" = 1
+		"reputation: Pirate" = 10;
+		"reputation: Pug" = 1
+		"reputation: Pug (Wanderer)" = 1
+		"reputation: Quarg" = 1
+		"reputation: Remnant" = 1
+		"reputation: Republic" = 2
+		"reputation: Syndicate" = 2
+		"reputation: Syndicate (Extremist)" = -1000
+		"reputation: Test Dummy" = -1000
+		"reputation: Uninhabited" = 0
+		"reputation: Ember Waste" = 1
+		"reputation: Wanderer" = 1
+		"reputation: Wormhole Alpha" = 0
 		fail
 
 mission "Friendly Quarg"

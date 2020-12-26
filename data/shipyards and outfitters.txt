@@ -601,6 +601,7 @@ shipyard wanderer
 shipyard remnant
 	"Starling"
 	"Albatross"
+	"Puffin"
 	"Pelican"
 	"Gull"
 	"Penguin"

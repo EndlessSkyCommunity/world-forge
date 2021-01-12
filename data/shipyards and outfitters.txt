@@ -362,6 +362,9 @@ outfitter ka'het
 	"Ka'het Sustainer Nacelles"
 	"Telis Engine Nacelles"
 	"Ka'het Compact Engine"
+	"Vareti Engine Block"
+	"Ka'het Grand Restorer"
+	"Ka'het Nullifier"
 
 outfitter sheragi
 	"Large EM Battery"
@@ -619,6 +622,7 @@ shipyard ka'het
 	"Telis'het"
 	"Selii'mar"
 	"Faes'mar"
+	"Vareti'het"
 
 shipyard sheragi
 	"Emerald Sword"

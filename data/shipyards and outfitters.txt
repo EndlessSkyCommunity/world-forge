@@ -626,3 +626,4 @@ shipyard ka'het
 
 shipyard sheragi
 	"Emerald Sword"
+	"Black Diamond"

@@ -525,6 +525,7 @@ shipyard human
 
 shipyard korath
 	"Korath Raider"
+	"Korath Dredger"
 	"Korath World-Ship"
 	"Korath Chaser"
 	"Tek Far 71 - Lek"

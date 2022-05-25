@@ -625,6 +625,7 @@ shipyard ka'het
 	"Selii'mar"
 	"Faes'mar"
 	"Vareti'het"
+	"Fetri'sei"
 
 shipyard sheragi
 	"Emerald Sword"

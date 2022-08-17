@@ -9,6 +9,7 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 outfitter deprecated
+	"Afterburner"
 	"Reverse Thruster"
 	"NDR-114 Android"
 	"Korath Tek'far Reactor"
@@ -20,18 +21,27 @@ outfitter deprecated
 	"Korath Jak'torbal Thruster"
 	"Korath Jak'parat Steering"
 	"Mass Expansion"
+	"Chameleon Anti-Missile Turret"
+	"Bullfrog Anti-Missile Turret"
 
 outfitter drak
 	"Drak Distancer"
 	"Drak Draining Field"
+	"Drak Draining Field (Augmented)"
 	"Drak Anti-Missile Field"
+	"Drak Anti-Missile Field (Augmented)"
 	"Drak Turret"
+	"Drak Turret (Augmented)"
 	"Drak Antimatter Cannon"
+	"Drak Antimatter Cannon (Augmented)"
 	"Drak Antimatter Fragment"
+	"Drak Antimatter Fragment (Augmented)"
 
 outfitter coalition
 	"Small Collector Module"
 	"Large Collector Module"
+	"Small Cogeneration Module"
+	"Large Cogeneration Module"
 	"Small Battery Module"
 	"Large Battery Module"
 	"Small Shield Module"
@@ -132,6 +142,7 @@ outfitter human
 	"Tyrant Plasma Thruster"
 	"Tyrant Plasma Steering"
 	"AR120 Reverse Thruster"
+	"Capybara Reverse Thruster"
 	"LP036a Battery Pack"
 	"LP072a Battery Pack"
 	"LP144a Battery Pack"
@@ -173,10 +184,15 @@ outfitter human
 	"Large Radar Jammer"
 	"Blaster Turret"
 	"Meteor Missile Launcher"
+	"Meteor Missile Pod"
 	"Sidewinder Missile Launcher"
+	"Sidewinder Missile Pod"
 	"Javelin Pod"
+	"Javelin Mini Pod"
 	"Heavy Rocket Launcher"
+	"Heavy Rocket Pod"
 	"Torpedo Launcher"
+	"Torpedo Pod"
 	"Beam Laser"
 	"Volcano Afterburner"
 	"Caldera Afterburner"
@@ -200,6 +216,7 @@ outfitter human
 	"Catalytic Ramscoop"
 	"Plasma Turret"
 	"Typhoon Launcher"
+	"Typhoon Pod"
 	"Typhoon Torpedo"
 	"Ionic Afterburner"
 	"Flamethrower"
@@ -646,6 +663,9 @@ shipyard remnant
 shipyard void
 	"Void Sprite"
 	"Void Sprite (Infant)"
+	"Ember Waste Node"
+	"Embershade"
+	"Subsidurial"
 
 shipyard ka'het
 	"Maeri'het"

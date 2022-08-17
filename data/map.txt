@@ -297,7 +297,7 @@ system Human
 			sprite planet/luna
 			distance 201.24
 			period 27.3
-	object
+	object Marauder
 		sprite planet/mars
 		distance 1471.43
 		period 687
@@ -948,6 +948,23 @@ planet MarauderW
 	outfitter basic
 	security 0
 	
+planet Marauder
+	attributes forge forgehuman
+	landscape land/human
+	description `Race: Human`
+	description `	Ships: Marauders and base versions`
+	description `	Outfits: Human`
+	description `	Note: No other variants`
+	spaceport ""
+	shipyard unmarauder
+	shipyard marauder
+	shipyard maraudere
+	shipyard marauderw
+	outfitter human
+	outfitter drive
+	outfitter basic
+	security 0
+
 planet Mods
 	attributes forge
 	landscape ""

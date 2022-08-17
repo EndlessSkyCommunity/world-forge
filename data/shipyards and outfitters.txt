@@ -622,6 +622,18 @@ shipyard marauderw
 	"Marauder Raven (Weapons)"
 	"Marauder Splinter (Weapons)"
 
+shipyard unmarauder
+	"Arrow"
+	"Bounder"
+	"Falcon"
+	"Firebird"
+	"Fury"
+	"Leviathan"
+	"Manta"
+	"Quicksilver"
+	"Raven"
+	"Splinter"
+
 shipyard pug
 	"Pug Zibruka"
 	"Pug Enfolta"

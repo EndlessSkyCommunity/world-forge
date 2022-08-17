@@ -657,6 +657,7 @@ shipyard remnant
 	"Ibis"
 	"Petrel"
 	"Tern"
+	"Merganser"
 	"Peregrine"
 
 shipyard void

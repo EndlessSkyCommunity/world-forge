@@ -15,6 +15,7 @@ outfitter author
 	"Hexagonal Crystal"
 	"Tree Skeleton Key Stone"
 	"Rais Iris XVIII"
+
 outfitter deprecated
 	"Afterburner"
 	"Reverse Thruster"

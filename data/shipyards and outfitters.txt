@@ -590,6 +590,7 @@ shipyard korath
 
 shipyard marauder
 	"Marauder Arrow"
+	"Marauder Bactrian"
 	"Marauder Bounder"
 	"Marauder Falcon"
 	"Marauder Firebird"
@@ -624,6 +625,7 @@ shipyard marauderw
 
 shipyard unmarauder
 	"Arrow"
+	"Bactrian"
 	"Bounder"
 	"Falcon"
 	"Firebird"

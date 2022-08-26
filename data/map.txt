@@ -21,12 +21,6 @@ system Arena
 	link Wanderer
 	link "Team Red"
 	link "Team Blue"
-	asteroids "small rock" 51 7.0296
-	asteroids "medium rock" 2 7.3776
-	asteroids "large rock" 41 9.6744
-	asteroids "small metal" 23 4.524
-	asteroids "medium metal" 25 5.0112
-	asteroids "large metal" 182 5.0112
 	object
 		sprite star/k5
 		distance 50.1931
@@ -570,12 +564,6 @@ system "Team Blue"
 	link "Team Red"
 	link Arena
 	link Wanderer
-	asteroids "small rock" 2 3.9627
-	asteroids "medium rock" 3 4.4982
-	asteroids "large rock" 1 4.3197
-	asteroids "small metal" 1 3.1059
-	asteroids "medium metal" 1 4.1055
-	asteroids "large metal" 3 3.2487
 	object
 		sprite star/b5
 		period 10
@@ -630,12 +618,6 @@ system "Team Red"
 	link Arena
 	link "Team Blue"
 	link Pug
-	asteroids "small rock" 14 1.8975
-	asteroids "medium rock" 136 1.3409
-	asteroids "large rock" 40 3.6938
-	asteroids "small metal" 2 3.6685
-	asteroids "medium metal" 28 1.6445
-	asteroids "large metal" 21 3.7697
 	object
 		sprite star/m4
 		period 10

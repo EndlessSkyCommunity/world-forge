@@ -387,6 +387,10 @@ outfitter remnant
 	"Thrasher Turret"
 	"EMP Torpedo Bay"
 	"EMP Torpedo"
+	"Teciimach Bay"
+	"Teciimach Pod"
+	"Teciimach Canister"
+	"Teciimach Canister Rack"
 	"Point Defense Turret"
 	"Crystal Capacitor"
 	"Millennium Cell"
@@ -689,6 +693,7 @@ shipyard remnant
 	"Ibis"
 	"Petrel"
 	"Tern"
+	"Smew"
 	"Merganser"
 	"Peregrine"
 

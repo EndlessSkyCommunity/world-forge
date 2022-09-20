@@ -448,11 +448,11 @@ system Origin
 		sprite planet/gas13
 		distance 2305.74
 		period 2475.71
-		object
+		object Author
 			sprite planet/io
 			distance 292
 			period 14.0859
-		object
+		object Everything
 			sprite planet/dust7
 			distance 411
 			period 23.5219
@@ -713,6 +713,19 @@ system Wanderer
 			distance 347
 			period 24.2373
 
+planet Author
+	attributes forge forgeauthor
+	landscape hochofen
+	description `Race: author`
+	description `	Ships: author`
+	description `	Outfits: author`
+	description `	Note: No variants`
+	spaceport ""
+	shipyard author
+	outfitter author
+	outfitter drive
+	outfitter basic
+
 planet Coalition
 	attributes forge forgecoalition
 	landscape ""
@@ -753,6 +766,18 @@ planet Drak
 	outfitter basic
 	security 0
 
+planet Everything
+	attributes forge forgedrak forgehai forgehuman forgekorath forgepug forgewanderer forgequarg forgecoalition
+	landscape hochofen
+	description `Race: all`
+	description `	Ships: all`
+	description `	Outfits: all`
+	description `	Note: all variants`
+	spaceport ""
+	shipyard allvariants
+	outfitter alloutfits
+	outfitter drive
+
 planet Forge
 	attributes forge forgedrak forgehai forgehuman forgekorath forgepug forgewanderer forgequarg forgecoalition
 	landscape hochofen
@@ -761,6 +786,7 @@ planet Forge
 	description `	Outfits: all`
 	description `	Note: No variants`
 	spaceport ""
+	shipyard author
 	shipyard drak
 	shipyard hai
 	shipyard human

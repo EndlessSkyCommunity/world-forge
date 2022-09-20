@@ -342,6 +342,14 @@ outfitter korath
 	"Firestorm Battery"
 	"Firestorm Torpedo"
 	"Firestorm Torpedo Rack"
+	"Arkrof GP Hybrid Thruster"
+	"Farves GP Hybrid Thruster"
+	"Gaktem GP Hybrid Thruster"
+	"Nelmeb GP Hybrid Thruster"
+	"Arkrof GP Hybrid Steering"
+	"Farves GP Hybrid Steering"
+	"Gaktem GP Hybrid Steering"
+	"Nelmeb GP Hybrid Steering"
 
 outfitter quarg
 	"Nanotech Battery"

@@ -375,38 +375,7 @@ system Korath
 			period 36.1525
 
 system Nocte
-	object
-		sprite star/m4
-		period 10
-	object
-		sprite planet/desert8
-		distance 278.25
-		period 159.789
-		object
-			sprite planet/ice7
-			distance 163
-			period 23.7466
-	object
-		sprite planet/gas17
-		distance 973.25
-		period 1045.27
-		object
-			sprite planet/dust2
-			distance 219
-			period 13.075
-		object
-			sprite planet/europa
-			distance 363
-			period 27.9019
-	object
-		sprite planet/gas2
-		distance 1709.01
-		period 2432.26
-		object
-			sprite planet/tethys
-			distance 189
-			period 11.5481
-	object Rupture
+	add object Rupture
 		sprite planet/wormhole
 		distance 2260.97
 		period 3701.14

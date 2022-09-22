@@ -127,6 +127,7 @@ system Deprecated+Mods
 	link Human
 	link Pug
 	link Origin
+	link Remnant
 	asteroids "large metal" 1 5.6108
 	object
 		sprite star/g5
@@ -162,6 +163,7 @@ system Drak
 	link Quarg
 	link Korath
 	link Human
+	link Remnant
 	asteroids "large metal" 1 2.8548
 	object
 		sprite star/g5
@@ -274,6 +276,7 @@ system Human
 	link Origin
 	link Drak
 	link Deprecated+Mods
+	link Remnant
 	asteroids "small rock" 30 2.691
 	asteroids "large rock" 50 5.0508
 	asteroids "medium metal" 4 2.8566
@@ -563,6 +566,47 @@ system Quarg
 			sprite planet/luna
 			distance 571
 			period 38.5181
+
+system Remnant
+	pos -9825 -9975
+	arrival 500
+	habitable 450
+	belt 1253
+	haze _menu/haze-red
+	link Drak
+	link Deprecated+Mods
+	link Human
+	asteroids "small rock" 4 1.14987
+	asteroids "medium rock" 18 0.790533
+	asteroids "large rock" 2 1.386
+	asteroids "small metal" 6 1.18067
+	asteroids "medium metal" 2 1.19093
+	asteroids "large metal" 30 1.24227
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/lava1
+		distance 190
+		period 49.3837
+	object Remnant
+		sprite planet/ocean0
+		distance 595
+		period 273.671
+	object
+		sprite planet/gas9-b
+		distance 1320
+		period 904.304
+		object
+			sprite planet/lava0
+			distance 248
+			period 14.6443
+	object
+		sprite planet/gas8
+		distance 1930
+		period 1598.78
+
+
 
 system "Team Blue"
 	pos -10142.6 -10188.4
@@ -1022,6 +1066,20 @@ planet Quarg
 	spaceport ""
 	shipyard quarg
 	outfitter quarg
+	outfitter drive
+	outfitter basic
+	security 0
+
+planet Remnant
+	attributes forge forgeremnant
+	landscape land/remnant
+	description `Race: Remnant`
+	description `	Ships: Remnant`
+	description `	Outfits: Remnant`
+	description `	Note: No variants`
+	spaceport ""
+	shipyard remnant
+	outfitter remnant
 	outfitter drive
 	outfitter basic
 	security 0

@@ -109,6 +109,7 @@ outfitter coalition
 	"Overcharged Shield Module"
 	"Ion Hail Turret"
 	"Outskirts Gauger"
+	"Fuel Module"
 
 outfitter hai
 	"Ion Cannon"

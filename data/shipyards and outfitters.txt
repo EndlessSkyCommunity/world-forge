@@ -57,6 +57,26 @@ outfitter drak
 	"Drak Antimatter Fragment"
 	"Drak Antimatter Fragment (Augmented)"
 
+outfitter builder
+	"Ka'het Ravager Beam"
+	"Ka'het Ravager Turret"
+	"Ka'het Annihilator"
+	"Ka'het Annihilator Turret"
+	"Ka'het EMP Deployer"
+	"EMP Torpedo"
+	"Ka'het Primary Cooling"
+	"Ka'het Support Cooling"
+	"Ka'het Shield Restorer"
+	"Ka'het MHD Generator"
+	"Ka'het Reserve Accumulator"
+	"Maeri Engine Nacelles"
+	"Ka'het Sustainer Nacelles"
+	"Telis Engine Nacelles"
+	"Ka'het Compact Engine"
+	"Vareti Engine Block"
+	"Ka'het Grand Restorer"
+	"Ka'het Nullifier"
+
 outfitter coalition
 	"Small Collector Module"
 	"Large Collector Module"
@@ -425,26 +445,6 @@ outfitter remnant
 outfitter void
 	"Mouthparts?"
 
-outfitter ka'het
-	"Ka'het Ravager Beam"
-	"Ka'het Ravager Turret"
-	"Ka'het Annihilator"
-	"Ka'het Annihilator Turret"
-	"Ka'het EMP Deployer"
-	"EMP Torpedo"
-	"Ka'het Primary Cooling"
-	"Ka'het Support Cooling"
-	"Ka'het Shield Restorer"
-	"Ka'het MHD Generator"
-	"Ka'het Reserve Accumulator"
-	"Maeri Engine Nacelles"
-	"Ka'het Sustainer Nacelles"
-	"Telis Engine Nacelles"
-	"Ka'het Compact Engine"
-	"Vareti Engine Block"
-	"Ka'het Grand Restorer"
-	"Ka'het Nullifier"
-
 outfitter sheragi
 	"Large EM Battery"
 	"Small EM Battery"
@@ -508,6 +508,14 @@ shipyard author
 
 shipyard drak
 	"Archon"
+
+shipyard builder
+	"Maeri'het"
+	"Telis'het"
+	"Selii'mar"
+	"Faes'mar"
+	"Vareti'het"
+	"Fetri'sei"
 
 shipyard coalition
 	"Arach Courier"
@@ -722,14 +730,6 @@ shipyard void
 	"Ember Waste Node"
 	"Embershade"
 	"Subsidurial"
-
-shipyard ka'het
-	"Maeri'het"
-	"Telis'het"
-	"Selii'mar"
-	"Faes'mar"
-	"Vareti'het"
-	"Fetri'sei"
 
 shipyard sheragi
 	"Emerald Sword"

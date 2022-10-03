@@ -110,6 +110,7 @@ outfitter coalition
 	"Ion Hail Turret"
 	"Outskirts Gauger"
 	"Fuel Module"
+	"MCS Extractor"
 
 outfitter hai
 	"Ion Cannon"
@@ -141,6 +142,9 @@ outfitter hai
 	`"Bondir" Atomic Steering`
 	`"Bufaer" Atomic Steering`
 	`"Baellie" Atomic Engines`
+	""Basrem" Atomic Reverse Thruster"
+	""Benga" Atomic Reverse Thruster"
+	""Biroo" Atomic Reverse Thruster"
 	"Sand Cell"
 	"Railgun"
 	"Railgun Slug"
@@ -445,6 +449,7 @@ outfitter remnant
 
 outfitter void
 	"Mouthparts?"
+	"Void Sprite Parts"
 
 outfitter sheragi
 	"Large EM Battery"
@@ -1260,10 +1265,13 @@ outfitter alloutfits
 	""Baellie" Atomic Engines"
 	""Basrem" Atomic Steering"
 	""Basrem" Atomic Thruster"
+	""Basrem" Atomic Reverse Thruster"
 	""Benga" Atomic Steering"
 	""Benga" Atomic Thruster"
+	""Benga" Atomic Reverse Thruster"
 	""Biroo" Atomic Steering"
 	""Biroo" Atomic Thruster"
+	""Biroo" Atomic Reverse Thruster"
 	""Bondir" Atomic Steering"
 	""Bondir" Atomic Thruster"
 	""Bufaer" Atomic Steering"
@@ -1539,6 +1547,7 @@ outfitter alloutfits
 	"Luxury Accommodations"
 	"Maeri Engine Nacelles"
 	"Mass Expansion"
+	"MCS Extractor"
 	"Medium Graviton Steering"
 	"Medium Graviton Thruster"
 	"Meteor Missile"
@@ -1741,6 +1750,7 @@ outfitter alloutfits
 	"Vareti Engine Block"
 	"Void Orchid"
 	"Void Rifle"
+	"Void Sprite Parts"
 	"Volcano Afterburner"
 	"Wanderer Anti-Missile"
 	"Wanderer Heat Sink"

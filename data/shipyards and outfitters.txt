@@ -94,6 +94,7 @@ outfitter coalition
 	"Small Steering Module"
 	"Large Steering Module"
 	"Finisher Pod"
+	"Finisher Maegrolain"
 	"Finisher Torpedo"
 	"Heliarch Attractor"
 	"Heliarch Repulsor"

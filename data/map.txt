@@ -785,7 +785,6 @@ planet Author
 
 planet Builder
 	attributes forge forgebuilder
-	landscape ""
 	description `Race: Builder`
 	description `	Ships: Builder`
 	description `	Outfits: Builder`
@@ -798,7 +797,6 @@ planet Builder
 
 planet Coalition
 	attributes forge forgecoalition
-	landscape ""
 	description `Races: Arach, Kimek, and Saryd`
 	description `	Ships: Arach, Kimek, Saryd, and Heliarch`
 	description `	Outfits: Coalition and Heliarch`
@@ -811,7 +809,6 @@ planet Coalition
 
 planet Deprecated
 	attributes forge
-	landscape ""
 	description `Race: all`
 	description `	Ships: none so far deprecated`
 	description `	Outfits: only deprecated`
@@ -1046,7 +1043,6 @@ planet MarauderW
 	
 planet Mods
 	attributes forge
-	landscape ""
 	description `Made for editing own stuff`
 	description `Ships: shipyard modships`
 	description `Outfits: outfitter modoutfits`
@@ -1059,7 +1055,6 @@ planet Mods
 	
 planet Painter
 	attributes forge
-	landscape ""
 	description `Home of the Painter`
 	description `A mystic entity considering itself an artist.`
 	description `... THE artist.`
@@ -1098,7 +1093,6 @@ planet Quarg
 
 planet Remnant
 	attributes forge forgeremnant
-	landscape ""
 	description `Race: Remnant`
 	description `	Ships: Remnant`
 	description `	Outfits: Remnant`

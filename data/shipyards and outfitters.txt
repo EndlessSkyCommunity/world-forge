@@ -143,9 +143,9 @@ outfitter hai
 	`"Bondir" Atomic Steering`
 	`"Bufaer" Atomic Steering`
 	`"Baellie" Atomic Engines`
-	""Basrem" Reverse Thruster"
-	""Benga" Reverse Thruster"
-	""Biroo" Reverse Thruster"
+	`"Basrem" Reverse Thruster`
+	`"Benga" Reverse Thruster`
+	`"Biroo" Reverse Thruster`
 	"Sand Cell"
 	"Railgun"
 	"Railgun Slug"
@@ -1263,20 +1263,20 @@ shipyard allvariants
 	"_Ion Timer Ship"
 
 outfitter alloutfits
-	""Baellie" Atomic Engines"
-	""Basrem" Atomic Steering"
-	""Basrem" Atomic Thruster"
-	""Basrem" Reverse Thruster"
-	""Benga" Atomic Steering"
-	""Benga" Atomic Thruster"
-	""Benga" Reverse Thruster"
-	""Biroo" Atomic Steering"
-	""Biroo" Atomic Thruster"
-	""Biroo" Reverse Thruster"
-	""Bondir" Atomic Steering"
-	""Bondir" Atomic Thruster"
-	""Bufaer" Atomic Steering"
-	""Bufaer" Atomic Thruster"
+	`"Baellie" Atomic Engines`
+	`"Basrem" Atomic Steering`
+	`"Basrem" Atomic Thruster`
+	`"Basrem" Reverse Thruster`
+	`"Benga" Atomic Steering`
+	`"Benga" Atomic Thruster`
+	`"Benga" Reverse Thruster`
+	`"Biroo" Atomic Steering`
+	`"Biroo" Atomic Thruster`
+	`"Biroo" Reverse Thruster`
+	`"Bondir" Atomic Steering`
+	`"Bondir" Atomic Thruster`
+	`"Bufaer" Atomic Steering`
+	`"Bufaer" Atomic Thruster`
 	"A120 Atomic Thruster"
 	"A125 Atomic Steering"
 	"A250 Atomic Thruster"

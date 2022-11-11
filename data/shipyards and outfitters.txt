@@ -155,6 +155,10 @@ outfitter hai
 	"Tracker Storage Pod"
 	"Quantum Keystone"
 	"Pulse Rifle"
+	"Tripulse Shredder"
+	"Ionic Blaster Prototype"
+	"Ionic Turret Prototype"
+	"Value Detector"
 
 outfitter human
 	"Energy Blaster"
@@ -564,6 +568,7 @@ shipyard hai
 	"Centipede"
 	"Grasshopper"
 	"Geocoris"
+	"Sea Scorpion"
 
 shipyard human
 	"Shuttle"
@@ -1178,6 +1183,7 @@ shipyard allvariants
 	"Science Drone"
 	"Scout"
 	"Scout (Speedy)"
+	"Sea Scorpion"
 	"Selii'mar"
 	"Shield Beetle"
 	"Shield Beetle (Jump)"
@@ -1475,6 +1481,8 @@ outfitter alloutfits
 	"Ion Hail Turret"
 	"Ion Rain Gun"
 	"Ionic Afterburner"
+	"Ionic Blaster Prototype"
+	"Ionic Turret Prototype"
 	"Iron"
 	"Javelin"
 	"Javelin Mini Pod"
@@ -1742,6 +1750,7 @@ outfitter alloutfits
 	"Tracker Storage Pod"
 	"Tree Skeleton Key Stone"
 	"Triple Plasma Core"
+	"Tripulse Shredder"
 	"Tungsten"
 	"Tuning Rifle"
 	"Type 1 Radiant Steering"
@@ -1759,6 +1768,7 @@ outfitter alloutfits
 	"Tyrant Plasma Steering"
 	"Tyrant Plasma Thruster"
 	"Uranium"
+	"Value Detector"
 	"Vareti Engine Block"
 	"Void Orchid"
 	"Void Rifle"

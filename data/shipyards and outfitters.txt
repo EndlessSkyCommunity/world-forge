@@ -9,6 +9,7 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 outfitter author
+	"Prototype Fusion Cannon"
 	"Ember Tear"
 	"Crystal Projector"
 	"Floating Crystal"
@@ -509,6 +510,7 @@ shipyard author
 	"Heron"
 	"Lampyrid-Class Transport"
 	"Marauder Bactrian"
+	"Modified Battleship"
 	"Modified Boxwing"
 	"Modified Osprey"
 	"Shooting Star"
@@ -1086,6 +1088,7 @@ shipyard allvariants
 	"Modified Argosy (Heavy)"
 	"Modified Argosy (Missile)"
 	"Modified Argosy (Smuggler)"
+	"Modified Battleship"
 	"Modified Boxwing"
 	"Modified Dromedary"
 	"Modified Dromedary Ghost"
@@ -1601,6 +1604,7 @@ outfitter alloutfits
 	"Proton Fragment"
 	"Proton Gun"
 	"Proton Turret"
+	"Prototype Fusion Cannon"
 	"Pug Akfar Steering"
 	"Pug Akfar Thruster"
 	"Pug Anti-Missile"

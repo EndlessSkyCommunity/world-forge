@@ -902,6 +902,7 @@ planet Forge
 	outfitter drive
 	outfitter basic
 #	outfitter modoutfits
+	outfitter author
 	outfitter remnant
 	outfitter void
 	outfitter builder

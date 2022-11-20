@@ -454,6 +454,7 @@ outfitter remnant
 	"Void Rifle"
 	"Bellows-Class Afterburner"
 	"Inhibitor Turret"
+	"Research Laboratory"
 
 outfitter void
 	"Mouthparts?"

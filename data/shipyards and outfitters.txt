@@ -570,6 +570,8 @@ shipyard hai
 	"Grasshopper"
 	"Geocoris"
 	"Sea Scorpion"
+	"Scarab"
+	"Cicada"
 
 shipyard human
 	"Shuttle"
@@ -837,6 +839,7 @@ shipyard allvariants
 	"Centipede"
 	"Centipede (Pulse)"
 	"Charm-Shallop"
+	"Cicada"
 	"Class C Freighter"
 	"Clipper"
 	"Clipper (Heavy)"
@@ -1184,6 +1187,7 @@ shipyard allvariants
 	"Saryd Sojourner"
 	"Saryd Traveler"
 	"Saryd Visitor"
+	"Scarab"
 	"Science Drone"
 	"Scout"
 	"Scout (Speedy)"

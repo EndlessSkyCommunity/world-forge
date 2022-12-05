@@ -1037,7 +1037,6 @@ shipyard allvariants
 	"Lightning Bug (Surveillance)"
 	"Lor'kas Ik 577"
 	"Lor'kas Ik 577 (Digger)"
-	"Lor'kas Ik 577 (Ember)"
 	"Lor'kas Ik 577 (Jump)"
 	"Lor'nag Ik 590"
 	"Lor'nag Ik 590 (Grab)"

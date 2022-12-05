@@ -938,9 +938,13 @@ planet Hai
 	description `	Note: No variants(e.g. unfettered jump beetles)`
 	spaceport ""
 	shipyard hai
-	shipyard "Hai Basics"
-	shipyard "Hai Intermediate"
-	shipyard "Hai Advanced"
+	shipyard "Imo Loo Mer Basics"
+	shipyard "Imo Loo Mer Advanced"
+	shipyard "Mon Ki o'Uden Advanced"
+	shipyard "Mon Ki i'Hiya Basics"
+	shipyard "Mon Ki i'Hiya Advanced"
+	shipyard "Yeer e Ki Basics"
+	shipyard "Yeer e Ki Advanced"
 	outfitter hai
 	outfitter "Hai Basics"
 	outfitter "Hai Intermediate"

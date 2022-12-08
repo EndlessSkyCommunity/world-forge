@@ -4,10 +4,19 @@ outfit "Galaxy Map"
 	cost 0
 	category "Special"
 
+
+
+planet "New Boston"
+	add attributes "map reveal"
+
+
+
 mission "Map Reveal"
 	description `Reveal the entire map in one go! Accept this job and launch and all vanilla systems and planets will be visited.`
 	job
 	repeat
+	source
+		attributes forge "map reveal"
 	on offer
 		event "VISIT_EVERYTHING"
 		fail

@@ -570,6 +570,7 @@ shipyard hai
 	"Grasshopper"
 	"Geocoris"
 	"Sea Scorpion"
+	"Ladybug"
 	"Scarab"
 	"Cicada"
 
@@ -1026,6 +1027,10 @@ shipyard allvariants
 	"Korsmanath A'awoj (Blaze)"
 	"Korsmanath A'awoj (Special)"
 	"Korsmanath A'awoj (Strike)"
+	"Ladybug"
+	"Ladybug (Three Ion)"
+	"Ladybug (Pulse)"
+	"Ladybug (Tracker)"
 	"Lampyrid-Class Transport"
 	"Lance"
 	"Lance (Gatling)"

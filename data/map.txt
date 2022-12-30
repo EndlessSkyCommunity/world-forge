@@ -78,6 +78,7 @@ system Builder
 	link Drak
 	link Human
 	link Remnant
+	link Gegno
 	asteroids "large metal" 1 3
 	asteroids "medium metal" 3 7
 	asteroids "small metal" 5 8
@@ -203,9 +204,9 @@ system Drak
 	habitable 945
 	link Quarg
 	link Korath
-	link Human
 	link Remnant
 	link Builder
+	link Gegno
 	asteroids "large metal" 1 2.8548
 	object
 		sprite star/g5
@@ -256,6 +257,48 @@ system Drak
 			sprite planet/luna
 			distance 568
 			period 38.2149
+
+system Gegno
+	pos -9975 -9950
+	habitable 1310
+	link Origin
+	link Human
+	link Drak
+	link Quarg
+	link Builder
+	belt 1000
+	haze _menu/haze
+	asteroids "small rock" 1 3.22
+	asteroids "medium rock" 1 2.89
+	asteroids "large rock" 4 2.4
+	asteroids "small metal" 6 1.71
+	asteroids "medium metal" 44 2.1
+	minables copper 8 1.1
+	minables lead 12 1.4
+	minables silicon 12 1.3
+	object
+		sprite star/f8
+		period 10
+	object
+		sprite planet/dust0
+		distance 309.1
+		period 60.0582
+	object Gegno
+		sprite planet/desert7-b
+		distance 1000
+		period 349.481
+	object
+		sprite planet/gas16
+		distance 2400
+		period 1299.39
+	object
+		sprite planet/gas4
+		distance 1300
+		period 518.011
+		object
+			sprite planet/dust3-b
+			distance 258
+			period 156.6
 
 system Hai
 	pos -10093.5 -9992.82
@@ -312,14 +355,13 @@ system Hai
 			period 24.7264
 
 system Human
-	pos -9958.5 -9991.82
+	pos -9945.5 -10020.82
 	habitable 1080
-	link Quarg
 	link Origin
-	link Drak
 	link Deprecated+Mods
 	link Remnant
 	link Builder
+	link Gegno
 	asteroids "small rock" 30 2.691
 	asteroids "large rock" 50 5.0508
 	asteroids "medium metal" 4 2.8566
@@ -429,6 +471,7 @@ system Origin
 	habitable 320
 	link Arena
 	link Coalition
+	link Gegno
 	link Human
 	link Quarg
 	link Pug
@@ -526,13 +569,13 @@ system Pug
 			period 13.0384
 
 system Quarg
-	pos -10000.5 -9943.82
+	pos -10075.5 -9943.82
 	habitable 486.68
 	link Drak
-	link Human
 	link Origin
 	link Korath
 	link Hai
+	link Gegno
 	asteroids "small rock" 44 2.1675
 	asteroids "medium rock" 132 1.3515
 	asteroids "large rock" 9 1.275
@@ -924,6 +967,23 @@ planet Forge
 	outfitter "Hai Advanced"
 	outfitter "Wanderer Basics"
 	outfitter "Wanderer Advanced"
+	security 0
+
+planet Gegno
+	attributes forge forgegegno
+	description `Race: Gegno`
+	description `	Ships: Gegno`
+	description `	Outfits: Gegno`
+	description `	Note: No variants`
+	spaceport ""
+	shipyard gegno
+	shipyard "Gegno Ships"
+	shipyard "Gegno Vi Ships"
+	shipyard "Gegno Scin Ships"
+	outfitter gegno
+	outfitter "Gegno Outfits"
+	outfitter "Gegno Vi Outfits"
+	outfitter "Gegno Scin Outfits"
 	security 0
 
 planet Hai

@@ -1483,6 +1483,7 @@ outfitter alloutfits
 	"Epoch Cell"
 	"Excavator"
 	"Expeller Grav-Ray"
+	"Failed Control System"
 	"Farves GP Hybrid Steering"
 	"Farves GP Hybrid Thruster"
 	"Fate Divider"

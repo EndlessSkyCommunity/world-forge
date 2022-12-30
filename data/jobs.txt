@@ -472,6 +472,42 @@ mission "Friendly Drak"
 		"reputation: Drak" = 100000
 		fail
 
+mission "Friendly Gegno"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Gegno to positive 100,000.""
+	to offer
+		"reputation: Gegno" < 0
+	on accept
+		"reputation: Gegno" = 100000
+		fail
+
+mission "Friendly Gegno Scin"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Gegno Scin to positive 100,000.""
+	to offer
+		"reputation: Gegno Scin" < 0
+	on accept
+		"reputation: Gegno Scin" = 100000
+		fail
+
+mission "Friendly Gegno Vi"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Gegno Vi to positive 100,000.""
+	to offer
+		"reputation: Gegno Vi" < 0
+	on accept
+		"reputation: Gegno Vi" = 100000
+		fail
+
 mission "Hostile Quarg"
 	repeat
 	job
@@ -711,3 +747,40 @@ mission "Hostile Drak"
 	on accept
 		"reputation: Drak" = -100000
 		fail
+
+mission "Hostile Gegno"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Gegno to negative 100,000.""
+	to offer
+		"reputation: Gegno" > 0
+	on accept
+		"reputation: Gegno" = -100000
+		fail
+
+mission "Hostile Gegno Scin"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Gegno Scin to negative 100,000.""
+	to offer
+		"reputation: Gegno Scin" > 0
+	on accept
+		"reputation: Gegno Scin" = -100000
+		fail
+
+mission "Hostile Gegno Vi"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Gegno Vi to negative 100,000.""
+	to offer
+		"reputation: Gegno Vi" > 0
+	on accept
+		"reputation: Gegno Vi" = -100000
+		fail
+

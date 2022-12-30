@@ -906,6 +906,7 @@ planet Forge
 	shipyard coalition
 	shipyard marauder
 	shipyard wanderer
+	shipyard gegno
 #	shipyard modships
 	shipyard remnant
 	shipyard void
@@ -967,6 +968,9 @@ planet Forge
 	outfitter "Hai Advanced"
 	outfitter "Wanderer Basics"
 	outfitter "Wanderer Advanced"
+	outfitter "Gegno Outfits"
+	outfitter "Gegno Vi Outfits"
+	outfitter "Gegno Scin Outfits"
 	security 0
 
 planet Gegno

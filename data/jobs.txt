@@ -509,7 +509,7 @@ mission "Friendly Gegno"
 	job
 	source
 		attributes forge
-	description "Set your reputation with the Gegno to positive 100,000.""
+	description "Set your reputation with the Gegno to positive 100,000."
 	to offer
 		"reputation: Gegno" < 0
 	on accept
@@ -521,7 +521,7 @@ mission "Friendly Gegno Scin"
 	job
 	source
 		attributes forge
-	description "Set your reputation with the Gegno Scin to positive 100,000.""
+	description "Set your reputation with the Gegno Scin to positive 100,000."
 	to offer
 		"reputation: Gegno Scin" < 0
 	on accept
@@ -533,7 +533,7 @@ mission "Friendly Gegno Vi"
 	job
 	source
 		attributes forge
-	description "Set your reputation with the Gegno Vi to positive 100,000.""
+	description "Set your reputation with the Gegno Vi to positive 100,000."
 	to offer
 		"reputation: Gegno Vi" < 0
 	on accept
@@ -785,7 +785,7 @@ mission "Hostile Gegno"
 	job
 	source
 		attributes forge
-	description "Set your reputation with the Gegno to negative 100,000.""
+	description "Set your reputation with the Gegno to negative 100,000."
 	to offer
 		"reputation: Gegno" > 0
 	on accept
@@ -797,7 +797,7 @@ mission "Hostile Gegno Scin"
 	job
 	source
 		attributes forge
-	description "Set your reputation with the Gegno Scin to negative 100,000.""
+	description "Set your reputation with the Gegno Scin to negative 100,000."
 	to offer
 		"reputation: Gegno Scin" > 0
 	on accept
@@ -809,7 +809,7 @@ mission "Hostile Gegno Vi"
 	job
 	source
 		attributes forge
-	description "Set your reputation with the Gegno Vi to negative 100,000.""
+	description "Set your reputation with the Gegno Vi to negative 100,000."
 	to offer
 		"reputation: Gegno Vi" > 0
 	on accept

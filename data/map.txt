@@ -886,9 +886,6 @@ planet Forge
 	shipyard "Southern Pirates"
 	shipyard "Northern Pirates"
 	shipyard "Luxury Ships"
-	shipyard "Hai Basics"
-	shipyard "Hai Intermediate"
-	shipyard "Hai Advanced"
 	shipyard "Wanderer Basics"
 	shipyard "Wanderer Advanced"
 	outfitter drak

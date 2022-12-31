@@ -266,6 +266,7 @@ system Gegno
 	link Drak
 	link Quarg
 	link Builder
+	link Misc
 	belt 1000
 	haze _menu/haze
 	asteroids "small rock" 1 3.22
@@ -459,6 +460,24 @@ system Korath
 			distance 453
 			period 36.1525
 
+system Misc
+	pos -10025 -9975
+	habitable 1000
+	link Origin
+	link Quarg
+	link Gegno
+	object
+		sprite star/o-supergiant
+		period 10
+	object Author
+		sprite planet/ocean1
+		distance 1000
+		period 500
+	object Everything
+		sprite planet/ocean2
+		distance 1000
+		period 500
+		offset 180
 system Nocte
 	add object Rupture
 		sprite planet/wormhole
@@ -478,6 +497,7 @@ system Origin
 	link Wanderer
 	link Hai
 	link Deprecated+Mods
+	link Misc
 	asteroids "medium rock" 1 2.576
 	asteroids "large rock" 1 2.3744
 	asteroids "small metal" 1 2.5536
@@ -506,11 +526,11 @@ system Origin
 		sprite planet/gas13
 		distance 2305.74
 		period 2475.71
-		object Author
+		object
 			sprite planet/io
 			distance 292
 			period 14.0859
-		object Everything
+		object
 			sprite planet/dust7
 			distance 411
 			period 23.5219
@@ -576,6 +596,7 @@ system Quarg
 	link Korath
 	link Hai
 	link Gegno
+	link Misc
 	asteroids "small rock" 44 2.1675
 	asteroids "medium rock" 132 1.3515
 	asteroids "large rock" 9 1.275

@@ -10,7 +10,7 @@
 
 galaxy "World Forge"
 	pos -10000 -10000
-	sprite ui/orion_nebula
+	#sprite ui/orion_nebula
 
 system Arena
 	pos -10091.6 -10149.4
@@ -989,9 +989,7 @@ planet Forge
 	outfitter "Hai Advanced"
 	outfitter "Wanderer Basics"
 	outfitter "Wanderer Advanced"
-	outfitter "Gegno Outfits"
-	outfitter "Gegno Vi Outfits"
-	outfitter "Gegno Scin Outfits"
+	outfitter "gegno"
 	security 0
 
 planet Gegno
@@ -1002,13 +1000,24 @@ planet Gegno
 	description `	Note: No variants`
 	spaceport ""
 	shipyard gegno
-	shipyard "Gegno Ships"
-	shipyard "Gegno Vi Ships"
-	shipyard "Gegno Scin Ships"
+	shipyard "Gegno Basic"
+	shipyard "Gegno Intermediate"
+	shipyard "Gegno Advanced"
+	shipyard "Vi Cargo"
+	shipyard "Vi Warships I"
+	shipyard "Vi Warships II"
+	shipyard "Vi Utility"
+	shipyard "Scin Cargo"
+	shipyard "Scin Warships"
+	shipyard "Scin Utility"
 	outfitter gegno
-	outfitter "Gegno Outfits"
-	outfitter "Gegno Vi Outfits"
-	outfitter "Gegno Scin Outfits"
+	outfitter "Gegno Basic"
+	outfitter "Gegno Intermediate"
+	outfitter "Vi Basic"
+	outfitter "Vi Intermediate"
+	outfitter "Scin Basic"
+	outfitter "Scin Intermediate"
+	outfitter "Scin Advanced"
 	security 0
 
 planet Hai
@@ -1127,7 +1136,7 @@ planet MarauderW
 	outfitter drive
 	outfitter basic
 	security 0
-	
+
 planet Mods
 	attributes forge
 	description `Made for editing own stuff`
@@ -1139,7 +1148,7 @@ planet Mods
 	outfitter drive
 	outfitter basic
 	security 0
-	
+
 planet Painter
 	attributes forge
 	description `Home of the Painter`

@@ -111,6 +111,51 @@ system Builder
 			distance 270
 			period 15.6474
 
+system Bunrodea
+	pos -10200 -10000
+	habitable 5000
+	link Korath
+	link Wanderer
+	object
+		sprite star/a0
+		period 10
+	object
+		sprite planet/rock2-b
+		distance 1024.96
+		period 185.624
+		object
+			sprite planet/callisto-b
+			distance 148
+			period 19.4415
+	object
+		sprite planet/cloud4-b
+		distance 2876.38
+		period 872.658
+		object
+			sprite planet/desert4
+			distance 155
+			period 17.5682
+	object Bunrodea
+		sprite planet/forest5-b
+		distance 4015.45
+		period 1439.38
+		object
+			sprite planet/desert4-b
+			distance 167
+			period 23.303
+	object
+		sprite planet/gas13
+		distance 6042.24
+		period 2656.88
+		object
+			sprite planet/dust1
+			distance 301
+			period 14.7421
+		object
+			sprite planet/rock7
+			distance 445
+			period 26.5003
+
 system Coalition
 	pos -10106 -10073.4
 	government Uninhabited
@@ -414,6 +459,7 @@ system Human
 system Korath
 	pos -10173.8 -9936.16
 	habitable 1715
+	link Bunrodea
 	link Hai
 	link Wanderer
 	link Drak
@@ -792,6 +838,7 @@ system "Team Red"
 system Wanderer
 	pos -10205.9 -10038.8
 	habitable 625
+	link Bunrodea
 	link Coalition
 	link Origin
 	link Hai
@@ -858,6 +905,22 @@ planet Builder
 	outfitter builder
 	outfitter drive
 	outfitter basic
+
+planet Bunrodea
+	attributes forge forgebunrodea
+	description `Race: Bunrodea`
+	description `	Ship: Bunrodea`
+	description `	Outfits: Bunrodea`
+	description `	Note: No variants`
+	spaceport ""
+	outfitter bunrodea
+	shipyard bunrodea
+	outfitter "Bunrodea Basic"
+	outfitter "Bunrodea Advanced"
+	outfitter "Bunrodea Capital"
+	shipyard "Bunrodea Basic"
+	shipyard "Bunrodea Advanced"
+	shipyard "Bunrodea Capital"
 
 planet Coalition
 	attributes forge forgecoalition

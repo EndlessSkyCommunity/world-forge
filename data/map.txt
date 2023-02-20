@@ -987,6 +987,7 @@ planet Forge
 	shipyard pug
 	shipyard quarg
 	shipyard korath
+	shipyard bunrodea
 	shipyard coalition
 	shipyard marauder
 	shipyard wanderer
@@ -1031,6 +1032,7 @@ planet Forge
 	outfitter remnant
 	outfitter void
 	outfitter builder
+	outfitter bunrodea
 	outfitter sheragi
 	outfitter "Common Outfits"
 	outfitter "Basic Weapons"

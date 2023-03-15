@@ -1818,7 +1818,6 @@ outfitter alloutfits
 	`"Bondir" Atomic Thruster`
 	`"Bufaer" Atomic Steering`
 	`"Bufaer" Atomic Thruster`
-	`"Puny"`
 	"A120 Atomic Thruster"
 	"A125 Atomic Steering"
 	"A250 Atomic Thruster"
@@ -2213,6 +2212,7 @@ outfitter alloutfits
 	"Pulse Cannon"
 	"Pulse Rifle"
 	"Pulse Turret"
+	"Puny"
 	"Quad Blaster Turret"
 	"Quantum Key Stone"
 	"Quantum Keystone"

@@ -10,7 +10,7 @@
 
 galaxy "World Forge"
 	pos -10000 -10000
-	#sprite ui/orion_nebula
+	sprite ui/orion_nebula
 
 system Arena
 	pos -10091.6 -10149.4

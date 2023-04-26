@@ -678,6 +678,7 @@ shipyard hai
 	"Ladybug"
 	"Scarab"
 	"Cicada"
+	"Emperor Beetle"
 
 shipyard human
 	"Shuttle"
@@ -934,6 +935,7 @@ shipyard allships
 	"Embershade"
 	"Embersylph"
 	"Emerald Sword"
+	"Emperor Beetle"
 	"Epidote"
 	"Faes'mar"
 	"Falcon"
@@ -1117,7 +1119,7 @@ shipyard allships
 	"Water Bug"
 	"Winter Gale"
 	"_Ion Timer Ship"
-	"vyu-Ira"
+	"vyu-Ir"
 
 shipyard allvariants
 	"'nra'ret"
@@ -1291,6 +1293,7 @@ shipyard allvariants
 	"Embersylph (Small)"
 	"Emerald Sword"
 	"Emerald Sword (Fixed)"
+	"Emperor Beetle"
 	"Epidote"
 	"Faes'mar"
 	"Faes'mar (Strong)"
@@ -1699,7 +1702,6 @@ shipyard allvariants
 	"Shield Beetle (Pulse Tracker)"
 	"Shield Beetle (Pulse)"
 	"Shield Beetle (Six Ion)"
-	"Shield Beetle (Sunbeam Korath Jump)"
 	"Shield Beetle (Unfettered Shipyards)"
 	"Shield Beetle (Unfettered)"
 	"Shooting Star"
@@ -1801,7 +1803,7 @@ shipyard allvariants
 	"Winter Gale (Heavy)"
 	"Winter Gale (Missile)"
 	"_Ion Timer Ship"
-	"vyu-Ira"
+	"vyu-Ir"
 
 outfitter alloutfits
 	`"Baellie" Atomic Engines`

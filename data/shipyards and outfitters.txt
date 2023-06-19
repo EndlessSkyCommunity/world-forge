@@ -1852,6 +1852,7 @@ outfitter alloutfits
 	"Abyssal Composer"
 	"Active Finisher"
 	"Acuit Artillery"
+	"Acumen Bolt Cannon"
 	"Aeon Cell"
 	"Afterburner"
 	"Afterburner (Asteroid Class)"
@@ -1891,6 +1892,7 @@ outfitter alloutfits
 	"Bullfrog Anti-Missile"
 	"Bullfrog Anti-Missile Turret"
 	"Bunk Room"
+	"Burrower"
 	"Buzzer Anti-Missile"
 	"C17 Warzone Core"
 	"C27 Campaign Core"
@@ -2007,6 +2009,7 @@ outfitter alloutfits
 	"Gatling Gun"
 	"Gatling Gun Ammo"
 	"Gegno Civilian License"
+	"Gegno Driller License"
 	"Generator (Candle Class)"
 	"Generator (Furnace Class)"
 	"Generator (Inferno Class)"
@@ -2056,6 +2059,7 @@ outfitter alloutfits
 	"Ion Cannon"
 	"Ion Hail Turret"
 	"Ion Rain Gun"
+	"Ion Torch"
 	"Ionic Afterburner"
 	"Ionic Blaster Prototype"
 	"Ionic Turret Prototype"
@@ -2444,5 +2448,3 @@ outfitter alloutfits
 	"nGVF-DD Fuel Cell"
 	"nGVF-EE Fuel Cell"
 	"rslug"
-
-

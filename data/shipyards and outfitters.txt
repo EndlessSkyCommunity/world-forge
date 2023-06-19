@@ -172,6 +172,7 @@ outfitter gegno
 	"RG18 Torch Thruster"
 	"RG3 Torch Steering"
 	"RG3 Torch Thruster"
+	"Ion Torch"
 	"SC-1 Plasma Engines"
 	"SC-12 Plasma Steering"
 	"SC-12 Plasma Thruster"
@@ -187,6 +188,8 @@ outfitter gegno
 	"Acuit Artillery"
 	"Astuit Battery"
 	"Guile Pulse Laser"
+	"Acumen Bolt Cannon"
+	"Burrower"
 
 outfitter hai
 	"Ion Cannon"

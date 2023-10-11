@@ -12,6 +12,7 @@ concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}-${{ github.event_name }}
   cancel-in-progress: true
 
+jobs:
   test-parse:
     name: Data Files
     runs-on: windows-2022

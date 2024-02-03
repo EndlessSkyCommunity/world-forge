@@ -156,9 +156,9 @@ outfitter coalition
 	"Outskirts Gauger"
 	"Fuel Module"
 	"MCS Extractor"
-	"Anti-Material Gun"
+	"Anti-Materiel Gun"
 	"Decoy Plating"
-	"Refuelling Module"
+	"Refueling Module"
 	"Shield Refactor Module"
 	"Small Recovery Module"
 

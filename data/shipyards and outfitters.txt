@@ -598,6 +598,7 @@ shipyard author
 	"Modified Osprey"
 	"Shooting Star"
 	"Ursa Polaris"
+	"Waverider"
 
 shipyard drak
 	"Archon"

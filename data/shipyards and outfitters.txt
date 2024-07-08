@@ -562,6 +562,62 @@ outfitter sheragi
 	"Shard Fabricator"
 	"Heavy Ion Cyclotron"
 
+outfitter successors
+	"Auxiliary Power Reserve"
+	"Primary Power Reserve"
+	"Bimodal Coilgun Turret"
+	`"Ojet" Bimodal Coilgun`
+	`"Sjeja" Kinetic Lance`
+	"High-Velocity Spike"
+	"High-Velocity Spike Rack"
+	"Kinetic Rail Rifle"
+	"Phasing Laser Sidearm"
+	"Heirloom Hunter-Killers"
+	"Heirloom License"
+	"Heirloom Point Defense"
+	`"Sarija" Heirloom Coilgun`
+	`"Jiita" Heirloom Shielding`
+	"High Houses License"
+	`"Tijra" Heirloom Lance`
+	"Hypervelocity Spike"
+	"Multimodal Armor: Heavy"
+	"Multimodal Armor: Regen"
+	"Multimodal Armor: Resilient"
+	"Multimodal Armor: Keystone"
+	"Overcharged Laser Turret"
+	"Overcharged Pulse Laser"
+	"Pulse Laser Turret"
+	"Drag Cannon"
+	"Successor Cooling"
+	"Successor Fuel Sail"
+	"Successor License"
+	"Successor Pulse Laser"
+	`Shield Cortex Interface`
+	`"Veldt" Combat Scanner`
+	`"Tuur" Scanning Suite`
+	`"Aqra" Inductive Reverser`
+	`"Aqra" Inductive Steering`
+	`"Aqra" Inductive Thruster`
+	`"Byiaa" Shield Cortex`
+	`"Chyyra" Inductive Reverser`
+	`"Chyyra" Inductive Steering`
+	`"Chyyra" Inductive Thruster`
+	`"Ej" Shield Cortex`
+	`"Jaase" Shield Cortex`
+	`"Jorv" Shield Cortex`
+	`"Niis" Inductive Engines`
+	`"Nnesa" Fusion Core`
+	`"Ryuit" Fusion Core`
+	`"Uoret" Fusion Core`
+	`"Veusa" Inductive Reverser`
+	`"Veusa" Inductive Steering`
+	`"Veusa" Inductive Thruster`
+	`1-"Uurau" Betavoltaic Cell`
+	`3-"Kaska" Betavoltaic Cell`
+	`6-"Ruuv" Betavoltaic Cell`
+	`"Ija" Heirloom Reactor`
+	`OC-"Mavra" Betavoltaic Cell`
+
 outfitter drive
 	"Developer Drive"
 
@@ -896,9 +952,27 @@ shipyard sheragi
 	"Emerald Sword"
 	"Black Diamond"
 
+shipyard successors
+	"Valkkyiara-Khorasaqra"
+	"Aaulqra"
+	"Ejniisde"
+	"Kaskhorade"
+	"Kvelqde"
+	"Kvelqde-Khora"
+	"Myaede"
+	"Ojde"
+	"Seiitej"
+	"Stolsaqra"
+	"Veusade"
+	"Nnesaarau"
+	"Vujlet"
+	"Nnaatej"
+	"Kijra-Khora"
+
 shipyard allships
 	"'nra'ret"
 	"'olofez"
+	"Aaulqra"
 	"Aerie"
 	"Albatross"
 	"Aphid"
@@ -957,6 +1031,7 @@ shipyard allships
 	"Earth Shaper"
 	"Echo-Galleon"
 	"Eclogite"
+	"Ejniisde"
 	"Ember Waste Node"
 	"Embershade"
 	"Embersylph"
@@ -1018,7 +1093,9 @@ shipyard allships
 	"Kas'ik Tek 7"
 	"Kas'lor Ik 582"
 	"Kasichara A'awoj"
+	"Kaskhorade"
 	"Kestrel"
+	"Kijra-Khora"
 	"Kimek Briar"
 	"Kimek Spire"
 	"Kimek Thistle"
@@ -1029,6 +1106,8 @@ shipyard allships
 	"Korath World-Ship"
 	"Korsmanath A'awoj"
 	"Kunai"
+	"Kvelqde"
+	"Kvelqde-Khora"
 	"Kyanite"
 	"Ladybug"
 	"Lampyrid-Class Transport"
@@ -1069,9 +1148,13 @@ shipyard allships
 	"Modified Ladybug"
 	"Modified Osprey"
 	"Mule"
+	"Myaede"
 	"Nanobot"
 	"Nest"
 	"Nighthawk"
+	"Nnaatej"
+	"Nnesaarau"
+	"Ojde"
 	"Osprey"
 	"Palavret"
 	"Pelican"
@@ -1111,6 +1194,7 @@ shipyard allships
 	"Scout"
 	"Scrapper"
 	"Sea Scorpion"
+	"Seiitej"
 	"Selii'mar"
 	"Shale"
 	"Shield Beetle"
@@ -1125,6 +1209,7 @@ shipyard allships
 	"Star Barge"
 	"Star Queen"
 	"Starling"
+	"Stolsaqra"
 	"Strong Wind"
 	"Subsidurial"
 	"Summer Leaf"
@@ -1146,8 +1231,10 @@ shipyard allships
 	"Valkyrie"
 	"Vanguard"
 	"Vareti'het"
+	"Veusade"
 	"Violin Spider"
 	"Void Sprite"
+	"Vujlet"
 	"Vyrmeid"
 	"Wasp"
 	"Water Bug"
@@ -1888,6 +1975,12 @@ shipyard allvariants
 	"vyu-Ir"
 
 outfitter alloutfits
+	`1-"Uurau" Betavoltaic Cell`
+	`3-"Kaska" Betavoltaic Cell`
+	`6-"Ruuv" Betavoltaic Cell`
+	`"Aqra" Inductive Reverser`
+	`"Aqra" Inductive Steering`
+	`"Aqra" Inductive Thruster`
 	`"Baellie" Atomic Engines`
 	`"Basrem" Atomic Steering`
 	`"Basrem" Atomic Thruster`
@@ -1902,6 +1995,9 @@ outfitter alloutfits
 	`"Bondir" Atomic Thruster`
 	`"Bufaer" Atomic Steering`
 	`"Bufaer" Atomic Thruster`
+	`"Byiaa" Shield Cortex`
+	`"Chyyra" Inductive Reverser`
+	`"Chyyra" Inductive Steering`
 	"A120 Atomic Thruster"
 	"A125 Atomic Steering"
 	"A250 Atomic Thruster"

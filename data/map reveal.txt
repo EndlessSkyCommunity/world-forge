@@ -24,7 +24,7 @@ mission "Map Reveal"
 
 
 # Commented out lines indicate defined planets that are not assigned to any objects at the start of the game.
-# They cannot be visited and attempting to say they are renders this event invalid.
+# They cannot be visited and attempting to do so renders this event invalid.
 event "VISIT_EVERYTHING"
 	visit "1 Axis"
 	visit "10 Pole"

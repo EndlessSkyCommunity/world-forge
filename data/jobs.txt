@@ -180,6 +180,18 @@ mission "Add Gegno Licenses"
 		set "license: Scin Adjutant"
 		fail
 
+mission "Add Successor License"
+	repeat
+	job
+	source
+		attributes forge
+	description "Gives you the Successor license."
+	to offer
+		not "license: Successor"
+	on accept
+		set "license: Successor"
+		fail
+
 mission "Remove Licenses"
 	repeat
 	job
@@ -210,6 +222,7 @@ mission "Remove Licenses"
 		clear "license: Scin Hoplologist"
 		clear "license: Scin Architect"
 		clear "license: Scin Adjutant"
+		clear "license: Successor"
 		fail
 
 mission "Reset Reputation"

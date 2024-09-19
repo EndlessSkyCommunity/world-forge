@@ -730,11 +730,12 @@ system Remnant
 		distance 1930
 		period 1598.78
 
-system Successors
+system Successor
 	pos -9820.108 -10035.952
 	habitable 955.249
 	belt 1535 9
 	belt 2444
+	haze star/void_scar
 	link Remnant
 	asteroids "small rock" 25 2.365
 	asteroids "medium rock" 2 2.398
@@ -757,7 +758,7 @@ system Successors
 		sprite planet/rock4
 		distance 1023
 		period 423.463
-	object Successors
+	object Successor
 		sprite planet/water0
 		distance 1507
 		period 757.132
@@ -1318,6 +1319,19 @@ planet Remnant
 	spaceport ""
 	shipyard remnant
 	outfitter remnant
+	outfitter drive
+	outfitter basic
+	security 0
+
+planet Successor
+	attributes forge forgesuccessor
+	landscape land/water22
+	description "Race: Successor"
+	description "	Has Successor ships and outfits."
+	description "	However, there are no variants."
+	spaceport ""
+	shipyard successor
+	outfitter successor
 	outfitter drive
 	outfitter basic
 	security 0

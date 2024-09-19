@@ -951,3 +951,110 @@ mission "Hostile Gegno Vi"
 		"reputation: Gegno Vi" = -100000
 		fail
 
+mission "Hostile Successors"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Successor government to negative 100,000."
+	to offer
+		"reputation: Successor" > 0
+	on accept
+		"reputation: Successor" = -100000
+		fail
+
+mission "Hostile New Houses"
+	repeat
+	job
+	source
+		attributes forgesuccessor
+	description "Set your reputation with the New Houses to negative 100,000."
+	to offer
+		"reputation: New Houses" > 0
+	on accept
+		"reputation: New Houses" = -100000
+		fail
+
+mission "Hostile Old Houses"
+	repeat
+	job
+	source
+		attributes forgesuccessor
+	description "Set your reputation with the Old Houses to negative 100,000."
+	to offer
+		"reputation: Old Houses" > 0
+	on accept
+		"reputation: Old Houses" = -100000
+		fail
+
+mission "Hostile House Aqrabe"
+	repeat
+	job
+	source
+		attributes forgesuccessor
+	description "Set your reputation with House Aqrabe to negative 100,000."
+	to offer
+		"reputation: House Aqrabe" > 0
+	on accept
+		"reputation: House Aqrabe" = -100000
+		fail
+
+mission "Hostile House Chydiyi"
+	repeat
+	job
+	source
+		attributes forgesuccessor
+	description "Set your reputation with House Chydiyi to negative 100,000."
+	to offer
+		"reputation: House Chydiyi" > 0
+	on accept
+		"reputation: House Chydiyi" = -100000
+		fail
+
+mission "Hostile House Kaatrij"
+	repeat
+	job
+	source
+		attributes forgesuccessor
+	description "Set your reputation with House Kaatrij to negative 100,000."
+	to offer
+		"reputation: House Kaatrij" > 0
+	on accept
+		"reputation: House Kaatrij" = -100000
+		fail
+
+mission "Hostile House Myurej"
+	repeat
+	job
+	source
+		attributes forgesuccessor
+	description "Set your reputation with House Myurej to negative 100,000."
+	to offer
+		"reputation: House Myurej" > 0
+	on accept
+		"reputation: House Myurej" = -100000
+		fail
+
+mission "Hostile House Seineq"
+	repeat
+	job
+	source
+		attributes forgesuccessor
+	description "Set your reputation with House Seineq to negative 100,000."
+	to offer
+		"reputation: House Seineq" > 0
+	on accept
+		"reputation: House Seineq" = -100000
+		fail
+
+mission "Hostile House Sioeora"
+	repeat
+	job
+	source
+		attributes forgesuccessor
+	description "Set your reputation with House Sioeora to negative 100,000."
+	to offer
+		"reputation: House Sioeora" > 0
+	on accept
+		"reputation: House Sioeora" = -100000
+		fail

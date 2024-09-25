@@ -699,7 +699,7 @@ system Remnant
 	link Drak
 	link Deprecated+Mods
 	link Human
-	link Successors
+	link Successor
 	asteroids "small rock" 4 1.14987
 	asteroids "medium rock" 18 0.790533
 	asteroids "large rock" 2 1.386

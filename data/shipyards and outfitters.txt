@@ -562,7 +562,7 @@ outfitter sheragi
 	"Shard Fabricator"
 	"Heavy Ion Cyclotron"
 
-outfitter successors
+outfitter successor
 	"Auxiliary Power Reserve"
 	"Primary Power Reserve"
 	"Bimodal Coilgun Turret"
@@ -571,15 +571,7 @@ outfitter successors
 	"High-Velocity Spike"
 	"High-Velocity Spike Rack"
 	"Kinetic Rail Rifle"
-	"Phasing Laser Sidearm"
-	"Heirloom Hunter-Killers"
-	"Heirloom License"
-	"Heirloom Point Defense"
-	`"Sarija" Heirloom Coilgun`
-	`"Jiita" Heirloom Shielding`
 	"High Houses License"
-	`"Tijra" Heirloom Lance`
-	"Hypervelocity Spike"
 	"Multimodal Armor: Heavy"
 	"Multimodal Armor: Regen"
 	"Multimodal Armor: Resilient"
@@ -615,7 +607,6 @@ outfitter successors
 	`1-"Uurau" Betavoltaic Cell`
 	`3-"Kaska" Betavoltaic Cell`
 	`6-"Ruuv" Betavoltaic Cell`
-	`"Ija" Heirloom Reactor`
 	`OC-"Mavra" Betavoltaic Cell`
 
 outfitter drive
@@ -952,8 +943,7 @@ shipyard sheragi
 	"Emerald Sword"
 	"Black Diamond"
 
-shipyard successors
-	"Valkkyiara-Khorasaqra"
+shipyard successor
 	"Aaulqra"
 	"Ejniisde"
 	"Kaskhorade"
@@ -967,7 +957,6 @@ shipyard successors
 	"Nnesaarau"
 	"Vujlet"
 	"Nnaatej"
-	"Kijra-Khora"
 
 shipyard allships
 	"'nra'ret"

@@ -1084,7 +1084,6 @@ shipyard allships
 	"Kasichara A'awoj"
 	"Kaskhorade"
 	"Kestrel"
-	"Kijra-Khora"
 	"Kimek Briar"
 	"Kimek Spire"
 	"Kimek Thistle"

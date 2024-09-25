@@ -2015,10 +2015,24 @@ outfitter alloutfits
 	`"Bufaer" Atomic Steering`
 	`"Bufaer" Atomic Thruster`
 	`"Byiaa" Shield Cortex`
-	`"Chyyra" Inductive Reverser`
-	`"Chyyra" Inductive Steering`
+ 	`"Chyyra" Inductive Reverser`
+ 	`"Chyyra" Inductive Steering`
+ 	`"Chyyra" Inductive Thruster`
+ 	`"Ej" Shield Cortex`
+ 	`"Jaase" Shield Cortex`
+ 	`"Jorv" Shield Cortex`
+ 	`"Niis" Inductive Engines`
+ 	`"Nnesa" Fusion Core`
+ 	`OC-"Mavra" Betavoltaic Cell`
 	`"Ojet" Bimodal Coilgun`
+ 	`"Ryuit" Fusion Core`
 	`"Sjeja" Kinetic Lance`
+ 	`"Tuur" Scanning Suite`
+ 	`"Uoret" Fusion Core`
+ 	`"Veldt" Combat Scanner`
+ 	`"Veusa" Inductive Reverser`
+ 	`"Veusa" Inductive Steering`
+ 	`"Veusa" Inductive Thruster`
 	"A120 Atomic Thruster"
 	"A125 Atomic Steering"
 	"A250 Atomic Thruster"
@@ -2127,6 +2141,7 @@ outfitter alloutfits
 	"Digger Mining Beam"
 	"Digger Mining Turret"
 	"Double Plasma Core"
+ 	"Drag Cannon"
 	"Dragonflame Cannon"
 	"Drak Anti-Missile Field"
 	"Drak Anti-Missile Field (Augmented)"
@@ -2237,6 +2252,7 @@ outfitter alloutfits
 	"Hexagonal Crystal"
 	"High-Velocity Spike"
 	"High-Velocity Spike Rack"
+	"High Houses License"
 	"Husk-Slice"
 	"Husk-Slice Turret"
 	"Hyperdrive"
@@ -2368,6 +2384,10 @@ outfitter alloutfits
 	"Moonbeam Turret"
 	"Mouthparts?"
 	"Mug"
+	"Multimodal Armor: Heavy"
+ 	"Multimodal Armor: Keystone"
+ 	"Multimodal Armor: Regen"
+ 	"Multimodal Armor: Resilient"
 	"NDR-114 Android"
 	"NT-200 Nucleovoltaic"
 	"Nami Rift Steering"
@@ -2393,6 +2413,8 @@ outfitter alloutfits
 	"Outfits Expansion"
 	"Outskirts Gauger"
 	"Overcharged Shield Module"
+ 	"Overcharged Laser Turret"
+ 	"Overcharged Pulse Laser"
 	"Overclocked Repair Module"
 	"Particle Cannon"
 	"Particle Waveform Turret"
@@ -2430,6 +2452,7 @@ outfitter alloutfits
 	"Pug Zapper"
 	"Pug Zapper Turret"
 	"Pulse Cannon"
+	"Pulse Laser Turret"
 	"Pulse Rifle"
 	"Pulse Turret"
 	"Puny"
@@ -2493,6 +2516,7 @@ outfitter alloutfits
 	"Shard inactive"
 	"Sheragi Anti-Missile"
 	"Shield Beetle Pendant"
+ 	"Shield Cortex Interface"
 	"Shield Disruptor Turret"
 	"Shield Refactor Module"
 	"Shield Relay Booster"
@@ -2534,6 +2558,10 @@ outfitter alloutfits
 	"Steering (Stellar Class)"
 	"Subarashii Rift Steering"
 	"Subarashii Rift Thruster"
+ 	"Successor Cooling"
+ 	"Successor Fuel Sail"
+ 	"Successor License"
+ 	"Successor Pulse Laser"
 	"Suicide Gun"
 	"Sunbeam"
 	"Sunbeam Turret"

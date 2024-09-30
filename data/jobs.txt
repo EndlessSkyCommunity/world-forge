@@ -180,6 +180,18 @@ mission "Add Gegno Licenses"
 		set "license: Scin Adjutant"
 		fail
 
+mission "Add Incipia Licenses"
+	repeat
+	job
+	source
+		attributes forgeincipia
+	description "Gives you the Hicemus Conflict license."
+	to offer
+		not "license: Hicemus Conflict"
+	on accept
+		set "license: Hicemus Conflict"
+		fail
+
 mission "Add Successor Licenses"
 	repeat
 	job
@@ -225,6 +237,7 @@ mission "Remove Licenses"
 		clear "license: Scin Hoplologist"
 		clear "license: Scin Architect"
 		clear "license: Scin Adjutant"
+		clear "license: Hicemus Conflict"
 		clear "license: Successor"
 		clear "license: High Houses"
 		fail
@@ -569,6 +582,42 @@ mission "Friendly Gegno Vi"
 		"reputation: Gegno Vi" < 0
 	on accept
 		"reputation: Gegno Vi" = 100000
+		fail
+
+mission "Friendly Incipias Civilian"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Incipias Civilians to positive 100,000."
+	to offer
+		"reputation: Incipias Civilian" < 0
+	on accept
+		"reputation: Incipias Civilian" = 100000
+		fail
+
+mission "Friendly Hicemus"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Hicemus to positive 100,000."
+	to offer
+		"reputation: Hicemus" < 0
+	on accept
+		"reputation: Hicemus" = 100000
+		fail
+
+mission "Friendly Conlatio"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Conlatio to positive 100,000."
+	to offer
+		"reputation: Conlatio" < 0
+	on accept
+		"reputation: Conlatio" = 100000
 		fail
 
 mission "Friendly Successors"
@@ -953,6 +1002,42 @@ mission "Hostile Gegno Vi"
 		"reputation: Gegno Vi" > 0
 	on accept
 		"reputation: Gegno Vi" = -100000
+		fail
+
+mission "Hostile Incipias Civilian"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Incipias Civilians to negative 100,000."
+	to offer
+		"reputation: Incipias Civilian" >= 0
+	on accept
+		"reputation: Incipias Civilian" = -100000
+		fail
+
+mission "Hostile Hicemus"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Hicemus to negative 100,000."
+	to offer
+		"reputation: Hicemus" >= 0
+	on accept
+		"reputation: Hicemus" = -100000
+		fail
+
+mission "Hostile Conlatio"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Conlatio to negative 100,000."
+	to offer
+		"reputation: Conlatio" >= 0
+	on accept
+		"reputation: Conlatio" = -100000
 		fail
 
 mission "Hostile Successors"

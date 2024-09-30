@@ -375,7 +375,7 @@ outfitter human
 	"Mining Laser Turret"
 	"Tractor Beam"
 
-outfitter incipias
+outfitter incipia
 	"Cloud Piercer"
 	"Gas-Class Shield"
 	"Hicemus Conflict License"
@@ -843,7 +843,7 @@ shipyard human
 	"Hogshead"
 	"Saber"
 
-shipyard incipias
+shipyard incipia
 	"Gero"
 	"Nimbo Cirrus"
 	"Nimbo Stratus"

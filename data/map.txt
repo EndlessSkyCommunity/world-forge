@@ -212,6 +212,7 @@ system Deprecated+Mods
 	pos -9916.04 -10101.6
 	habitable 625
 	link Human
+	link Incipia
 	link Pug
 	link Origin
 	link Remnant
@@ -455,6 +456,38 @@ system Human
 			sprite planet/callisto
 			distance 811.717
 			period 66.76
+
+system Incipia
+	pos -9850 -10070
+	arrival 1325
+	habitable 1325
+	link Deprecated+Mods
+	link Successor
+	asteroids "small rock" 1 6.9552
+	asteroids "medium rock" 21 7.7004
+	asteroids "large rock" 18 4.0986
+	object
+		sprite star/g5
+		distance 103.322
+		period 20.8284
+		offset 180
+	object
+		sprite star/g3
+		distance 500.677
+		period 20.8284
+	object
+		sprite planet/cloud6
+		distance 707.022
+		period 63.7596
+	object Incipia
+		sprite planet/redias
+		distance 1536.91
+		period 204.347
+		object
+			sprite planet/pontes
+				scale 0.5
+			distance 600
+			period 12.484
 
 system Korath
 	pos -10173.8 -9936.16
@@ -736,6 +769,7 @@ system Successor
 	habitable 3450
 	belt 1179 3
 	haze _menu/haze-67
+	link Incipia
 	link Remnant
 	asteroids "large metal" 10 3.062
 	object
@@ -1219,6 +1253,18 @@ planet Human
 	outfitter "Nuke"
 	outfitter drive
 	outfitter basic
+	security 0
+
+planet Incipia
+	attributes forge forgeincipias
+	description `Race: Incipias`
+	description `	Ships: Incipias`
+	description `	Outfits: Incipias`
+	description `	Note: No variants`
+	spaceport ""
+	shipyard incipia
+	outfitter incipia
+	outfitter drive
 	security 0
 
 planet Korath

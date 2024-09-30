@@ -2023,7 +2023,6 @@ outfitter alloutfits
 	`"Jorv" Shield Cortex`
 	`"Niis" Inductive Engines`
 	`"Nnesa" Fusion Core`
-	`OC-"Mavra" Betavoltaic Cell`
 	`"Ojet" Bimodal Coilgun`
 	`"Ryuit" Fusion Core`
 	`"Sjeja" Kinetic Lance`
@@ -2405,6 +2404,7 @@ outfitter alloutfits
 	"Neodymium"
 	"Nerve Gas"
 	"Nuclear Missile"
+	`OC-"Mavra" Betavoltaic Cell`
 	"Ookii Rift Steering"
 	"Ookii Rift Thruster"
 	"Orca Plasma Steering"

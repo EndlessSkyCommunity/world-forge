@@ -1786,6 +1786,7 @@ shipyard allvariants
 	"Nnesaarau"
 	"Nnesaarau (Naive)"
 	"Ojde"
+	"Ojde (Mining)"
 	"Ojde (Naive)"
 	"Osprey"
 	"Osprey (Alien Weapons)"

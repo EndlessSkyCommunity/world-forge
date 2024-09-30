@@ -950,13 +950,13 @@ shipyard successor
 	"Kvelqde"
 	"Kvelqde-Khora"
 	"Myaede"
+	"Nnaatej"
+	"Nnesaarau"
 	"Ojde"
 	"Seiitej"
 	"Stolsaqra"
 	"Veusade"
-	"Nnesaarau"
 	"Vujlet"
-	"Nnaatej"
 
 shipyard allships
 	"'nra'ret"
@@ -1240,6 +1240,7 @@ shipyard allvariants
 	"'olofez (World-Ship)"
 	"Aaulqra"
 	"Aaulqra (Brawler)"
+	"Aaulqra (Naive)"
 	"Aaulqra (Sniper)"
 	"Aerie"
 	"Aerie (Miner)"
@@ -1637,6 +1638,7 @@ shipyard allvariants
 	"Kunai"
 	"Kvelqde"
 	"Kvelqde (Mining)"
+	"Kvelqde (Naive)"
 	"Kvelqde (Violent)"
 	"Kvelqde-Khora"
 	"Kvelqde-Khora (Mining)"
@@ -1750,6 +1752,7 @@ shipyard allvariants
 	"Myaede"
 	"Myaede (Mining)"
 	"Myaede (Mining, Defensive)"
+	"Myaede (Naive)"
 	"Myaede (Violent)"
 	"Nanobot"
 	"Nest"
@@ -1761,8 +1764,9 @@ shipyard allvariants
 	"Nnaatej"
 	"Nnaatej (Defensive)"
 	"Nnesaarau"
+	"Nnesaarau (Naive)"
 	"Ojde"
-	"Ojde (Mining)"
+	"Ojde (Naive)"
 	"Osprey"
 	"Osprey (Alien Weapons)"
 	"Osprey (Laser)"
@@ -1922,6 +1926,7 @@ shipyard allvariants
 	"Stolsaqra"
 	"Stolsaqra (Military)"
 	"Stolsaqra (Mission Escort)"
+	"Stolsaqra (Naive)"
 	"Stolsaqra (Short-Range)"
 	"Strong Wind"
 	"Subsidurial"
@@ -1966,6 +1971,7 @@ shipyard allvariants
 	"Vareti'het (Strong)"
 	"Vareti'het (Strong, Disable-able)"
 	"Veusade"
+	"Veusade (Naive)"
 	"Veusade (Surveillance)"
 	"Violin Spider"
 	"Violin Spider (Pulse)"
@@ -1973,6 +1979,7 @@ shipyard allvariants
 	"Void Sprite (Infant)"
 	"Vujlet"
 	"Vujlet (Aggressive)"
+	"Vujlet (Naive)"
 	"Vujlet (Surveillance)"
 	"Vyrmeid"
 	"Vyrmeid (B)"
@@ -1994,9 +2001,6 @@ shipyard allvariants
 	"vyu-Ir"
 
 outfitter alloutfits
-	`1-"Uurau" Betavoltaic Cell`
-	`3-"Kaska" Betavoltaic Cell`
-	`6-"Ruuv" Betavoltaic Cell`
 	`"Aqra" Inductive Reverser`
 	`"Aqra" Inductive Steering`
 	`"Aqra" Inductive Thruster`
@@ -2032,6 +2036,9 @@ outfitter alloutfits
 	`"Veusa" Inductive Reverser`
 	`"Veusa" Inductive Steering`
 	`"Veusa" Inductive Thruster`
+	`1-"Uurau" Betavoltaic Cell`
+	`3-"Kaska" Betavoltaic Cell`
+	`6-"Ruuv" Betavoltaic Cell`
 	"A120 Atomic Thruster"
 	"A125 Atomic Steering"
 	"A250 Atomic Thruster"
@@ -2249,9 +2256,9 @@ outfitter alloutfits
 	"Heliarch License"
 	"Heliarch Repulsor"
 	"Hexagonal Crystal"
+	"High Houses License"
 	"High-Velocity Spike"
 	"High-Velocity Spike Rack"
-	"High Houses License"
 	"Husk-Slice"
 	"Husk-Slice Turret"
 	"Hyperdrive"
@@ -2412,9 +2419,9 @@ outfitter alloutfits
 	"Outfit Scanner"
 	"Outfits Expansion"
 	"Outskirts Gauger"
-	"Overcharged Shield Module"
 	"Overcharged Laser Turret"
 	"Overcharged Pulse Laser"
+	"Overcharged Shield Module"
 	"Overclocked Repair Module"
 	"Particle Cannon"
 	"Particle Waveform Turret"

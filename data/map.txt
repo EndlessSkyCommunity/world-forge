@@ -1066,7 +1066,7 @@ planet Everything
 	outfitter drive
 
 planet Forge
-	attributes forge forgedrak forgehai forgehuman forgekorath forgepug forgewanderer forgequarg forgecoalition
+	attributes forge forgedrak forgehai forgehuman forgeincipia forgekorath forgepug forgewanderer forgequarg forgecoalition
 	landscape hochofen
 	description `Race: all`
 	description `	Ships: all`
@@ -1077,6 +1077,7 @@ planet Forge
 	shipyard drak
 	shipyard hai
 	shipyard human
+	shipyard incipia
 	shipyard pug
 	shipyard quarg
 	shipyard korath
@@ -1113,6 +1114,7 @@ planet Forge
 	outfitter drak
 	outfitter hai
 	outfitter human
+	outfitter incipia
 	outfitter pug
 	outfitter quarg
 	outfitter korath
@@ -1256,7 +1258,7 @@ planet Human
 	security 0
 
 planet Incipia
-	attributes forge forgeincipias
+	attributes forge forgeincipia
 	description `Race: Incipias`
 	description `	Ships: Incipias`
 	description `	Outfits: Incipias`

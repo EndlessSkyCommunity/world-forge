@@ -562,6 +562,53 @@ outfitter sheragi
 	"Shard Fabricator"
 	"Heavy Ion Cyclotron"
 
+outfitter successor
+	"Auxiliary Power Reserve"
+	"Primary Power Reserve"
+	"Bimodal Coilgun Turret"
+	`"Ojet" Bimodal Coilgun`
+	`"Sjeja" Kinetic Lance`
+	"High-Velocity Spike"
+	"High-Velocity Spike Rack"
+	"Kinetic Rail Rifle"
+	"High Houses License"
+	"Multimodal Armor: Heavy"
+	"Multimodal Armor: Regen"
+	"Multimodal Armor: Resilient"
+	"Multimodal Armor: Keystone"
+	"Overcharged Laser Turret"
+	"Overcharged Pulse Laser"
+	"Pulse Laser Turret"
+	"Drag Cannon"
+	"Successor Cooling"
+	"Successor Fuel Sail"
+	"Successor License"
+	"Successor Pulse Laser"
+	`Shield Cortex Interface`
+	`"Veldt" Combat Scanner`
+	`"Tuur" Scanning Suite`
+	`"Aqra" Inductive Reverser`
+	`"Aqra" Inductive Steering`
+	`"Aqra" Inductive Thruster`
+	`"Byiaa" Shield Cortex`
+	`"Chyyra" Inductive Reverser`
+	`"Chyyra" Inductive Steering`
+	`"Chyyra" Inductive Thruster`
+	`"Ej" Shield Cortex`
+	`"Jaase" Shield Cortex`
+	`"Jorv" Shield Cortex`
+	`"Niis" Inductive Engines`
+	`"Nnesa" Fusion Core`
+	`"Ryuit" Fusion Core`
+	`"Uoret" Fusion Core`
+	`"Veusa" Inductive Reverser`
+	`"Veusa" Inductive Steering`
+	`"Veusa" Inductive Thruster`
+	`1-"Uurau" Betavoltaic Cell`
+	`3-"Kaska" Betavoltaic Cell`
+	`6-"Ruuv" Betavoltaic Cell`
+	`OC-"Mavra" Betavoltaic Cell`
+
 outfitter drive
 	"Developer Drive"
 
@@ -896,9 +943,25 @@ shipyard sheragi
 	"Emerald Sword"
 	"Black Diamond"
 
+shipyard successor
+	"Aaulqra"
+	"Ejniisde"
+	"Kaskhorade"
+	"Kvelqde"
+	"Kvelqde-Khora"
+	"Myaede"
+	"Nnaatej"
+	"Nnesaarau"
+	"Ojde"
+	"Seiitej"
+	"Stolsaqra"
+	"Veusade"
+	"Vujlet"
+
 shipyard allships
 	"'nra'ret"
 	"'olofez"
+	"Aaulqra"
 	"Aerie"
 	"Albatross"
 	"Aphid"
@@ -957,6 +1020,7 @@ shipyard allships
 	"Earth Shaper"
 	"Echo-Galleon"
 	"Eclogite"
+	"Ejniisde"
 	"Ember Waste Node"
 	"Embershade"
 	"Embersylph"
@@ -1018,6 +1082,7 @@ shipyard allships
 	"Kas'ik Tek 7"
 	"Kas'lor Ik 582"
 	"Kasichara A'awoj"
+	"Kaskhorade"
 	"Kestrel"
 	"Kimek Briar"
 	"Kimek Spire"
@@ -1029,6 +1094,8 @@ shipyard allships
 	"Korath World-Ship"
 	"Korsmanath A'awoj"
 	"Kunai"
+	"Kvelqde"
+	"Kvelqde-Khora"
 	"Kyanite"
 	"Ladybug"
 	"Lampyrid-Class Transport"
@@ -1069,9 +1136,13 @@ shipyard allships
 	"Modified Ladybug"
 	"Modified Osprey"
 	"Mule"
+	"Myaede"
 	"Nanobot"
 	"Nest"
 	"Nighthawk"
+	"Nnaatej"
+	"Nnesaarau"
+	"Ojde"
 	"Osprey"
 	"Palavret"
 	"Pelican"
@@ -1111,6 +1182,7 @@ shipyard allships
 	"Scout"
 	"Scrapper"
 	"Sea Scorpion"
+	"Seiitej"
 	"Selii'mar"
 	"Shale"
 	"Shield Beetle"
@@ -1125,6 +1197,7 @@ shipyard allships
 	"Star Barge"
 	"Star Queen"
 	"Starling"
+	"Stolsaqra"
 	"Strong Wind"
 	"Subsidurial"
 	"Summer Leaf"
@@ -1146,8 +1219,10 @@ shipyard allships
 	"Valkyrie"
 	"Vanguard"
 	"Vareti'het"
+	"Veusade"
 	"Violin Spider"
 	"Void Sprite"
+	"Vujlet"
 	"Vyrmeid"
 	"Wasp"
 	"Water Bug"
@@ -1163,6 +1238,10 @@ shipyard allvariants
 	"'olofez (Digger)"
 	"'olofez (Expeller)"
 	"'olofez (World-Ship)"
+	"Aaulqra"
+	"Aaulqra (Brawler)"
+	"Aaulqra (Naive)"
+	"Aaulqra (Sniper)"
 	"Aerie"
 	"Aerie (Miner)"
 	"Albatross"
@@ -1337,6 +1416,7 @@ shipyard allvariants
 	"Earth Shaper"
 	"Echo-Galleon"
 	"Eclogite"
+	"Ejniisde"
 	"Ember Waste Node"
 	"Embershade"
 	"Embersylph"
@@ -1508,6 +1588,9 @@ shipyard allvariants
 	"Kas'lor Ik 582 (Jump)"
 	"Kas'lor Ik 582 (Stranded)"
 	"Kasichara A'awoj"
+	"Kaskhorade"
+	"Kaskhorade (Brawler)"
+	"Kaskhorade (Sniper)"
 	"Kestrel"
 	"Kestrel (More Bays)"
 	"Kestrel (More Engines)"
@@ -1553,6 +1636,12 @@ shipyard allvariants
 	"Korsmanath A'awoj (Special)"
 	"Korsmanath A'awoj (Strike)"
 	"Kunai"
+	"Kvelqde"
+	"Kvelqde (Mining)"
+	"Kvelqde (Naive)"
+	"Kvelqde (Violent)"
+	"Kvelqde-Khora"
+	"Kvelqde-Khora (Mining)"
 	"Kyanite"
 	"Kyanite (Acumen)"
 	"Kyanite (Guile)"
@@ -1660,6 +1749,11 @@ shipyard allvariants
 	"Mule (Hai Trafficker)"
 	"Mule (Hai Weapons)"
 	"Mule (Heavy)"
+	"Myaede"
+	"Myaede (Mining)"
+	"Myaede (Mining, Defensive)"
+	"Myaede (Naive)"
+	"Myaede (Violent)"
 	"Nanobot"
 	"Nest"
 	"Nest (Miner)"
@@ -1667,6 +1761,12 @@ shipyard allvariants
 	"Nighthawk"
 	"Nighthawk (Raider)"
 	"Nighthawk (Slaver)"
+	"Nnaatej"
+	"Nnaatej (Defensive)"
+	"Nnesaarau"
+	"Nnesaarau (Naive)"
+	"Ojde"
+	"Ojde (Naive)"
 	"Osprey"
 	"Osprey (Alien Weapons)"
 	"Osprey (Laser)"
@@ -1768,6 +1868,7 @@ shipyard allvariants
 	"Sea Scorpion (Pulse)"
 	"Sea Scorpion (Shredder)"
 	"Sea Scorpion (Tracker)"
+	"Seiitej"
 	"Selii'mar"
 	"Shale"
 	"Shield Beetle"
@@ -1822,6 +1923,11 @@ shipyard allvariants
 	"Starling (Keystone)"
 	"Starling (Sniper)"
 	"Starling (Thrasher)"
+	"Stolsaqra"
+	"Stolsaqra (Military)"
+	"Stolsaqra (Mission Escort)"
+	"Stolsaqra (Naive)"
+	"Stolsaqra (Short-Range)"
 	"Strong Wind"
 	"Subsidurial"
 	"Summer Leaf"
@@ -1864,10 +1970,17 @@ shipyard allvariants
 	"Vareti'het (EMP, Disable-able)"
 	"Vareti'het (Strong)"
 	"Vareti'het (Strong, Disable-able)"
+	"Veusade"
+	"Veusade (Naive)"
+	"Veusade (Surveillance)"
 	"Violin Spider"
 	"Violin Spider (Pulse)"
 	"Void Sprite"
 	"Void Sprite (Infant)"
+	"Vujlet"
+	"Vujlet (Aggressive)"
+	"Vujlet (Naive)"
+	"Vujlet (Surveillance)"
 	"Vyrmeid"
 	"Vyrmeid (B)"
 	"Vyrmeid (C)"
@@ -1888,6 +2001,9 @@ shipyard allvariants
 	"vyu-Ir"
 
 outfitter alloutfits
+	`"Aqra" Inductive Reverser`
+	`"Aqra" Inductive Steering`
+	`"Aqra" Inductive Thruster`
 	`"Baellie" Atomic Engines`
 	`"Basrem" Atomic Steering`
 	`"Basrem" Atomic Thruster`
@@ -1902,6 +2018,27 @@ outfitter alloutfits
 	`"Bondir" Atomic Thruster`
 	`"Bufaer" Atomic Steering`
 	`"Bufaer" Atomic Thruster`
+	`"Byiaa" Shield Cortex`
+	`"Chyyra" Inductive Reverser`
+	`"Chyyra" Inductive Steering`
+	`"Chyyra" Inductive Thruster`
+	`"Ej" Shield Cortex`
+	`"Jaase" Shield Cortex`
+	`"Jorv" Shield Cortex`
+	`"Niis" Inductive Engines`
+	`"Nnesa" Fusion Core`
+	`"Ojet" Bimodal Coilgun`
+	`"Ryuit" Fusion Core`
+	`"Sjeja" Kinetic Lance`
+	`"Tuur" Scanning Suite`
+	`"Uoret" Fusion Core`
+	`"Veldt" Combat Scanner`
+	`"Veusa" Inductive Reverser`
+	`"Veusa" Inductive Steering`
+	`"Veusa" Inductive Thruster`
+	`1-"Uurau" Betavoltaic Cell`
+	`3-"Kaska" Betavoltaic Cell`
+	`6-"Ruuv" Betavoltaic Cell`
 	"A120 Atomic Thruster"
 	"A125 Atomic Steering"
 	"A250 Atomic Thruster"
@@ -1938,11 +2075,13 @@ outfitter alloutfits
 	"Asteroid Scanner"
 	"Astral Mouth"
 	"Astuit Battery"
+	"Auxiliary Power Reserve"
 	"Ballistic Cannon"
 	"Ballistic Cannon Turret"
 	"Banisher Grav-Turret"
 	"Beam Laser"
 	"Bellows-Class Afterburner"
+	"Bimodal Coilgun Turret"
 	"Blaster Submunition"
 	"Blaster Turret"
 	"Blaze-Pike Turret"
@@ -2008,6 +2147,7 @@ outfitter alloutfits
 	"Digger Mining Beam"
 	"Digger Mining Turret"
 	"Double Plasma Core"
+	"Drag Cannon"
 	"Dragonflame Cannon"
 	"Drak Anti-Missile Field"
 	"Drak Anti-Missile Field (Augmented)"
@@ -2116,6 +2256,9 @@ outfitter alloutfits
 	"Heliarch License"
 	"Heliarch Repulsor"
 	"Hexagonal Crystal"
+	"High Houses License"
+	"High-Velocity Spike"
+	"High-Velocity Spike Rack"
 	"Husk-Slice"
 	"Husk-Slice Turret"
 	"Hyperdrive"
@@ -2162,6 +2305,7 @@ outfitter alloutfits
 	"Ka'het Shield Restorer"
 	"Ka'het Support Cooling"
 	"Ka'het Sustainer Nacelles"
+	"Kinetic Rail Rifle"
 	"Korath Ark'parat Steering"
 	"Korath Ark'torbal Thruster"
 	"Korath Banisher"
@@ -2246,6 +2390,10 @@ outfitter alloutfits
 	"Moonbeam Turret"
 	"Mouthparts?"
 	"Mug"
+	"Multimodal Armor: Heavy"
+	"Multimodal Armor: Keystone"
+	"Multimodal Armor: Regen"
+	"Multimodal Armor: Resilient"
 	"NDR-114 Android"
 	"NT-200 Nucleovoltaic"
 	"Nami Rift Steering"
@@ -2263,6 +2411,7 @@ outfitter alloutfits
 	"Neodymium"
 	"Nerve Gas"
 	"Nuclear Missile"
+	`OC-"Mavra" Betavoltaic Cell`
 	"Ookii Rift Steering"
 	"Ookii Rift Thruster"
 	"Orca Plasma Steering"
@@ -2270,6 +2419,8 @@ outfitter alloutfits
 	"Outfit Scanner"
 	"Outfits Expansion"
 	"Outskirts Gauger"
+	"Overcharged Laser Turret"
+	"Overcharged Pulse Laser"
 	"Overcharged Shield Module"
 	"Overclocked Repair Module"
 	"Particle Cannon"
@@ -2289,6 +2440,7 @@ outfitter alloutfits
 	"Plasmasickle"
 	"Platinum"
 	"Point Defense Turret"
+	"Primary Power Reserve"
 	"Proton Fragment"
 	"Proton Gun"
 	"Proton Turret"
@@ -2307,6 +2459,7 @@ outfitter alloutfits
 	"Pug Zapper"
 	"Pug Zapper Turret"
 	"Pulse Cannon"
+	"Pulse Laser Turret"
 	"Pulse Rifle"
 	"Pulse Turret"
 	"Puny"
@@ -2370,6 +2523,7 @@ outfitter alloutfits
 	"Shard inactive"
 	"Sheragi Anti-Missile"
 	"Shield Beetle Pendant"
+	"Shield Cortex Interface"
 	"Shield Disruptor Turret"
 	"Shield Refactor Module"
 	"Shield Relay Booster"
@@ -2411,6 +2565,10 @@ outfitter alloutfits
 	"Steering (Stellar Class)"
 	"Subarashii Rift Steering"
 	"Subarashii Rift Thruster"
+	"Successor Cooling"
+	"Successor Fuel Sail"
+	"Successor License"
+	"Successor Pulse Laser"
 	"Suicide Gun"
 	"Sunbeam"
 	"Sunbeam Turret"

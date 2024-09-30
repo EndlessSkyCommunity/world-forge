@@ -699,6 +699,7 @@ system Remnant
 	link Drak
 	link Deprecated+Mods
 	link Human
+	link Successor
 	asteroids "small rock" 4 1.14987
 	asteroids "medium rock" 18 0.790533
 	asteroids "large rock" 2 1.386
@@ -729,7 +730,65 @@ system Remnant
 		distance 1930
 		period 1598.78
 
-
+system Successor
+	pos -9820.108 -10035.952
+	arrival 3450
+	habitable 3450
+	belt 1179 3
+	haze _menu/haze-67
+	link Remnant
+	asteroids "large metal" 10 3.062
+	object
+		sprite star/m-giant
+		period 10
+	object
+		sprite planet/gas6-b
+		distance 1311
+		period 323.262
+	object
+		distance 2153
+		period 680
+		object
+			sprite planet/ice8
+			distance 120
+			period 140
+		object Successor
+			sprite planet/dust0-b
+			distance 120
+			period 140
+			offset 180
+	object
+		sprite planet/browndwarf-t
+		distance 2804
+		period 1011.154
+	object
+		sprite planet/neptune
+		distance 4811
+		period 2272.498
+		object
+			sprite planet/miranda
+			distance 238
+			period 173.691
+	object
+		sprite planet/jupiter
+		distance 9120
+		period 5931.202
+		object
+			sprite planet/desert4-b
+			distance 263
+			period 201.765
+	object
+		sprite planet/browndwarf-y
+		distance 11064
+		period 7925.354
+		object
+			sprite planet/rock7-b
+			distance 293
+			period 237.254
+		object
+			sprite planet/oberon-b
+			distance 398
+			period 489.011
 
 system "Team Blue"
 	pos -10142.6 -10188.4
@@ -1263,6 +1322,18 @@ planet Remnant
 	spaceport ""
 	shipyard remnant
 	outfitter remnant
+	outfitter drive
+	outfitter basic
+	security 0
+
+planet Successor
+	attributes forge forgesuccessor
+	description "Race: Successor"
+	description "	Has Successor ships and outfits."
+	description "	However, there are no variants."
+	spaceport ""
+	shipyard successor
+	outfitter successor
 	outfitter drive
 	outfitter basic
 	security 0

@@ -705,6 +705,21 @@ shipyard avgi
 	"Vibratia"
 	"Windjammer"
 
+shipyard aberrant
+	"Aberrant Chomper"
+	"Aberrant Dancer"
+	"Aberrant Hugger"
+	"Aberrant Icebreaker"
+	"Aberrant Junior"
+	"Aberrant Latte"
+	"Aberrant Longfellow"
+	"Aberrant Mole"
+	"Aberrant Pike"
+	"Aberrant Pileup"
+	"Aberrant Trip"
+	"Aberrant Triplet"
+	"Aberrant Whiskers"
+
 shipyard drak
 	"Archon"
 

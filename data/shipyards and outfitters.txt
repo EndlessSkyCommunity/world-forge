@@ -1931,7 +1931,7 @@ shipyard allvariants
 	"Scrapper (Mod Blaster)"
 	"Sea Scorpion"
 	"Sea Scorpion (Ion)"
-	"Sea Scorpion (Ionic)"
+	"Sea Scorpion (Ionic Blasters)"
 	"Sea Scorpion (Pulse)"
 	"Sea Scorpion (Shredder)"
 	"Sea Scorpion (Tracker)"

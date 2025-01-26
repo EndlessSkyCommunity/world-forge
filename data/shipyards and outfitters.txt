@@ -320,6 +320,7 @@ outfitter hai
 	"Ionic Blaster Prototype"
 	"Ionic Turret Prototype"
 	"Value Detector"
+	"Holovid Zone"
 
 outfitter human
 	"Energy Blaster"

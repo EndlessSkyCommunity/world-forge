@@ -671,6 +671,7 @@ shipyard author
 	"Marauder Bactrian"
 	"Modified Battleship"
 	"Modified Boxwing"
+	"Modified Hauler VI"
 	"Modified Osprey"
 	"Shooting Star"
 	"Ursa Polaris"

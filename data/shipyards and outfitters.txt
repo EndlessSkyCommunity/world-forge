@@ -1073,6 +1073,11 @@ shipyard pug
 
 shipyard quarg
 	"Quarg Wardragon"
+	"Quarg Lindwyrm"
+	"Quarg Guivre"
+	"Quarg Drake"
+	"Quarg Wyvern"
+	"Quarg Hydra"
 
 shipyard wanderer
 	"Earth Shaper"

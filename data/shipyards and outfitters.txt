@@ -1615,7 +1615,6 @@ shipyard allvariants
 	"Cool Breeze"
 	"Cool Breeze (Sunbeam)"
 	"Corundum"
-	"Corundum (Multi)"
 	"Corundum (Torch)"
 	"Corvette"
 	"Corvette (Flamethrower Electron Anti-Missile)"

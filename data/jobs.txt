@@ -207,6 +207,23 @@ mission "Add Successor Licenses"
 		set "license: High Houses"
 		fail
 
+mission "Add Avgi Licenses"
+	repeat
+	job
+	source
+		attributes forge
+	description "Gives you the Twilight Guard, Avgi Torch, and Avgi Atomics licenses."
+	to offer
+		or
+			not "license: Twilight Guard"
+			not "license: Avgi Torch"
+			not "license: Avgi Atomics"
+	on accept
+		set "license: Twilight Guard"
+		set "license: Avgi Torch"
+		set "license: Avgi Atomics"
+		fail
+
 mission "Remove Licenses"
 	repeat
 	job
@@ -240,6 +257,9 @@ mission "Remove Licenses"
 		clear "license: Hicemus Conflict"
 		clear "license: Successor"
 		clear "license: High Houses"
+		clear "license: Twilight Guard"
+		clear "license: Avgi Torch"
+		clear "license: Avgi Atomics"
 		fail
 
 mission "Reset Reputation"

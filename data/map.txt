@@ -1574,7 +1574,7 @@ planet Everything
 	outfitter drive
 
 planet Forge
-	attributes forge forgedrak forgehai forgehuman forgeincipia forgekorath forgepug forgewanderer forgequarg forgecoalition
+	attributes forge forgeavgi forgedrak forgehai forgehuman forgeincipia forgekorath forgepug forgewanderer forgequarg forgecoalition forgeremnant forgesuccessor
 	landscape hochofen
 	description `Race: all`
 	description `	Ships: all`

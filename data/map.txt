@@ -1496,12 +1496,14 @@ planet Avgi
 planet Builder
 	attributes forge forgebuilder
 	description `Race: Builder`
-	description `	Ships: Builder`
-	description `	Outfits: Builder`
+	description `	Ships: Builder, Aberrant`
+	description `	Outfits: Builder, Aberrant`
 	description `	Note: No variants`
 	spaceport ""
 	shipyard builder
+	shipyard aberrant
 	outfitter builder
+	outfitter aberrant
 	outfitter drive
 	outfitter basic
 

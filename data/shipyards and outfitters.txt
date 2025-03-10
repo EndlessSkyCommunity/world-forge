@@ -125,6 +125,11 @@ outfitter deprecated
 	"Korath Disruptor"
 	"Korath Slicer"
 	"Korath Slicer Turret"
+	"Nanotech Battery"
+	"Quantum Shield Generator"
+	"Intrusion Countermeasures"
+	"Quarg Skylance"
+	"Quarg Anti-Missile"
 
 outfitter drak
 	"Drak Distancer"
@@ -571,14 +576,9 @@ outfitter korath
 	"Microbot Grinder"
 
 outfitter quarg
-	"Nanotech Battery"
 	"Antimatter Core"
-	"Quarg Skylance"
-	"Quarg Anti-Missile"
-	"Intrusion Countermeasures"
 	"Medium Graviton Thruster"
 	"Medium Graviton Steering"
-	"Quantum Shield Generator"
 
 outfitter wanderer
 	"Sunbeam"
@@ -742,7 +742,8 @@ outfitter basic
 	"Brig"
 	"Luxury Accommodations"
 
-# shipyard deprecated
+shipyard deprecated
+	"Quarg Skylark"
 
 shipyard author
 	"Finch (MZ)"
@@ -1051,7 +1052,6 @@ shipyard pug
 	"Pug Arfecta"
 
 shipyard quarg
-	"Quarg Skylark"
 	"Quarg Wardragon"
 
 shipyard wanderer

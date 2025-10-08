@@ -221,6 +221,8 @@ outfitter coalition
 	"Large Thrust Module"
 	"Small Steering Module"
 	"Large Steering Module"
+	"Small Reverse Module"
+	"Large Reverse Module"
 	"Finisher Pod"
 	"Finisher Maegrolain"
 	"Finisher Torpedo"

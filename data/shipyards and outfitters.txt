@@ -46,21 +46,9 @@ outfitter avgi
 	"Magnetoplasma Drive"
 	"Medium VLS"
 	"Multispectral Scanner"
-	"Nettle Active"
-	"Nettle Flecks"
-	"Nettle Magazine"
 	"Ophrys Stockpile"
-	"Ophrys Terminal"
 	"Optical Laser Rifle"
 	"Optical Lasing Generator"
-	"Orchid Active"
-	"Orchid Boost"
-	"Orchid Boost Stage Expended"
-	"Orchid Coast"
-	"Orchid Divert"
-	"Orchid Divert Stage Expended"
-	"Orchid Magazine"
-	"Orchid Terminal"
 	"Phantom Pallet"
 	"Photoelectric Lamina"
 	"Pinecone Launcher"
@@ -71,7 +59,6 @@ outfitter avgi
 	"R-720 RCS Thrusters"
 	"Radiative Lamina"
 	"Remass Injector"
-	"Speck"
 	"Speck Magazine"
 	"Speck Round"
 	"Speckle Coilgun"
@@ -85,9 +72,10 @@ outfitter avgi
 	"Ultrarelativistic Electron Beam"
 	"Voidfish"
 	`Z-333 "Spark" Fusion Torch`
-	`Z-3600 "Beam" Amat Torch`
 	`Z-666 "Zap" Fusion Torch`
 	`Z-999 "Arc" Fusion Torch`
+	`A-3600 "Beam" Amat Drive`
+	"Vapor Nuclear Rocket"
 
 outfitter aberrant
 	"Aberrant Spiker"
@@ -130,6 +118,9 @@ outfitter deprecated
 	"Intrusion Countermeasures"
 	"Quarg Skylance"
 	"Quarg Anti-Missile"
+	`Z-3600 "Beam" Amat Torch`
+	"Nettle Magazine"
+	"Orchid Magazine"
 
 outfitter drak
 	"Drak Distancer"

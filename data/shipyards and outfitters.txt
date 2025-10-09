@@ -32,7 +32,6 @@ outfitter avgi
 	"Damselflyman"
 	"Deuterium Slush Tank"
 	"Diffuse Deflector"
-	"Electron Bunch"
 	"External Launch Rail"
 	"External Launch Tube"
 	"Green Optical Laser"
